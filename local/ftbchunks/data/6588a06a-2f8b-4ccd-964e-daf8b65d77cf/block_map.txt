@@ -1,0 +1,9 @@
+#52B53D minecraft:air
+#2A7CF9 agricraft:crop_plant
+#0A2372 agricraft:crop_sticks_iron
+#113285 agricraft:crop_sticks_obsidian
+#107557 agricraft:crop_sticks_wood
+#80497A minecraft:dirt
+#009B14 minecraft:farmland
+#3F84B7 minecraft:grass_block
+#972A6E mysticalagriculture:inferium_farmland

@@ -1,0 +1,9 @@
+#47F minecraft:birch_forest
+#0D2 minecraft:birch_forest_hills
+#010 minecraft:forest
+#379 minecraft:mountains
+#5FF minecraft:river
+#169 minecraft:taiga
+#63C minecraft:taiga_hills
+#764 minecraft:tall_birch_hills
+#452 minecraft:wooded_hills

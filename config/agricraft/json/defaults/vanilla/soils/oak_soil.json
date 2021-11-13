@@ -1,0 +1,27 @@
+{
+  "path": "vanilla/soils/oak_soil.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_soil/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "oak_soil",
+  "lang_key": "agricraft.soil.oak_planks.name",
+  "varients": [
+    {
+      "type": "block",
+      "object": "minecraft:oak_planks",
+      "useTag": false,
+      "data": "",
+      "ignoredData": [
+        "*"
+      ]
+    }
+  ],
+  "humidity": "damp",
+  "acidity": "slightly_acidic",
+  "nutrients": "very_high",
+  "growth_modifier": 1.0
+}

@@ -1,0 +1,195 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 11/5/21 8:37 PM
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.fml.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:85) [?:?] {re:classloading}
+	at net.minecraftforge.fml.client.ClientModLoader.completeModLoading(ClientModLoader.java:188) [?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.lambda$null$1(Minecraft.java:508) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft$$Lambda$11390/178298509.run(Unknown Source) [?:?] {}
+	at net.minecraft.util.Util.func_215077_a(Util.java:320) [?:?] {re:classloading}
+	at net.minecraft.client.Minecraft.lambda$new$2(Minecraft.java:504) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft$$Lambda$9389/244018103.accept(Unknown Source) [?:?] {}
+	at net.minecraft.client.gui.ResourceLoadProgressGui.func_230430_a_(ResourceLoadProgressGui.java:113) [?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.func_195458_a(GameRenderer.java:481) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:976) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) [?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51] {}
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) [forge-1.16.5-36.2.0.jar:36.2] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$477/1892470159.call(Unknown Source) [forge-1.16.5-36.2.0.jar:36.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?] {re:classloading}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530) ~[?:1.8.0_51] {}
+-- MOD jeitweaker --
+Details:
+	Caused by 0: java.lang.NoClassDefFoundError: com/blamejared/crafttweaker/impl/commands/CTCommandCollectionEvent
+		at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:1.8.0_51] {}
+		at java.lang.Class.privateGetDeclaredMethods(Class.java:2701) ~[?:1.8.0_51] {}
+		at java.lang.Class.privateGetPublicMethods(Class.java:2902) ~[?:1.8.0_51] {}
+		at java.lang.Class.getMethods(Class.java:1615) ~[?:1.8.0_51] {}
+		at net.minecraftforge.eventbus.EventBus.registerObject(EventBus.java:92) ~[eventbus-4.0.0.jar:?] {}
+		at net.minecraftforge.eventbus.EventBus.register(EventBus.java:120) ~[eventbus-4.0.0.jar:?] {}
+		at com.blamejared.jeitweaker.JEITweaker.setupClient(JEITweaker.java:18) ~[?:1.0.1.35] {re:classloading}
+		at com.blamejared.jeitweaker.JEITweaker$$Lambda$3858/605324031.accept(Unknown Source) ~[?:?] {}
+		at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-4.0.0.jar:?] {}
+		at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-4.0.0.jar:?] {}
+		at net.minecraftforge.eventbus.EventBus$$Lambda$2948/1677793418.invoke(Unknown Source) ~[?:?] {}
+		at net.minecraftforge.eventbus.EventBus$$Lambda$2584/1867368932.invoke(Unknown Source) ~[?:?] {}
+		at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}
+		at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}
+		at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120) ~[?:36.2] {re:classloading}
+		at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121) ~[?:?] {re:classloading}
+		at net.minecraftforge.fml.ModContainer$$Lambda$3522/1507885816.run(Unknown Source) ~[?:?] {}
+		at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1618) ~[?:1.8.0_51] {}
+		at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1610) ~[?:1.8.0_51] {}
+		at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) ~[?:1.8.0_51] {}
+		at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) ~[?:1.8.0_51] {}
+		at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1689) ~[?:1.8.0_51] {}
+		at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) ~[?:1.8.0_51] {}
+
+	Mod File: JEITweaker-1.16.5-1.0.1.35.jar
+	Failure message: JEI Tweaker (jeitweaker) encountered an error during the sided_setup event phase
+		java.lang.NoClassDefFoundError: com/blamejared/crafttweaker/impl/commands/CTCommandCollectionEvent
+	Mod Version: 1.0.1.35
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.ClassNotFoundException: com.blamejared.crafttweaker.impl.commands.CTCommandCollectionEvent
+Stacktrace:
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530) ~[?:1.8.0_51] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_51] {}
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:106) ~[modlauncher-8.0.9.jar:?] {re:classloading}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_51] {}
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:1.8.0_51] {}
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701) ~[?:1.8.0_51] {}
+	at java.lang.Class.privateGetPublicMethods(Class.java:2902) ~[?:1.8.0_51] {}
+	at java.lang.Class.getMethods(Class.java:1615) ~[?:1.8.0_51] {}
+	at net.minecraftforge.eventbus.EventBus.registerObject(EventBus.java:92) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.register(EventBus.java:120) ~[eventbus-4.0.0.jar:?] {}
+	at com.blamejared.jeitweaker.JEITweaker.setupClient(JEITweaker.java:18) ~[?:1.0.1.35] {re:classloading}
+	at com.blamejared.jeitweaker.JEITweaker$$Lambda$3858/605324031.accept(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2948/1677793418.invoke(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2584/1867368932.invoke(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120) ~[?:36.2] {re:classloading}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModContainer$$Lambda$3522/1507885816.run(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1618) ~[?:1.8.0_51] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1610) ~[?:1.8.0_51] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) ~[?:1.8.0_51] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) ~[?:1.8.0_51] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1689) ~[?:1.8.0_51] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) ~[?:1.8.0_51] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 2762320144 bytes (2634 MB) / 3676831744 bytes (3506 MB) up to 7635730432 bytes (7282 MB)
+	CPUs: 12
+	JVM Flags: 5 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx8192m -Xms256m -XX:PermSize=256m
+	ModLauncher: 8.0.9+86+master.3cf110c
+	ModLauncher launch target: fmlclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.2.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge-1.16.5-36.2.0.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.0.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.5-36.2.0.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.0.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.2.jar mixin TRANSFORMATIONSERVICE 
+		/forge-1.16.5-36.2.0.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.2
+	Forge: net.minecraftforge:36.2.0
+	FML Language Providers: 
+		javafml@36.2
+		minecraft@1
+	Mod List: 
+		Industrial Agriculture[Industrial Foregoing]-1.16.|Industrial Agriculture Plugin-|iapif                         |1.16.3-1.7.1        |ENQUEUE_IM|Manifest: NOSIGNATURE
+		CyclopsCore-1.16.5-1.12.0.jar                     |Cyclops Core                  |cyclopscore                   |1.12.0              |ENQUEUE_IM|Manifest: NOSIGNATURE
+		RootsClassic-1.16.5-1.1.13.jar                    |Roots Classic                 |rootsclassic                  |1.16.5-1.1.13       |ENQUEUE_IM|Manifest: NOSIGNATURE
+		Cucumber-1.16.5-4.1.12.jar                        |Cucumber Library              |cucumber                      |4.1.12              |ENQUEUE_IM|Manifest: NOSIGNATURE
+		pamhc2trees-1.16.3-1.0.1.jar                      |Pam's HarvestCraft 2 Fruit Tre|pamhc2trees                   |1.0.1               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		jei-1.16.5-7.7.1.130.jar                          |Just Enough Items             |jei                           |7.7.1.130           |ENQUEUE_IM|Manifest: NOSIGNATURE
+		IntegratedTerminals-1.16.5-1.2.9.jar              |IntegratedTerminals           |integratedterminals           |1.2.9               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		incontrol-1.16-5.2.2.jar                          |InControl                     |incontrol                     |1.16-5.2.2          |ENQUEUE_IM|Manifest: NOSIGNATURE
+		HammerLib-1.16.5-16.3.26.jar                      |HammerLib                     |hammerlib                     |16.3.26             |ENQUEUE_IM|Manifest: 97:e8:52:e9:b3:f0:1b:83:57:4e:83:15:f7:e7:76:51:c6:60:5f:2b:45:59:19:a7:31:9e:98:69:56:4f:01:3c
+		ProjectE-1.16.5-PE1.0.1B.jar                      |ProjectE                      |projecte                      |PE1.0.1B            |ENQUEUE_IM|Manifest: NOSIGNATURE
+		Mekanism-1.16.5-10.0.23.450.jar                   |Mekanism                      |mekanism                      |10.0.23             |ENQUEUE_IM|Manifest: NOSIGNATURE
+		Industrial_AgricultureCore-1.16.5-1.8.13.jar      |Industrial Agriculture        |industrialagriculture         |1.16.5-1.8.13       |ENQUEUE_IM|Manifest: NOSIGNATURE
+		KleeSlabs_1.16.5-9.2.1.jar                        |KleeSlabs                     |kleeslabs                     |9.2.1               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		invtweaks-1.16.4-1.0.1.jar                        |Inventory Tweaks Renewed      |invtweaks                     |1.16.4-1.0.1        |ENQUEUE_IM|Manifest: NOSIGNATURE
+		journeymap-1.16.5-5.7.3.jar                       |Journeymap                    |journeymap                    |5.7.3               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		ReAuth-1.16-Forge-3.9.3.jar                       |ReAuth                        |reauth                        |3.9.3               |ENQUEUE_IM|Manifest: 3d:06:1e:e5:da:e2:ff:ae:04:00:be:45:5b:ff:fd:70:65:00:67:0b:33:87:a6:5f:af:20:3c:b6:a1:35:ca:7e
+		Placebo-1.16.5-4.6.0.jar                          |Placebo                       |placebo                       |4.6.0               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		Lord Craft 3.0.8.jar                              |Lord Craft                    |lordcraft                     |1.0                 |ENQUEUE_IM|Manifest: NOSIGNATURE
+		LibX-1.16.3-1.0.76.jar                            |LibX                          |libx                          |1.16.3-1.0.76       |ENQUEUE_IM|Manifest: NOSIGNATURE
+		SquatGrow-1.0.11-build.11+mc1.16.5.jar            |Squat Grow                    |squatgrow                     |1.0.11-build.11+mc1.|ENQUEUE_IM|Manifest: NOSIGNATURE
+		MekanismGenerators-1.16.5-10.0.23.450.jar         |Mekanism: Generators          |mekanismgenerators            |10.0.23             |ENQUEUE_IM|Manifest: NOSIGNATURE
+		Toast-Control-1.16.4-4.3.1.jar                    |Toast Control                 |toastcontrol                  |4.3.1               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		JEITweaker-1.16.5-1.0.1.35.jar                    |JEI Tweaker                   |jeitweaker                    |1.0.1.35            |ERROR     |Manifest: NOSIGNATURE
+		mystical_pumpkins-0.3.1.jar                       |Mystical Pumpkins             |mystical_pumpkins             |0.3.1               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.0-universal.jar                 |Forge                         |forge                         |36.2.0              |ENQUEUE_IM|Manifest: 22:af:21:d8:19:82:7f:93:94:fe:2b:ac:b7:e4:41:57:68:39:87:b1:a7:5c:c6:44:f9:25:74:21:14:f5:0d:90
+		refinedstorage-1.9.15.jar                         |Refined Storage               |refinedstorage                |1.9.15              |ENQUEUE_IM|Manifest: NOSIGNATURE
+		MysticalAgriculture-1.16.5-4.2.4.jar              |Mystical Agriculture          |mysticalagriculture           |4.2.4               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		MysticalAgradditions-1.16.5-4.2.2.jar             |Mystical Agradditions         |mysticalagradditions          |4.2.2               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		matc-1.1.2.jar                                    |Mystical Agriculture Tiered Cr|matc                          |1.1.2               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		IntegratedCrafting-1.16.5-1.0.19.jar              |IntegratedCrafting            |integratedcrafting            |1.0.19              |ENQUEUE_IM|Manifest: NOSIGNATURE
+		ZeroCore2-1.16.5-2.1.4.jar                        |Zero CORE 2                   |zerocore                      |1.16.5-2.1.4        |ENQUEUE_IM|Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.0-client.jar                    |Minecraft                     |minecraft                     |1.16.5              |ENQUEUE_IM|Manifest: NOSIGNATURE
+		cofh_core-1.16.5-1.3.1.jar                        |CoFH Core                     |cofh_core                     |1.3.1               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		thermal_foundation-1.16.5-1.3.2.jar               |Thermal Series                |thermal                       |1.3.2               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		industrial-foregoing-1.16.5-3.2.14.6-14.jar       |Industrial Foregoing          |industrialforegoing           |3.2.14.6            |ENQUEUE_IM|Manifest: NOSIGNATURE
+		CommonCapabilities-1.16.5-2.8.0.jar               |CommonCapabilities            |commoncapabilities            |2.8.0               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		MouseTweaks-2.14-mc1.16.2.jar                     |Mouse Tweaks                  |mousetweaks                   |2.14                |ENQUEUE_IM|Manifest: NOSIGNATURE
+		titanium-1.16.5-3.2.8.4-10.jar                    |Titanium                      |titanium                      |3.2.8.4             |ENQUEUE_IM|Manifest: NOSIGNATURE
+		pamhc2crops-1.16.3-1.0.2.jar                      |Pam's HarvestCraft 2 Crops    |pamhc2crops                   |version             |ENQUEUE_IM|Manifest: NOSIGNATURE
+		RingOfGrowth-Forge-1.16.5-1.2.10.jar              |Ring of Growth                |ring_of_growth                |1.2.10              |ENQUEUE_IM|Manifest: NOSIGNATURE
+		SkyblockBuilder-1.16.4-1.6.11.jar                 |Skyblock Builder              |skyblockbuilder               |1.16.4-1.6.11       |ENQUEUE_IM|Manifest: NOSIGNATURE
+		pamhc2foodextended-1.16.3-1.0.4.jar               |Pam's HarvestCraft 2 Food Exte|pamhc2foodextended            |version             |ENQUEUE_IM|Manifest: NOSIGNATURE
+		SolarFluxReborn-1.16.5-16.3.9.jar                 |Solar Flux Reborn             |solarflux                     |16.3.9              |ENQUEUE_IM|Manifest: NOSIGNATURE
+		Patchouli-1.16.4-53.2.jar                         |Patchouli                     |patchouli                     |1.16.4-53.2         |ENQUEUE_IM|Manifest: NOSIGNATURE
+		IntegratedDynamics-1.16.5-1.10.3.jar              |IntegratedDynamics            |integrateddynamics            |1.10.3              |ENQUEUE_IM|Manifest: NOSIGNATURE
+		pamhc2foodcore-1.16.3-1.0.2.jar                   |Pam's HarvestCraft 2 Food Core|pamhc2foodcore                |version             |ENQUEUE_IM|Manifest: NOSIGNATURE
+		thermal_cultivation-1.16.5-1.3.0.jar              |Thermal Cultivation           |thermal_cultivation           |1.3.0               |ENQUEUE_IM|Manifest: 75:0b:cc:9b:64:2e:9b:c4:41:d1:95:00:71:ee:87:1a:b3:5e:4b:da:8e:e8:39:00:fd:5d:e5:9c:40:42:33:09
+		AutoRegLib-1.6-49.jar                             |AutoRegLib                    |autoreglib                    |1.6-49              |ENQUEUE_IM|Manifest: NOSIGNATURE
+		Quark-r2.4-319.jar                                |Quark                         |quark                         |r2.4-319            |ENQUEUE_IM|Manifest: NOSIGNATURE
+		torcherino-14.0.0+1.16.4.jar                      |Torcherino                    |torcherino                    |14.0.0              |ENQUEUE_IM|Manifest: NOSIGNATURE
+		StorageDrawers-1.16.3-8.3.0.jar                   |Storage Drawers               |storagedrawers                |8.3.0               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		OreExcavation-1.8.157.jar                         |Ore Excavation                |oreexcavation                 |1.8.157             |ENQUEUE_IM|Manifest: e7:68:1c:0d:b9:7e:cf:f8:f3:40:9c:84:c5:39:d7:a4:59:78:b0:6b:c3:fd:b7:4f:69:18:a3:88:e3:76:8c:3f
+		thermal_expansion-1.16.5-1.3.0.jar                |Thermal Expansion             |thermal_expansion             |1.3.0               |ENQUEUE_IM|Manifest: 75:0b:cc:9b:64:2e:9b:c4:41:d1:95:00:71:ee:87:1a:b3:5e:4b:da:8e:e8:39:00:fd:5d:e5:9c:40:42:33:09
+		IntegratedTunnels-1.16.5-1.8.7.jar                |IntegratedTunnels             |integratedtunnels             |1.8.7               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		MysticalCustomization-1.16.4-2.1.5.jar            |Mystical Customization        |mysticalcustomization         |2.1.5               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		architectury-1.24.35-forge.jar                    |Architectury                  |architectury                  |1.24.35             |ENQUEUE_IM|Manifest: NOSIGNATURE
+		item-filters-forge-1605.2.5-build.9.jar           |Item Filters                  |itemfilters                   |1605.2.5-build.9    |ENQUEUE_IM|Manifest: NOSIGNATURE
+		Infinitylib-2.0.6-hotfix.jar                      |InfinityLib                   |infinitylib                   |1.16.5-2.0.6        |ENQUEUE_IM|Manifest: NOSIGNATURE
+		agricraft-3.0.5-hotfix.jar                        |AgriCraft                     |agricraft                     |1.16.5-3.0.5        |ENQUEUE_IM|Manifest: NOSIGNATURE
+		moreoverlays-1.18.15-mc1.16.5.jar                 |More Overlays Updated         |moreoverlays                  |1.18.15-mc1.16.5    |ENQUEUE_IM|Manifest: NOSIGNATURE
+		refinedstorageaddons-0.7.3.jar                    |Refined Storage Addons        |refinedstorageaddons          |0.7.3               |ENQUEUE_IM|Manifest: NOSIGNATURE
+		geckolib-forge-1.16.5-3.0.50.jar                  |GeckoLib                      |geckolib3                     |3.0.50              |ENQUEUE_IM|Manifest: NOSIGNATURE
+	Crash Report UUID: 4a7f3108-cf4f-4d08-96f2-ad8e8e64af57
+	Patchouli open book context: n/a
