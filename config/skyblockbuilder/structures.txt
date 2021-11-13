@@ -16,5 +16,8 @@ minecraft:buried_treasure
 minecraft:village
 minecraft:nether_fossil
 minecraft:bastion_remnant
+astralsorcery:ancient_shrine
+astralsorcery:desert_shrine
+astralsorcery:small_shrine
 appliedenergistics2:meteorite
 quark:big_dungeon

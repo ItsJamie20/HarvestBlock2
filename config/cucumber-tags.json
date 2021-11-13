@@ -1,6 +1,6 @@
 {
   "__comment": "Instructions: https://mods.blakebr0.com/docs/cucumber/tags-config",
-  "forge:ingots/aluminum": "null",
+  "forge:ingots/aluminum": "immersiveengineering:ingot_aluminum",
   "forge:ingots/constantan": "thermal:constantan_ingot",
   "forge:ingots/tungsten": "null",
   "forge:ingots/mithril": "null",

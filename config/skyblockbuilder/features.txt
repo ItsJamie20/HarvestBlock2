@@ -50,6 +50,10 @@ minecraft:random_selector
 minecraft:simple_random_selector
 minecraft:random_boolean_selector
 minecraft:decorated
+astralsorcery:replace_block
+astralsorcery:rock_crystal
+botania:mystical_flowers
+botania:mystical_mushrooms
 pamhc2trees:apple_worldgen
 pamhc2trees:avocado_worldgen
 pamhc2trees:candlenut_worldgen
@@ -106,8 +110,9 @@ appliedenergistics2:charged_quartz_ore
 mysticalagriculture:soulstone
 zerocore:mod_ores
 zerocore:mod_ores_regen
-botania:mystical_flowers
-botania:mystical_mushrooms
+immersiveengineering:mineral_vein
+immersiveengineering:ie_ore
+immersiveengineering:ore_retro
 quark:deferred_feature_raw_generation
 quark:deferred_feature_lakes
 quark:deferred_feature_local_modifications
