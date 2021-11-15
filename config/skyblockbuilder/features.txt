@@ -103,9 +103,6 @@ pamhc2trees:rambutan_worldgen
 pamhc2trees:tamarind_worldgen
 pamhc2trees:maple_worldgen
 pamhc2trees:pinenut_worldgen
-mekanism:disk
-mekanism:ore
-mekanism:ore_retrogen
 appliedenergistics2:charged_quartz_ore
 mysticalagriculture:soulstone
 zerocore:mod_ores
