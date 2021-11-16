@@ -11,7 +11,7 @@
 	useWhitelist = false
 	#Range for bonemeal effect
 	#Range: 0 ~ 16
-	range = 3
+	range = 2
 	#List of blocks to blacklist from twerking
 	#Tags can be used by using #minecraft:<tag_name> or #modid:<tag_name>
 	blacklist = ["minecraft:grass_block", "minecraft:grass", "minecraft:tall_grass", "minecraft:netherrack", "minecraft:warped_nylium", "minecraft:crimson_nylium"]

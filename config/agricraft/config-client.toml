@@ -29,7 +29,7 @@
 	"Weeds can spread" = false
 	#
 	#Set to false to disable planting of (agricraft) seeds outside crop sticks
-	"Plant outside crop sticks" = false
+	"Plant outside crop sticks" = true
 	#
 	#Defines the seed compost value, if set to zero, seeds will not be compostable
 	#Range: 0.0 ~ 1.0
@@ -69,7 +69,7 @@
 	"Only mature crops drop seeds" = false
 	#
 	#Set to false to disable the generation of missing default jsons
-	"Generate missing default JSONs" = false
+	"Generate missing default JSONs" = true
 	#
 	#Set to false to disable collision boxes on crop sticks
 	"Crop sticks collide" = false

@@ -9,68 +9,36 @@
 
 [CraftingMapper]
 
-	[CraftingMapper.MekRotary]
-		#Maps Mekanism rotary condensentrator recipes.
+	[CraftingMapper.BotaniaElvenTradeMapper]
+		#null
 		enabled = true
 
-	[CraftingMapper.MekElectrolysis]
-		#Maps Mekanism electrolytic separator recipes.
-		enabled = true
-
-	[CraftingMapper.MekDissolution]
-		#Maps Mekanism dissolution recipes.
-		enabled = true
-
-	[CraftingMapper.MekItemStackGasToItemStack]
-		#Maps Mekanism Machine recipes that go from item, gas to item. (Compressing, Purifying, Injecting)
-		enabled = true
-
-	[CraftingMapper.MekGasToGas]
-		#Maps Mekanism activating and centrifuging recipes.
-		enabled = true
-
-	[CraftingMapper.MekFluidSlurryToSlurry]
-		#Maps Mekanism washing recipes.
-		enabled = true
-
-	[CraftingMapper.MekItemStackToItemStack]
-		#Maps Mekanism Machine recipes that go from item to item. (Crushing, Enriching, Smelting)
+	[CraftingMapper.BloodMagicAlchemicalReactionChamberMapper]
+		#null
 		enabled = true
 
 	[CraftingMapper.MekChemicalInfuser]
 		#Maps Mekanism chemical infuser recipes.
 		enabled = true
 
-	[CraftingMapper.MekSawmill]
-		#Maps Mekanism sawmill recipes. (Disabled by default, due to causing various EMC values to be removed pertaining to charcoal/wood)
-		enabled = false
-
-	[CraftingMapper.MekCombiner]
-		#Maps Mekanism combiner recipes.
-		enabled = true
-
-	[CraftingMapper.MekPressurizedReaction]
-		#Maps Mekanism pressurized reaction recipes.
-		enabled = true
-
-	[CraftingMapper.MekFluidToFluid]
-		#Maps Mekanism evaporating recipes.
-		enabled = true
-
 	[CraftingMapper.MekChemicalCrystallizer]
 		#Maps Mekanism crystallizing recipes.
+		enabled = true
+
+	[CraftingMapper.AstralSorceryAltarMapper]
+		#A recipe mapper for Astral Sorcery Altar recipes.
 		enabled = true
 
 	[CraftingMapper.MekMetallurgicInfuser]
 		#Maps Mekanism metallurgic infuser recipes.
 		enabled = true
 
-	[CraftingMapper.Smithing]
-		#Maps smithing recipes.
+	[CraftingMapper.Combination]
+		#Maps Extended Crafting Combination recipes
 		enabled = true
 
-	[CraftingMapper.MekItemStackToGas]
-		#Maps Mekanism item stack to gas recipes. (Gas conversion, Oxidizing)
+	[CraftingMapper.BloodMagicAlchemyArrayMapper]
+		#null
 		enabled = true
 
 	[CraftingMapper.FallbackRecipeType]
@@ -81,8 +49,159 @@
 		#Maps the different vanilla recipe types.
 		enabled = true
 
+	[CraftingMapper.BotaniaManaInfusionMapper]
+		#null
+		enabled = true
+
+	[CraftingMapper.MekRotary]
+		#Maps Mekanism rotary condensentrator recipes.
+		enabled = true
+
+	[CraftingMapper.ImmersiveEngineeringCokeOvenMapper]
+		#Recipe mapper for Immersive Engineering Coke Oven recipes
+		enabled = true
+
+	[CraftingMapper.MysticalAgricultureReprocessorMapper]
+		#Recipe mapper for Mystical Agriculture seed reprocessor recipes
+		enabled = true
+
+	[CraftingMapper.MekItemStackGasToItemStack]
+		#Maps Mekanism Machine recipes that go from item, gas to item. (Compressing, Purifying, Injecting)
+		enabled = true
+
+	[CraftingMapper.BotaniaRuneAlterMapper]
+		#null
+		enabled = true
+
+	[CraftingMapper.ImmersiveEngineeringCrusherMapper]
+		#Recipe mapper for Immersive Engineering Crusher recipes
+		enabled = true
+
+	[CraftingMapper.Compressor]
+		#Maps the Extended Crafting compressor recipes
+		enabled = true
+
+	[CraftingMapper.ImmersiveEngineeringAlloyMapper]
+		#Recipe mapper for Immersive Engineering Alloy recipes
+		enabled = true
+
+	[CraftingMapper.BloodMagicBloodAltarMapper]
+		#null
+		enabled = true
+
+	[CraftingMapper.BotaniaPetalMapper]
+		enabled = true
+
+	[CraftingMapper.MekPressurizedReaction]
+		#Maps Mekanism pressurized reaction recipes.
+		enabled = true
+
+	[CraftingMapper.MekItemStackToGas]
+		#Maps Mekanism item stack to gas recipes. (Gas conversion, Oxidizing)
+		enabled = true
+
+	[CraftingMapper.AstralSorceryBlockTransmutationMapper]
+		#A recipe mapper for Astral Sorcery Block Transmutation recipes.
+		enabled = true
+
+	[CraftingMapper.MekElectrolysis]
+		#Maps Mekanism electrolytic separator recipes.
+		enabled = true
+
+	[CraftingMapper.MekGasToGas]
+		#Maps Mekanism activating and centrifuging recipes.
+		enabled = true
+
+	[CraftingMapper.MekItemStackToItemStack]
+		#Maps Mekanism Machine recipes that go from item to item. (Crushing, Enriching, Smelting)
+		enabled = true
+
+	[CraftingMapper.ImmersiveEngineeringBlastFurnaceMapper]
+		#Recipe mapper for Immersive Engineering Blast Furnace recipes
+		enabled = true
+
+	[CraftingMapper.MysticalAgricultureInfusionMapper]
+		#Recipe mapper for Mystical Agriculture infusion recipes
+		enabled = true
+
+	[CraftingMapper.BotaniaTerraPlateMapper]
+		#null
+		enabled = true
+
+	[CraftingMapper.MekSawmill]
+		#Maps Mekanism sawmill recipes. (Disabled by default, due to causing various EMC values to be removed pertaining to charcoal/wood)
+		enabled = false
+
+	[CraftingMapper.MekCombiner]
+		#Maps Mekanism combiner recipes.
+		enabled = true
+
+	[CraftingMapper.BotaniaPureDaisyMapper]
+		#null
+		enabled = true
+
+	[CraftingMapper.BloodMagicTartaricForgeMapper]
+		#null
+		enabled = true
+
+	[CraftingMapper.MekFluidToFluid]
+		#Maps Mekanism evaporating recipes.
+		enabled = true
+
+	[CraftingMapper.Smithing]
+		#Maps smithing recipes.
+		enabled = true
+
+	[CraftingMapper.ImmersiveEngineeringSawmillMapper]
+		#Recipe mapper for Immersive Engineering Sawmill recipes
+		enabled = true
+
 	[CraftingMapper.MekItemStackToInfuseType]
 		#Maps Mekanism item stack to infuse type conversion recipes.
+		enabled = true
+
+	[CraftingMapper.BloodMagicAlchemyTableMapper]
+		#null
+		enabled = true
+
+	[CraftingMapper.Table]
+		#Maps Extended Crafting Table recipes
+		enabled = true
+
+	[CraftingMapper.AppliedEnergisticsInscriberMapper]
+		#Recipe mapper for Applied Energistics inscriber
+		enabled = true
+
+	[CraftingMapper.MekDissolution]
+		#Maps Mekanism dissolution recipes.
+		enabled = true
+
+	[CraftingMapper.ImmersiveEngineeringMixerMapper]
+		#Recipe mapper for Immersive Engineering Mixer recipes
+		enabled = true
+
+	[CraftingMapper.MekFluidSlurryToSlurry]
+		#Maps Mekanism washing recipes.
+		enabled = true
+
+	[CraftingMapper.EnderCrafter]
+		#Maps extended crafting Ender Crafter recipes
+		enabled = true
+
+	[CraftingMapper.AstralSorceryLiquidInfusionMapper]
+		#A recipe mapper for Astral Sorcery Liquid Infusion recipes.
+		enabled = true
+
+	[CraftingMapper.AstralSorceryWellLiquefactionMapper]
+		#A recipe mapper for Astral Sorcery Well Liquefaction recipes. Disabled by default. Maps 1 Item to 1 bucket (1000)
+		enabled = false
+
+	[CraftingMapper.AppliedEnergisticsGrinderMapper]
+		#Recipe mapper for Applied Energistics grinder. NOTE: Optional outputs are ignored
+		enabled = true
+
+	[CraftingMapper.ImmersiveEngineeringMetalPressMapper]
+		#Recipe mapper for Immersive Engineering Metal Press recipes
 		enabled = true
 
 [enabledMappers]
@@ -98,6 +217,8 @@
 	BrewingMapper = true
 	#Allows setting EMC values through CraftTweaker. This behaves similarly to if someone used the custom emc file instead.
 	CrTCustomEMCMapper = true
+	#Recipe mapper for custom recipes that don't implement IRecipe
+	ProjectEIntegrationRecipeMapper = true
 	#Uses the `custom_emc.json` File to add EMC values.
 	CustomEMCMapper = true
 	#Allows other mods to easily set EMC values using the ProjectEAPI
