@@ -7,7 +7,7 @@
     "agricraft",
     "minecraft"
   ],
-  "id": "farmland_soil",
+  "id": "dirt_soil",
   "lang_key": "agricraft.soil.dirt.name",
   "varients": [
     {
