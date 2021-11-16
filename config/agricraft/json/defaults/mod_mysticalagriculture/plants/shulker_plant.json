@@ -1,5 +1,5 @@
 {
-  "path": "mod_mysticalagriculture/plants/dye_plant.json",
+  "path": "mod_mysticalagriculture/plants/shulker_plant.json",
   "version": "1.16.4",
   "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_plant/",
   "enabled": true,
@@ -8,15 +8,15 @@
     "agricraft",
     "minecraft"
   ],
-  "id": "mysticalagriculture:dye_plant",
-  "plant_lang_key": "crop.mysticalagriculture.dye",
-  "seed_lang_key": "agricraft.plant.mysticalagriculture.dye",
-  "desc_lang_key": "crop.mysticalagriculture.dye",
+  "id": "mysticalagriculture:shulker_plant",
+  "plant_lang_key": "crop.mysticalagriculture.shulker",
+  "seed_lang_key": "agricraft.plant.mysticalagriculture.shulker",
+  "desc_lang_key": "crop.mysticalagriculture.shulker",
   "seed_items": [
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "mysticalagriculture:dye_seeds",
+      "object": "mysticalagriculture:shulker_seeds",
       "useTag": false,
       "data": "",
       "ignoredData": [
@@ -51,7 +51,7 @@
         "chance": 1.0,
         "required": true,
         "type": "item",
-        "object": "mysticalagriculture:dye_essence",
+        "object": "mysticalagriculture:shulker_essence",
         "useTag": false,
         "data": "",
         "ignoredData": []
@@ -73,7 +73,7 @@
       "tolerance_factor": 0.0
     },
     "soil_nutrients": {
-      "condition": "very_low",
+      "condition": "medium",
       "type": "equal_or_higher",
       "tolerance_factor": 0.0
     },
@@ -101,33 +101,33 @@
     "plant_models": [],
     "plant_textures": [
       [
-        "mysticalagriculture:block/mystical_resource_crop_0"
+        "mysticalagriculture:block/mystical_mob_crop_0"
       ],
       [
-        "mysticalagriculture:block/mystical_resource_crop_1"
+        "mysticalagriculture:block/mystical_mob_crop_1"
       ],
       [
-        "mysticalagriculture:block/mystical_resource_crop_2"
+        "mysticalagriculture:block/mystical_mob_crop_2"
       ],
       [
-        "mysticalagriculture:block/mystical_resource_crop_3"
+        "mysticalagriculture:block/mystical_mob_crop_3"
       ],
       [
-        "mysticalagriculture:block/mystical_resource_crop_4"
+        "mysticalagriculture:block/mystical_mob_crop_4"
       ],
       [
-        "mysticalagriculture:block/mystical_resource_crop_5"
+        "mysticalagriculture:block/mystical_mob_crop_5"
       ],
       [
-        "mysticalagriculture:block/mystical_resource_crop_6"
+        "mysticalagriculture:block/mystical_mob_crop_6"
       ],
       [
-        "mysticalagriculture:block/mystical_resource_crop_7",
-        "mysticalagriculture:block/dye_flower"
+        "mysticalagriculture:block/mystical_mob_crop_7",
+        "mysticalagriculture:block/shulker_flower"
       ]
     ]
   },
-  "seed_texture": "mysticalagriculture:item/dye_seeds",
-  "seed_model": "mysticalagriculture:item/dye_seeds",
+  "seed_texture": "mysticalagriculture:item/shulker_seeds",
+  "seed_model": "mysticalagriculture:item/shulker_seeds",
   "particle_effects": []
 }

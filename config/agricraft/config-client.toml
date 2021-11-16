@@ -29,7 +29,7 @@
 	"Weeds can spread" = false
 	#
 	#Set to false to disable planting of (agricraft) seeds outside crop sticks
-	"Plant outside crop sticks" = false
+	"Plant outside crop sticks" = true
 	#
 	#Defines the seed compost value, if set to zero, seeds will not be compostable
 	#Range: 0.0 ~ 1.0

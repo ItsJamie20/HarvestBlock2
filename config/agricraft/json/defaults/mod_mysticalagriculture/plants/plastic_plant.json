@@ -1,5 +1,5 @@
 {
-  "path": "mod_mysticalagriculture/plants/dye_plant.json",
+  "path": "mod_mysticalagriculture/plants/plastic_plant.json",
   "version": "1.16.4",
   "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_plant/",
   "enabled": true,
@@ -8,15 +8,15 @@
     "agricraft",
     "minecraft"
   ],
-  "id": "mysticalagriculture:dye_plant",
-  "plant_lang_key": "crop.mysticalagriculture.dye",
-  "seed_lang_key": "agricraft.plant.mysticalagriculture.dye",
-  "desc_lang_key": "crop.mysticalagriculture.dye",
+  "id": "mysticalagriculture:plastic_plant",
+  "plant_lang_key": "crop.mysticalagriculture.plastic",
+  "seed_lang_key": "agricraft.plant.mysticalagriculture.plastic",
+  "desc_lang_key": "crop.mysticalagriculture.plastic",
   "seed_items": [
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "mysticalagriculture:dye_seeds",
+      "object": "mysticalagriculture:plastic_seeds",
       "useTag": false,
       "data": "",
       "ignoredData": [
@@ -51,7 +51,7 @@
         "chance": 1.0,
         "required": true,
         "type": "item",
-        "object": "mysticalagriculture:dye_essence",
+        "object": "mysticalagriculture:plastic_essence",
         "useTag": false,
         "data": "",
         "ignoredData": []
@@ -73,7 +73,7 @@
       "tolerance_factor": 0.0
     },
     "soil_nutrients": {
-      "condition": "very_low",
+      "condition": "low",
       "type": "equal_or_higher",
       "tolerance_factor": 0.0
     },
@@ -123,11 +123,11 @@
       ],
       [
         "mysticalagriculture:block/mystical_resource_crop_7",
-        "mysticalagriculture:block/dye_flower"
+        "mysticalagriculture:block/plastic_flower"
       ]
     ]
   },
-  "seed_texture": "mysticalagriculture:item/dye_seeds",
-  "seed_model": "mysticalagriculture:item/dye_seeds",
+  "seed_texture": "mysticalagriculture:item/plastic_seeds",
+  "seed_model": "mysticalagriculture:item/plastic_seeds",
   "particle_effects": []
 }
