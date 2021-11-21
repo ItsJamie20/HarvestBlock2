@@ -1,0 +1,14 @@
+{
+  "path": "mod_mysticalagradditions/mutations/nether_star_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "mysticalagradditions:nether_star_mutation_plant",
+  "parent1": "mysticalagriculture:nether_plant",
+  "parent2": "mysticalagriculture:wither_skeleton_plant"
+}

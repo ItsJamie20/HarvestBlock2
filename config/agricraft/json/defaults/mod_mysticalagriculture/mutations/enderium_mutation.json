@@ -1,0 +1,14 @@
+{
+  "path": "mod_mysticalagriculture/mutations/enderium_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "mysticalagriculture:enderium_plant",
+  "parent1": "mysticalagriculture:end_plant",
+  "parent2": "mysticalagriculture:lead_plant"
+}

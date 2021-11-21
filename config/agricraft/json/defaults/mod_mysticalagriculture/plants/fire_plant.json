@@ -8,7 +8,7 @@
     "agricraft",
     "minecraft"
   ],
-  "id": "mysticalagriculture:inferium_plant",
+  "id": "mysticalagriculture:fire_plant",
   "plant_lang_key": "crop.mysticalagriculture.fire",
   "seed_lang_key": "agricraft.plant.mysticalagriculture.fire",
   "desc_lang_key": "crop.mysticalagriculture.fire",
@@ -34,11 +34,11 @@
     14,
     16
   ],
-  "harvestStage": 1,
+  "harvestStage": 0,
   "growth_chance": 0.65,
   "growth_bonus": 0.025,
   "tier": 4,
-  "cloneable": false,
+  "cloneable": true,
   "spread_chance": 0.1,
   "grass_drop_chance": 0.0,
   "seed_drop_chance": 1.0,

@@ -2,7 +2,7 @@
   "path": "vanilla/fertilizers/bone_meal_fertilizer.json",
   "version": "1.16.4",
   "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_fertilizer/",
-  "enabled": true,
+  "enabled": false,
   "mods": [
     "agricraft",
     "minecraft"

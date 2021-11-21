@@ -1,0 +1,14 @@
+{
+  "path": "mod_mysticalagriculture/mutations/stone_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "mysticalagriculture:stone_plant",
+  "parent1": "mysticalagriculture:fire_plant",
+  "parent2": "mysticalagriculture:water_plant"
+}

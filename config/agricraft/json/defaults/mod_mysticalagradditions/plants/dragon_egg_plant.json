@@ -35,11 +35,11 @@
     14,
     16
   ],
-  "harvestStage": 3,
+  "harvestStage": 0,
   "growth_chance": 0.65,
   "growth_bonus": 0.025,
   "tier": 4,
-  "cloneable": false,
+  "cloneable": true,
   "spread_chance": 0.1,
   "grass_drop_chance": 0.0,
   "seed_drop_chance": 1.0,
@@ -49,7 +49,7 @@
       {
         "min": 1,
         "max": 1,
-        "chance": 0.75,
+        "chance": 1.0,
         "required": true,
         "type": "item",
         "object": "mysticalagriculture:dragon_egg_essence",
@@ -66,17 +66,17 @@
     "soil_humidity": {
       "condition": "wet",
       "type": "equal",
-      "tolerance_factor": 0.2
+      "tolerance_factor": 0.0
     },
     "soil_acidity": {
-      "condition": "slightly_acidic",
+      "condition": "acidic",
       "type": "equal",
-      "tolerance_factor": 0.2
+      "tolerance_factor": 0.0
     },
     "soil_nutrients": {
-      "condition": "high",
+      "condition": "very_high",
       "type": "equal_or_higher",
-      "tolerance_factor": 0.2
+      "tolerance_factor": 0.0
     },
     "min_light": 10,
     "max_light": 16,

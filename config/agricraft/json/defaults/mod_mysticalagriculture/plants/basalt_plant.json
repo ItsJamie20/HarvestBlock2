@@ -34,11 +34,11 @@
     14,
     16
   ],
-  "harvestStage": 3,
+  "harvestStage": 0,
   "growth_chance": 0.65,
   "growth_bonus": 0.025,
   "tier": 4,
-  "cloneable": false,
+  "cloneable": true,
   "spread_chance": 0.1,
   "grass_drop_chance": 0.0,
   "seed_drop_chance": 1.0,
