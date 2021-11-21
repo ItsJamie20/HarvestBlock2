@@ -2,7 +2,7 @@
   "path": "mod_immersiveengineering/mutations/hemp_pams_mutation.json",
   "version": "1.16.4",
   "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
-  "enabled": true,
+  "enabled": false,
   "mods": [
     "pamhc2crops",
     "immersiveengineering",

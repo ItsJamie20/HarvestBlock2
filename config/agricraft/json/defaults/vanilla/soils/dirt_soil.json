@@ -21,7 +21,7 @@
     }
   ],
   "humidity": "damp",
-  "acidity": "slightly_acidic",
-  "nutrients": "very_high",
-  "growth_modifier": 1.0
+  "acidity": "acidic",
+  "nutrients": "medium",
+  "growth_modifier": 0.8
 }

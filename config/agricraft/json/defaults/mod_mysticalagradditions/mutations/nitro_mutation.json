@@ -1,0 +1,14 @@
+{
+  "path": "mod_mysticalagradditions/mutations/nitro_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "mysticalagradditions:nitro_mutation_plant",
+  "parent1": "mysticalagriculture:blazing_crystal_plant",
+  "parent2": "mysticalagradditions:nether_star_plant"
+}

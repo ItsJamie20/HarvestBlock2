@@ -1,0 +1,14 @@
+{
+  "path": "mod_mysticalagriculture/mutations/water_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "mysticalagriculture:water_plant",
+  "parent1": "mysticalagriculture:nature_plant",
+  "parent2": "mysticalagriculture:wood_plant"
+}

@@ -1,7 +1,7 @@
 {
   "path": "vanilla/weeds/weed_weed.json",
   "version": "1.16.4",
-  "enabled": true,
+  "enabled": false,
   "mods": [
     "agricraft",
     "minecraft"

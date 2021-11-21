@@ -23,7 +23,7 @@
     11,
     12
   ],
-  "harvestStage": 4,
+  "harvestStage": 0,
   "growth_chance": 0.5,
   "growth_bonus": 0.025,
   "tier": 4,
@@ -36,7 +36,7 @@
     "products": [
       {
         "min": 1,
-        "max": 4,
+        "max": 1,
         "chance": 1.0,
         "required": true,
         "type": "item",
@@ -54,17 +54,17 @@
     "soil_humidity": {
       "condition": "damp",
       "type": "equal",
-      "tolerance_factor": 0.15
+      "tolerance_factor": 0.0
     },
     "soil_acidity": {
       "condition": "slightly_acidic",
       "type": "equal",
-      "tolerance_factor": 0.2
+      "tolerance_factor": 0.0
     },
     "soil_nutrients": {
       "condition": "very_high",
       "type": "equal",
-      "tolerance_factor": 0.15
+      "tolerance_factor": 0.0
     },
     "min_light": 12,
     "max_light": 16,
