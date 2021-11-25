@@ -103,6 +103,9 @@ pamhc2trees:rambutan_worldgen
 pamhc2trees:tamarind_worldgen
 pamhc2trees:maple_worldgen
 pamhc2trees:pinenut_worldgen
+mekanism:disk
+mekanism:ore
+mekanism:ore_retrogen
 appliedenergistics2:charged_quartz_ore
 mysticalagriculture:soulstone
 zerocore:mod_ores
@@ -120,3 +123,4 @@ quark:deferred_feature_underground_ores
 quark:deferred_feature_underground_decoration
 quark:deferred_feature_vegetal_decoration
 quark:deferred_feature_top_layer_modification
+chisel:replace_block_downwards
