@@ -1,0 +1,13 @@
+{
+  "name": "Dark",
+  "type": "resource",
+  "tier": "mysticalagriculture:elemental",
+  "ingredient": {
+    "item": "harvestblock:dark_agglomeratio"
+  },
+  "color": "000000",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_flame"
+  }
+}

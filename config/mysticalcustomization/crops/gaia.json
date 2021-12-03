@@ -1,0 +1,13 @@
+{
+  "name": "Gaia",
+  "type": "resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "botania:gaia_ingot"
+  },
+  "color": "E2BDF4",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_quartz"
+  }
+}

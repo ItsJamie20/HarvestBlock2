@@ -1,0 +1,13 @@
+{
+  "name": "Ender",
+  "type": "resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "extendedcrafting:ender_ingot"
+  },
+  "color": "1B7A6A",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Supremium",
+  "type": "resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "mysticalagriculture:supremium_essence"
+  },
+  "color": "880000",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Luminessence",
+  "type": "resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "extendedcrafting:luminessence"
+  },
+  "color": "F1F341",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

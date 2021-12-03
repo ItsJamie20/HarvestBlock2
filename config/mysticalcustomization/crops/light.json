@@ -1,0 +1,13 @@
+{
+  "name": "Light",
+  "type": "resource",
+  "tier": "mysticalagriculture:elemental",
+  "ingredient": {
+    "item": "harvestblock:light_agglomeratio"
+  },
+  "color": "FFFFFF",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_flame"
+  }
+}

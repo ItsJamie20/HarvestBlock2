@@ -1,0 +1,13 @@
+{
+  "name": "Living Rock",
+  "type": "resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "item": "botania:livingrock"
+  },
+  "color": "E0E4D2",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_rock",
+    "essence": "mysticalagriculture:item/essence_rock"
+  }
+}

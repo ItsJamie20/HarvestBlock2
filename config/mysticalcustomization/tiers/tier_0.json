@@ -1,0 +1,8 @@
+{
+  "name": "0",
+  "value": 0,
+  "farmland": "mysticalagriculture:inferium_farmland",
+  "essence": "mysticalagriculture:inferium_essence",
+  "fertilizable": false,
+  "secondarySeedDrop": false
+}

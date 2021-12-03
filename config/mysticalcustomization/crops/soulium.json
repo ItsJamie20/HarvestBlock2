@@ -1,0 +1,13 @@
+{
+  "name": "Soulium",
+  "type": "resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "mysticalagriculture:soulium_ingot"
+  },
+  "color": "8A553B",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}
