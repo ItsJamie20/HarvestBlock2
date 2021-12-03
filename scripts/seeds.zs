@@ -113,6 +113,8 @@ InfusionCrafting.remove(<item:mysticalagriculture:yellorium_seeds>);
 InfusionCrafting.remove(<item:mysticalagriculture:zinc_seeds>);
 InfusionCrafting.remove(<item:mysticalagriculture:zombified_piglin_seeds>);
 
+InfusionCrafting.remove(<item:mysticalagriculture:prosperity_seeds>);
+
 craftingTable.addShaped("inferium_seed", <item:mysticalagriculture:inferium_seeds>, [
     [<item:mysticalagriculture:inferium_essence>, <item:mysticalagriculture:inferium_essence>, <item:mysticalagriculture:inferium_essence>],
     [<item:mysticalagriculture:inferium_essence>, <item:agricraft:agri_seed>.withTag({agri_genome: [{agri_gene: "agri_species" as string, agri_dominant: {agri_plant: "vanilla:wheat_plant" as string}}]}), <item:mysticalagriculture:inferium_essence>],
@@ -120,3 +122,4 @@ craftingTable.addShaped("inferium_seed", <item:mysticalagriculture:inferium_seed
 ]);
 
 
+craftingTable.addShapeless("harvestblock/seeds/nether_wart", <item:minecraft:nether_wart>, [<item:agricraft:agri_seed>.withTag({agri_genome: [{agri_gene: "agri_species" as string, agri_dominant: {agri_plant: "vanilla:nether_wart_plant" as string}}]})]);

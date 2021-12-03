@@ -1423,3 +1423,31 @@ craftingTable.addShaped("harvestblock/essence/yellow_dye", <item:minecraft:yello
     [<item:minecraft:air>, <item:mysticalagriculture:dye_essence>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:mysticalagriculture:dye_essence>, <item:minecraft:air>]
 ]);
+
+
+
+
+
+
+craftingTable.addShaped("harvestblock/essence/prosperity", <item:mysticalagriculture:prosperity_shard>, [
+    [<item:mysticalagriculture:prosperity_essence>, <item:mysticalagriculture:prosperity_essence>, <item:mysticalagriculture:prosperity_essence>],
+    [<item:mysticalagriculture:prosperity_essence>, <item:minecraft:air>, <item:mysticalagriculture:prosperity_essence>],
+    [<item:mysticalagriculture:prosperity_essence>, <item:mysticalagriculture:prosperity_essence>, <item:mysticalagriculture:prosperity_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/simple_crystal", <item:lordcraft:crystal_basic>, [
+    [<item:mysticalagriculture:simple_crystal_essence>, <item:mysticalagriculture:simple_crystal_essence>, <item:mysticalagriculture:simple_crystal_essence>],
+    [<item:mysticalagriculture:simple_crystal_essence>, <item:minecraft:air>, <item:mysticalagriculture:simple_crystal_essence>],
+    [<item:mysticalagriculture:simple_crystal_essence>, <item:mysticalagriculture:simple_crystal_essence>, <item:mysticalagriculture:simple_crystal_essence>]
+]);
+
+craftingTable.addShaped("light_agglomeratio", <item:harvestblock:light_agglomeratio>, [
+    [<item:mysticalagriculture:light_essence>, <item:mysticalagriculture:light_essence>],
+    [<item:mysticalagriculture:light_essence>, <item:mysticalagriculture:light_essence>]
+]);
+
+
+craftingTable.addShaped("dark_agglomeratio", <item:harvestblock:dark_agglomeratio>, [
+    [<item:mysticalagriculture:dark_essence>, <item:mysticalagriculture:dark_essence>],
+    [<item:mysticalagriculture:dark_essence>, <item:mysticalagriculture:dark_essence>]
+]);
