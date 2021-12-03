@@ -1,0 +1,13 @@
+{
+  "name": "Prosperity",
+  "type": "resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "mysticalagriculture:prosperity_shard"
+  },
+  "color": "DDFBFB",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_quartz"
+  }
+}

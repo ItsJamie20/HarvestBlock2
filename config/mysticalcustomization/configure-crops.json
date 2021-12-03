@@ -1,1 +1,14 @@
-{}
+{
+    "mysticalagriculture:dirt": {
+        "tier": "mysticalcustomization:tier_0"
+    },
+    "mysticalagriculture:wood": {
+        "tier": "mysticalcustomization:tier_0"
+    },
+    "mysticalagriculture:iron": {
+        "tier": "mysticalagriculture:2"
+    },
+    "mysticalagriculture:glowstone": {
+        "tier": "mysticalagriculture:2"
+    }
+  }

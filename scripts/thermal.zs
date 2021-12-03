@@ -1,0 +1,1 @@
+<recipetype:thermal:press>.addRecipe("harvestblock/thermal/blaze_rod", [<item:minecraft:blaze_rod> % 100], <fluid:minecraft:empty>, [<item:minecraft:blaze_powder> * 6], 500);

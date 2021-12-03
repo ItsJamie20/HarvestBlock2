@@ -1,0 +1,13 @@
+{
+  "name": "Creative",
+  "type": "resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "mysticalagriculture:creative_essence"
+  },
+  "color": "C839FF",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

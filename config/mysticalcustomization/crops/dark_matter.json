@@ -1,0 +1,13 @@
+{
+  "name": "Dark Matter",
+  "type": "resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "projecte:dark_matter"
+  },
+  "color": "36173D",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_gem"
+  }
+}

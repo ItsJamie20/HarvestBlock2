@@ -1,6 +1,7 @@
 .mixin.out/*
 backups/*
 crash-reports/*
+ct_dumps/*
 downloads/*
 journeymap/*
 local/*
@@ -18,3 +19,5 @@ patchouli_data.json
 reauth.toml
 usercache.json
 usernamecache.json
+config/agricraft/*.bak
+config/jei/bookmarks.ini

@@ -1,0 +1,13 @@
+{
+  "name": "Simple Crystal",
+  "type": "resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "item": "lordcraft:crystal_basic"
+  },
+  "color": "757575",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_quartz"
+  }
+}

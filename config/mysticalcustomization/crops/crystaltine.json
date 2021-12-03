@@ -1,0 +1,13 @@
+{
+  "name": "Crystaltine",
+  "type": "resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "extendedcrafting:crystaltine_ingot"
+  },
+  "color": "9ADCF9",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}
