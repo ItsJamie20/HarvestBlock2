@@ -10,5 +10,14 @@
     },
     "mysticalagriculture:glowstone": {
         "tier": "mysticalagriculture:2"
+    },
+    "mysticalagriculture:gold": {
+        "tier": "mysticalagriculture:3"
+    },
+    "mysticalagriculture:lapis_lazuli": {
+        "tier": "mysticalagriculture:3"
+    },
+    "mysticalagriculture:nickel": {
+        "tier": "mysticalagriculture:3"
     }
-  }
+}
