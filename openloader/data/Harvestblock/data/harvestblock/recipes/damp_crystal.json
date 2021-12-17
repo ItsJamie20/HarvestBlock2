@@ -1,0 +1,20 @@
+{
+  "type": "lordcraft:crafting_shaped",
+  "research": "thelos",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "mysticalagriculture:water_essence"
+    },
+    "X": {
+      "item": "mysticalagriculture:simple_crystal_essence"
+    }
+  },
+  "result": {
+    "item": "lordcraft:crystal_water"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "lordcraft:ritual",
+    "research": "fire",
+    "ritual": "fusion",
+    "reagents": [
+      {"item": "lordcraft:dust_basic"},
+      {"item":"botania:rune_fire"}
+    ],
+    "result": {
+      "item": "lordcraft:dust_fire",
+      "count": 4
+    }
+  }

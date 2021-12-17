@@ -1,0 +1,13 @@
+{
+    "type": "lordcraft:ritual",
+    "research": "earth",
+    "ritual": "fusion",
+    "reagents": [
+      {"item": "lordcraft:dust_basic"},
+      {"item":"botania:rune_earth"}
+    ],
+    "result": {
+      "item": "lordcraft:dust_earth",
+      "count": 4
+    }
+  }

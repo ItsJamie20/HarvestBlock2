@@ -1,0 +1,13 @@
+{
+    "type": "lordcraft:ritual",
+    "research": "water",
+    "ritual": "fusion",
+    "reagents": [
+      {"item": "lordcraft:dust_basic"},
+      {"item":"botania:rune_water"}
+    ],
+    "result": {
+      "item": "lordcraft:dust_water",
+      "count": 4
+    }
+  }
