@@ -123,11 +123,11 @@
       ],
       [
         "mysticalagriculture:block/mystical_resource_crop_7",
-        "mysticalagriculture:block/flower_ingot"
+        "harvestblock:block/fire_flower"
       ]
     ]
   },
-  "seed_texture": "mysticalagriculture:item/fire_seeds",
-  "seed_model": "mysticalagriculture:item/fire_seeds",
+  "seed_texture": "harvestblock:item/fire_seeds",
+  "seed_model": "harvestblock:item/agricraft/fire_seeds",
   "particle_effects": []
 }
