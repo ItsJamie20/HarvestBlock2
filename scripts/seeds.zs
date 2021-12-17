@@ -123,3 +123,13 @@ craftingTable.addShaped("inferium_seed", <item:mysticalagriculture:inferium_seed
 
 
 craftingTable.addShapeless("harvestblock/seeds/nether_wart", <item:minecraft:nether_wart>, [<item:agricraft:agri_seed>.withTag({agri_genome: [{agri_gene: "agri_species" as string, agri_dominant: {agri_plant: "vanilla:nether_wart_plant" as string}}]})]);
+
+
+InfusionCrafting.remove(<item:mysticalagriculture:soul_seeds>);
+
+craftingTable.removeRecipe(<item:mysticalagriculture:prosperity_seed_base>);
+craftingTable.addShaped("harvestblock/seeds/prosperity_seed_base", <item:mysticalagriculture:prosperity_seed_base>, [
+    [<item:minecraft:air>, <item:mysticalagriculture:prosperity_shard>, <item:minecraft:air>],
+    [<item:mysticalagriculture:prosperity_shard>, <item:agricraft:agri_seed>.withTag({agri_genome: [{agri_gene: "agri_species" as string, agri_dominant: {agri_plant: "vanilla:wheat_plant" as string}}]}), <item:mysticalagriculture:prosperity_shard>],
+    [<item:minecraft:air>, <item:mysticalagriculture:prosperity_shard>, <item:minecraft:air>]
+]);

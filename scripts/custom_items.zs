@@ -14,3 +14,8 @@ craftingTable.addShaped("harvestblock/custom_items/tier_2_soil", <item:harvestbl
     [<item:harvestblock:tier_1_soil>,<item:botania:rune_earth>,<item:harvestblock:tier_1_soil>],
     [<item:minecraft:air>,<item:harvestblock:tier_1_soil>,<item:minecraft:air>]
 ]);
+
+craftingTable.removeRecipe(<item:harvestblock:tier_3_soil>);
+craftingTable.removeRecipe(<item:harvestblock:tier_4_soil>);
+craftingTable.removeRecipe(<item:harvestblock:tier_5_soil>);
+craftingTable.removeRecipe(<item:harvestblock:tier_6_soil>);

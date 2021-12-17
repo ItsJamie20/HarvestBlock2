@@ -1,0 +1,1 @@
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("harvestblock/immersive/diamond", <item:immersiveengineering:ingot_hop_graphite>, [<item:minecraft:air>], 200, 5000, [<item:minecraft:diamond>], <item:immersiveengineering:slag>);
