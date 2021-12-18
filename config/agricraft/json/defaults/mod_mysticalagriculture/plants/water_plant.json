@@ -123,11 +123,11 @@
       ],
       [
         "mysticalagriculture:block/mystical_resource_crop_7",
-        "mysticalagriculture:block/flower_ingot"
+        "harvestblock:block/water_flower"
       ]
     ]
   },
-  "seed_texture": "mysticalagriculture:item/water_seeds",
-  "seed_model": "mysticalagriculture:item/water_seeds",
+  "seed_texture": "harvestblock:item/water_seeds",
+  "seed_model": "harvestblock:item/agricraft/water_seeds",
   "particle_effects": []
 }

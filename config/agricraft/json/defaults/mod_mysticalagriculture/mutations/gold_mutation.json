@@ -10,5 +10,5 @@
   "chance": 0.5,
   "child": "mysticalagriculture:gold_plant",
   "parent1": "mysticalagriculture:copper_plant",
-  "parent2": "mysticalagriculture:mannasteel_plant"
+  "parent2": "mysticalagriculture:manasteel_plant"
 }

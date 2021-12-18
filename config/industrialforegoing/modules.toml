@@ -46,7 +46,7 @@
 			enabled = true
 
 		[modules.core.sludge]
-			enabled = true
+			enabled = false
 
 		[modules.core.ether]
 			enabled = true

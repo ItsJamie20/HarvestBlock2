@@ -1,7 +1,7 @@
 {
   "name": "Tertium",
   "type": "resource",
-  "tier": "mysticalagradditions:6",
+  "tier": "mysticalagradditions:3",
   "ingredient": {
     "item": "mysticalagriculture:tertium_essence"
   },

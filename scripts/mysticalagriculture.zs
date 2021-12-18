@@ -113,3 +113,76 @@ craftingTable.addShapeless("harvestblock/mysticalagradditions/insanium_ingot", <
     <item:mysticalagradditions:insanium_essence>, 
     <item:mysticalagradditions:insanium_essence>
 ]);
+
+craftingTable.addShaped("harvestblock/mysticalagriculture/soulium_dust", <item:mysticalagriculture:soulium_dust>, [
+    [<item:mysticalagriculture:soulstone>, <item:minecraft:soul_sand>, <item:mysticalagriculture:soulstone>],
+    [<item:minecraft:soul_sand>, <item:mysticalagriculture:soulstone>, <item:minecraft:soul_sand>],
+    [<item:mysticalagriculture:soulstone>, <item:minecraft:soul_sand>, <item:mysticalagriculture:soulstone>]
+]);
+
+craftingTable.removeRecipe(<item:mysticalagriculture:soulium_dagger>);
+craftingTable.addShaped("harvestblock/mysticalagriculture/soulium_dagger", <item:mysticalagriculture:soulium_dagger>, [
+    [<item:minecraft:air>, <item:mysticalagriculture:soulium_dust>, <item:minecraft:air>],
+    [<item:mysticalagriculture:soulium_ingot>, <item:minecraft:iron_sword>, <item:mysticalagriculture:soulium_ingot>],
+    [<item:minecraft:air>, <item:mysticalagriculture:soulium_dust>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("harvestblock/mysticalagriculture/prudentium_1", <item:mysticalagriculture:prudentium_essence>, [
+    [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>],
+    [<item:mysticalagriculture:inferium_essence>, <item:matc:prudentium_crystal>, <item:mysticalagriculture:inferium_essence>],
+    [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("harvestblock/mysticalagriculture/prudentium_2", <item:mysticalagriculture:prudentium_essence>, [
+    [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>],
+    [<item:mysticalagriculture:inferium_essence>, <item:matc:tertium_crystal>, <item:mysticalagriculture:inferium_essence>],
+    [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("harvestblock/mysticalagriculture/prudentium_3", <item:mysticalagriculture:prudentium_essence>, [
+    [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>],
+    [<item:mysticalagriculture:inferium_essence>, <item:matc:imperium_crystal>, <item:mysticalagriculture:inferium_essence>],
+    [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("harvestblock/mysticalagriculture/prudentium_4", <item:mysticalagriculture:prudentium_essence>, [
+    [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>],
+    [<item:mysticalagriculture:inferium_essence>, <item:matc:supremium_crystal>, <item:mysticalagriculture:inferium_essence>],
+    [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("harvestblock/mysticalagriculture/tertium_1", <item:mysticalagriculture:tertium_essence>, [
+    [<item:minecraft:air>, <item:mysticalagriculture:prudentium_essence>, <item:minecraft:air>],
+    [<item:mysticalagriculture:prudentium_essence>, <item:matc:tertium_crystal>, <item:mysticalagriculture:prudentium_essence>],
+    [<item:minecraft:air>, <item:mysticalagriculture:prudentium_essence>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("harvestblock/mysticalagriculture/tertium_2", <item:mysticalagriculture:tertium_essence>, [
+    [<item:minecraft:air>, <item:mysticalagriculture:prudentium_essence>, <item:minecraft:air>],
+    [<item:mysticalagriculture:prudentium_essence>, <item:matc:imperium_crystal>, <item:mysticalagriculture:prudentium_essence>],
+    [<item:minecraft:air>, <item:mysticalagriculture:prudentium_essence>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("harvestblock/mysticalagriculture/tertium_3", <item:mysticalagriculture:tertium_essence>, [
+    [<item:minecraft:air>, <item:mysticalagriculture:prudentium_essence>, <item:minecraft:air>],
+    [<item:mysticalagriculture:prudentium_essence>, <item:matc:supremium_crystal>, <item:mysticalagriculture:prudentium_essence>],
+    [<item:minecraft:air>, <item:mysticalagriculture:prudentium_essence>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("harvestblock/mysticalagriculture/imperium_1", <item:mysticalagriculture:imperium_essence>, [
+    [<item:minecraft:air>, <item:mysticalagriculture:tertium_essence>, <item:minecraft:air>],
+    [<item:mysticalagriculture:tertium_essence>, <item:matc:imperium_crystal>, <item:mysticalagriculture:tertium_essence>],
+    [<item:minecraft:air>, <item:mysticalagriculture:tertium_essence>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("harvestblock/mysticalagriculture/imperium_2", <item:mysticalagriculture:imperium_essence>, [
+    [<item:minecraft:air>, <item:mysticalagriculture:tertium_essence>, <item:minecraft:air>],
+    [<item:mysticalagriculture:tertium_essence>, <item:matc:supremium_crystal>, <item:mysticalagriculture:tertium_essence>],
+    [<item:minecraft:air>, <item:mysticalagriculture:tertium_essence>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("harvestblock/mysticalagriculture/supremium", <item:mysticalagriculture:supremium_essence>, [
+    [<item:minecraft:air>, <item:mysticalagriculture:imperium_essence>, <item:minecraft:air>],
+    [<item:mysticalagriculture:imperium_essence>, <item:matc:supremium_crystal>, <item:mysticalagriculture:imperium_essence>],
+    [<item:minecraft:air>, <item:mysticalagriculture:imperium_essence>, <item:minecraft:air>]
+]);

@@ -106,10 +106,10 @@ pamhc2trees:pinenut_worldgen
 mekanism:disk
 mekanism:ore
 mekanism:ore_retrogen
-appliedenergistics2:charged_quartz_ore
 mysticalagriculture:soulstone
 zerocore:mod_ores
 zerocore:mod_ores_regen
+appliedenergistics2:charged_quartz_ore
 immersiveengineering:mineral_vein
 immersiveengineering:ie_ore
 immersiveengineering:ore_retro

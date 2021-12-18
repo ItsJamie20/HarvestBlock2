@@ -189,7 +189,7 @@
 	"Channel capacity" = 500
 	#
 	#Set to true to disable particles (Client only)
-	"Disable particles" = false
+	"Disable particles" = true
 	#
 	#Configures the rate (in mB/t) at which tanks accrue water while raining (0 disables filling from rainfall)
 	#Range: 0 ~ 50

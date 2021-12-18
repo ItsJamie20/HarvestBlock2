@@ -1,0 +1,1257 @@
+{
+	id: "5F9B990C4F99B368"
+	group: ""
+	order_index: 0
+	filename: "alpha"
+	title: "Alpha"
+	icon: "mysticalagriculture:inferium_essence"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 15.5d
+			y: 7.5d
+			id: "5061C06F20B85177"
+			tasks: [{
+				id: "4AA9FB4AB1B23F51"
+				type: "item"
+				item: "extendedcrafting:luminessence"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -2.0d
+			id: "2A305B4DC46AD918"
+			tasks: [{
+				id: "2E3113A2D3451F0B"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			id: "326C233C75C0C35B"
+			tasks: [{
+				id: "5C9676A38EE88282"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -1.5d
+			id: "4061A81C2ED157E6"
+			tasks: [{
+				id: "1124EF2508504752"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 6.5d
+			id: "79BC0D90B096C8B1"
+			tasks: [{
+				id: "326AE6DDBDA47BF7"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			id: "1EFB691534D98A47"
+			tasks: [{
+				id: "0D88B56347D3A1E5"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			id: "156E1F3D29D821BD"
+			tasks: [{
+				id: "540B7A1594651B70"
+				type: "item"
+				item: "mysticalagriculture:air_essence"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			id: "3E0C513FBFC95DE0"
+			tasks: [{
+				id: "16D434C65DDC535B"
+				type: "item"
+				item: "mysticalagriculture:earth_essence"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.0d
+			id: "29A1E1475D539053"
+			tasks: [{
+				id: "7F190775839E78A1"
+				type: "item"
+				item: "mysticalagriculture:water_essence"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.0d
+			id: "3C22405555E269FB"
+			tasks: [{
+				id: "0D012DFD5396A64B"
+				type: "item"
+				item: "mysticalagriculture:fire_essence"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.0d
+			id: "51D2BAC5A11D50A1"
+			tasks: [{
+				id: "2DFFC16A214161DD"
+				type: "item"
+				item: "mysticalagriculture:stone_essence"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -2.0d
+			id: "15B3BBE7A4234E42"
+			tasks: [{
+				id: "3D208F8185D45F30"
+				type: "item"
+				item: "mysticalagriculture:dirt_essence"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -1.0d
+			id: "5D0F311B7C4A75D3"
+			tasks: [{
+				id: "30FA2432F09D8787"
+				type: "item"
+				item: "mysticalagriculture:wood_essence"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			id: "431FFD749FB0B32A"
+			tasks: [{
+				id: "221ECFDDAFFB80F9"
+				type: "item"
+				item: "mysticalagriculture:ice_essence"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			id: "58A2B7DF88EB03DB"
+			tasks: [{
+				id: "0AE8D47394DAF63F"
+				type: "item"
+				item: "mysticalagriculture:nature_essence"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			id: "117A21ACF33D2533"
+			tasks: [{
+				id: "299D088D89F85283"
+				type: "item"
+				item: "mysticalagriculture:dye_essence"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			id: "7B9A47C0B5226E59"
+			tasks: [{
+				id: "77D96AF6C91AE691"
+				type: "item"
+				item: "mysticalagriculture:nether_essence"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			id: "344EA56C26802A80"
+			tasks: [{
+				id: "628F7F5D42797857"
+				type: "item"
+				item: "mysticalagriculture:coal_essence"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			id: "3AAF6CD3F7348E81"
+			tasks: [{
+				id: "3C29FDBE48CE3E26"
+				type: "item"
+				item: "mysticalagriculture:coral_essence"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			id: "3E28AB97874FCDE9"
+			tasks: [{
+				id: "165570F44466E609"
+				type: "item"
+				item: "mysticalagriculture:honey_essence"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			id: "79DD512FFA2546CE"
+			tasks: [{
+				id: "621B9FFAED8220DD"
+				type: "item"
+				item: "mysticalagriculture:pig_essence"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			id: "504E7C47A85C2607"
+			tasks: [{
+				id: "27909158C4020959"
+				type: "item"
+				item: "mysticalagriculture:chicken_essence"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			id: "58E0542AEAEC32E8"
+			tasks: [{
+				id: "54A91E434EC3EEFB"
+				type: "item"
+				item: "mysticalagriculture:cow_essence"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			id: "3B2F4E32F2CC6793"
+			tasks: [{
+				id: "191DE49086AD9C4D"
+				type: "item"
+				item: "mysticalagriculture:sheep_essence"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			id: "6CE9839FB8BCFE67"
+			tasks: [{
+				id: "0153B3B72D5AF852"
+				type: "item"
+				item: "mysticalagriculture:squid_essence"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			id: "76B54B57A2BF01B0"
+			tasks: [{
+				id: "5695AF8D35042C4F"
+				type: "item"
+				item: "mysticalagriculture:fish_essence"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			id: "03049CADF29D72A4"
+			tasks: [{
+				id: "5EC7D46C9F6BEF5F"
+				type: "item"
+				item: "mysticalagriculture:slime_essence"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			id: "262CC1662687AB8B"
+			tasks: [{
+				id: "4CE8677D8B048E96"
+				type: "item"
+				item: "mysticalagriculture:turtle_essence"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			id: "61E218B87D37013C"
+			tasks: [{
+				id: "030E48AE38FDA112"
+				type: "item"
+				item: "mysticalagriculture:rubber_essence"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			id: "78265713A83D9B01"
+			tasks: [{
+				id: "3318ED07D1D0C9D2"
+				type: "item"
+				item: "mysticalagriculture:silicon_essence"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			id: "51D7469A11C4A175"
+			tasks: [{
+				id: "2BDD9CFC110469BB"
+				type: "item"
+				item: "mysticalagriculture:sulfur_essence"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			id: "24205765F21ED8DA"
+			tasks: [{
+				id: "6C4F6DA079A5EB7D"
+				type: "item"
+				item: "mysticalagriculture:aluminum_essence"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			id: "10656E9DD46C43D3"
+			tasks: [{
+				id: "05A5D10CC4D6F31F"
+				type: "item"
+				item: "mysticalagriculture:copper_essence"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			id: "54900E63DEDD194E"
+			tasks: [{
+				id: "3CF85B8D51B5AFAC"
+				type: "item"
+				item: "mysticalagriculture:apatite_essence"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			id: "069FD6A8A5B896C7"
+			tasks: [{
+				id: "366758EAB3AD41F2"
+				type: "item"
+				item: "mysticalagriculture:mystical_flower_essence"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			id: "3F9F6DC7787A301F"
+			tasks: [{
+				id: "5041A8C47B95CD3D"
+				type: "item"
+				item: "mysticalagriculture:marble_essence"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			id: "3DC0E848C19D1B12"
+			tasks: [{
+				id: "41229CDFB68DC0FD"
+				type: "item"
+				item: "mysticalagriculture:limestone_essence"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			id: "778E0F26F6AED593"
+			tasks: [{
+				id: "2D3FB2160EBCB698"
+				type: "item"
+				item: "mysticalagriculture:basalt_essence"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -0.5d
+			id: "7F4C7954DFE665EB"
+			tasks: [{
+				id: "13DC91A5FFF26176"
+				type: "item"
+				item: "mysticalagriculture:plastic_essence"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			id: "582B1E70D5B5CDF7"
+			tasks: [{
+				id: "751BFA7DDE45BB11"
+				type: "item"
+				item: "mysticalagriculture:iron_essence"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.5d
+			id: "601619307303572D"
+			tasks: [{
+				id: "728E025E16BE0B53"
+				type: "item"
+				item: "mysticalagriculture:nether_quartz_essence"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			id: "7DE3A91A4F3237AD"
+			tasks: [{
+				id: "779F3D24A2E7A161"
+				type: "item"
+				item: "mysticalagriculture:glowstone_essence"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -1.5d
+			id: "69B9EBF97FFB03F3"
+			tasks: [{
+				id: "0A5CA15053CEBBF6"
+				type: "item"
+				item: "mysticalagriculture:redstone_essence"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -0.5d
+			id: "77D8A35D41F941E1"
+			tasks: [{
+				id: "55D3E6B67B50D678"
+				type: "item"
+				item: "mysticalagriculture:obsidian_essence"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -3.5d
+			id: "3BBA46F9AB56F0F4"
+			tasks: [{
+				id: "4B6B49248305E68E"
+				type: "item"
+				item: "mysticalagriculture:prismarine_essence"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -3.5d
+			id: "4CE7B83291B6D1C9"
+			tasks: [{
+				id: "461124F65850EE56"
+				type: "item"
+				item: "mysticalagriculture:zombie_essence"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -3.5d
+			id: "54263DD41C8DD578"
+			tasks: [{
+				id: "6B818C54D2BFE761"
+				type: "item"
+				item: "mysticalagriculture:skeleton_essence"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.5d
+			id: "2A131B2D1F6E47D6"
+			tasks: [{
+				id: "4F63058ED6D994DA"
+				type: "item"
+				item: "mysticalagriculture:creeper_essence"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.5d
+			id: "08B09212D6F42CEB"
+			tasks: [{
+				id: "3AC485AAD8C98F80"
+				type: "item"
+				item: "mysticalagriculture:spider_essence"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -3.5d
+			id: "194C042AB61116D2"
+			tasks: [{
+				id: "13869BD363D357D6"
+				type: "item"
+				item: "mysticalagriculture:rabbit_essence"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.5d
+			id: "69B3DD1E015A3737"
+			tasks: [{
+				id: "33DF66B8A5A863DE"
+				type: "item"
+				item: "mysticalagriculture:tin_essence"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -0.5d
+			id: "2ED04A6A2838F61D"
+			tasks: [{
+				id: "28F03B041FA4A627"
+				type: "item"
+				item: "mysticalagriculture:bronze_essence"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			id: "39504F887B6BF58F"
+			tasks: [{
+				id: "10AEB14EDBA5A308"
+				type: "item"
+				item: "mysticalagriculture:silver_essence"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -2.5d
+			id: "0E19B8E69F6F76A6"
+			tasks: [{
+				id: "04A45AB8F4217F60"
+				type: "item"
+				item: "mysticalagriculture:lead_essence"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -2.5d
+			id: "45BFB085C85F563C"
+			tasks: [{
+				id: "62FCDE54E05D0A09"
+				type: "item"
+				item: "mysticalagriculture:graphite_essence"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -2.5d
+			id: "647DD85578EBF4AD"
+			tasks: [{
+				id: "1C6AE549C7845E00"
+				type: "item"
+				item: "mysticalagriculture:blizz_essence"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -2.5d
+			id: "10ADAC5149D6F113"
+			tasks: [{
+				id: "11EB5F0D45FD3124"
+				type: "item"
+				item: "mysticalagriculture:blitz_essence"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -2.5d
+			id: "0977F61FFA215746"
+			tasks: [{
+				id: "735EC22D6C651212"
+				type: "item"
+				item: "mysticalagriculture:basalz_essence"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -1.5d
+			id: "62440CE6C5C1E615"
+			tasks: [{
+				id: "33155DF2BB519F88"
+				type: "item"
+				item: "mysticalagriculture:manasteel_essence"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -0.5d
+			id: "46BC287C5ADD87ED"
+			tasks: [{
+				id: "26F04D17AF117499"
+				type: "item"
+				item: "mysticalagriculture:ender_biotite_essence"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 0.5d
+			id: "2B98DD5338B9001D"
+			tasks: [{
+				id: "21DB15A297278135"
+				type: "item"
+				item: "mysticalagriculture:aquamarine_essence"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -0.5d
+			id: "0E9AB35E4AB7AF67"
+			tasks: [{
+				id: "7655B1D647485822"
+				type: "item"
+				item: "mysticalagriculture:sky_stone_essence"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 0.5d
+			id: "6D13D7E0A89E29E3"
+			tasks: [{
+				id: "632E464F2543E75F"
+				type: "item"
+				item: "mysticalagriculture:certus_quartz_essence"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 0.5d
+			id: "7B39872FB703033E"
+			tasks: [{
+				id: "2C31A787AC3E473A"
+				type: "item"
+				item: "mysticalagriculture:quartz_enriched_iron_essence"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.5d
+			id: "6E7615BDD47AF336"
+			tasks: [{
+				id: "315475B1DF55889E"
+				type: "item"
+				item: "mysticalagriculture:gold_essence"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 7.5d
+			id: "09045606E43804A6"
+			tasks: [{
+				id: "14CD0F4C3E340D05"
+				type: "item"
+				item: "mysticalagriculture:lapis_lazuli_essence"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 6.5d
+			id: "46F7BADCA964995B"
+			tasks: [{
+				id: "047D879EF14AA091"
+				type: "item"
+				item: "mysticalagriculture:end_essence"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 5.5d
+			id: "6FDA004B754A7131"
+			tasks: [{
+				id: "449C3EB593835785"
+				type: "item"
+				item: "mysticalagriculture:experience_essence"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.5d
+			id: "062D0A776270C18B"
+			tasks: [{
+				id: "3BE8A852EAAC5AF5"
+				type: "item"
+				item: "mysticalagriculture:blaze_essence"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 7.5d
+			id: "546AE326890FBE87"
+			tasks: [{
+				id: "05EBF7F5A04046B4"
+				type: "item"
+				item: "mysticalagriculture:ghast_essence"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 6.5d
+			id: "4836747AE468FC8E"
+			tasks: [{
+				id: "27D5FBF1CECF542A"
+				type: "item"
+				item: "mysticalagriculture:steel_essence"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 7.5d
+			id: "6BC3A6260C4D8E7E"
+			tasks: [{
+				id: "243D772D6B21246A"
+				type: "item"
+				item: "mysticalagriculture:enderman_essence"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 5.5d
+			id: "260CC2B7A5B6BC4E"
+			tasks: [{
+				id: "2CFBC2F4A0389F57"
+				type: "item"
+				item: "mysticalagriculture:nickel_essence"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 6.5d
+			id: "3923D6A50A98D4DF"
+			tasks: [{
+				id: "6100ACA7A1057900"
+				type: "item"
+				item: "mysticalagriculture:constantan_essence"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 7.5d
+			id: "6217DBC1DDCCDE5E"
+			tasks: [{
+				id: "1E9BDE7096F437D4"
+				type: "item"
+				item: "mysticalagriculture:electrum_essence"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 8.5d
+			id: "70D36E2600F126D2"
+			tasks: [{
+				id: "460F8F7EE823A006"
+				type: "item"
+				item: "mysticalagriculture:invar_essence"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 4.5d
+			id: "38763439809EA17F"
+			tasks: [{
+				id: "57A9E6B6A35D01E0"
+				type: "item"
+				item: "mysticalagriculture:uranium_essence"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 4.5d
+			id: "3727663C47DEFA99"
+			tasks: [{
+				id: "4542EFA257D9F2BA"
+				type: "item"
+				item: "mysticalagriculture:signalum_essence"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			id: "26CD89BC136B9793"
+			tasks: [{
+				id: "4F71670C9C63936F"
+				type: "item"
+				item: "mysticalagriculture:lumium_essence"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.5d
+			id: "302ABB1F7E050107"
+			tasks: [{
+				id: "0335CAA00DE7AE7D"
+				type: "item"
+				item: "mysticalagriculture:hop_graphite_essence"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 4.5d
+			id: "6D1AF6691E975DF8"
+			tasks: [{
+				id: "20B04D422232F0EF"
+				type: "item"
+				item: "mysticalagriculture:elementium_essence"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 4.5d
+			id: "17BA6FA439683054"
+			tasks: [{
+				id: "4C146F1DCA1EA28A"
+				type: "item"
+				item: "mysticalagriculture:osmium_essence"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 8.5d
+			id: "01DD4FDCFD12E3C6"
+			tasks: [{
+				id: "2D2006B418AD36BF"
+				type: "item"
+				item: "mysticalagriculture:fluorite_essence"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 8.5d
+			id: "09EA860FB609CEF3"
+			tasks: [{
+				id: "2ACA99AE142961D4"
+				type: "item"
+				item: "mysticalagriculture:refined_glowstone_essence"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 8.5d
+			id: "4D7DFBE58BA2FBA2"
+			tasks: [{
+				id: "169CA0F1F0DA6D61"
+				type: "item"
+				item: "mysticalagriculture:refined_obsidian_essence"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 8.5d
+			id: "6787BC54F5008D09"
+			tasks: [{
+				id: "4D935E273318ED88"
+				type: "item"
+				item: "mysticalagriculture:starmetal_essence"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 5.5d
+			id: "570EAB32FB42F114"
+			tasks: [{
+				id: "3BFB48170D506847"
+				type: "item"
+				item: "mysticalagriculture:fluix_essence"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.5d
+			id: "499E16843FCD5F86"
+			tasks: [{
+				id: "36D81CF75986E356"
+				type: "item"
+				item: "mysticalagriculture:energized_steel_essence"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 6.5d
+			id: "0E9FFDF0C327A3E2"
+			tasks: [{
+				id: "543CBD2157586F4E"
+				type: "item"
+				item: "mysticalagriculture:blazing_crystal_essence"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 7.5d
+			id: "2B5398A998DC5C67"
+			tasks: [{
+				id: "1AD1ED10E9306DFF"
+				type: "item"
+				item: "mysticalagriculture:pink_slime_essence"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			id: "751EBB7652934C3A"
+			tasks: [{
+				id: "339ABFA2ED87154A"
+				type: "item"
+				item: "mysticalagriculture:diamond_essence"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			id: "3C2C5953C4639DF6"
+			tasks: [{
+				id: "651C1DCFBB70207B"
+				type: "item"
+				item: "mysticalagriculture:emerald_essence"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.5d
+			id: "356046C19DBD1F9C"
+			tasks: [{
+				id: "2C76542A3E485459"
+				type: "item"
+				item: "mysticalagriculture:netherite_essence"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.5d
+			id: "5B5292C527EB3638"
+			tasks: [{
+				id: "785EB7857175DB4B"
+				type: "item"
+				item: "mysticalagriculture:wither_skeleton_essence"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			id: "609D33007F760626"
+			tasks: [{
+				id: "3D100477EEC2FE36"
+				type: "item"
+				item: "mysticalagriculture:enderium_essence"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			id: "3F7F1B1AF53D6923"
+			tasks: [{
+				id: "7676D3DF43087189"
+				type: "item"
+				item: "mysticalagriculture:terrasteel_essence"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			id: "60A3E1A04058D2E7"
+			tasks: [{
+				id: "1FD29F1ACE64205D"
+				type: "item"
+				item: "mysticalagriculture:rock_crystal_essence"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			id: "7077983643B42B81"
+			tasks: [{
+				id: "56F765C986539A37"
+				type: "item"
+				item: "mysticalagriculture:yellorium_essence"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			id: "218286D53A392E64"
+			tasks: [{
+				id: "45B873B49432F88B"
+				type: "item"
+				item: "mysticalagriculture:cyanite_essence"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			id: "4690D4CFC33BF911"
+			tasks: [{
+				id: "5399B5DB8C9F3A93"
+				type: "item"
+				item: "mysticalagriculture:niotic_crystal_essence"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			id: "2FBD3E1631955115"
+			tasks: [{
+				id: "192348DBB54C6CC9"
+				type: "item"
+				item: "mysticalagriculture:spirited_crystal_essence"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			id: "6AE4A74C01B92ACA"
+			tasks: [{
+				id: "582E8F98F57931D9"
+				type: "item"
+				item: "mysticalagriculture:uraninite_essence"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 7.5d
+			id: "557DD1630B6B7217"
+			tasks: [{
+				id: "7A4B79D9044DFB10"
+				type: "item"
+				item: "mysticalagriculture:nether_star_essence"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 8.5d
+			id: "28C02FAD5C429106"
+			tasks: [{
+				id: "317E189EB9AFDB82"
+				type: "item"
+				item: "mysticalagriculture:dragon_egg_essence"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 9.5d
+			id: "5A72401489A35342"
+			tasks: [{
+				id: "3D4C63B797D21E03"
+				type: "item"
+				item: "mysticalagriculture:nitro_crystal_essence"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 8.5d
+			id: "7D23E60DACD94DCC"
+			tasks: [{
+				id: "12A3986812B2A5B0"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 13.5d
+			id: "654F21BE1337EB16"
+			tasks: [{
+				id: "06C429620212719B"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 1.5d
+			id: "603C952A88CFCF86"
+			tasks: [{
+				id: "75BAA835DFD6C54A"
+				type: "item"
+				item: "mysticalagriculture:prosperity_essence"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			id: "28D4B0D69239384B"
+			tasks: [{
+				id: "0471D57AE6C24CE0"
+				type: "item"
+				item: "mysticalagriculture:simple_crystal_essence"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 8.5d
+			id: "3F530021AF946099"
+			tasks: [{
+				id: "5FE70F895D49A572"
+				type: "item"
+				item: "mysticalagriculture:crystaltine_essence"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 7.5d
+			id: "654C15EC28F42ADC"
+			tasks: [{
+				id: "5C875780B64B5B30"
+				type: "item"
+				item: "mysticalagriculture:dark_matter_essence"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 9.5d
+			id: "7CB6BF02E28AFE56"
+			tasks: [{
+				id: "322DF383FC539B9E"
+				type: "item"
+				item: "mysticalagriculture:ender_essence"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 7.5d
+			id: "30F617E65ED45CF0"
+			tasks: [{
+				id: "1D90A081400669D7"
+				type: "item"
+				item: "mysticalagriculture:gaia_essence"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			id: "67957DFAA2D8A76E"
+			tasks: [{
+				id: "73A66A3D2BC66FFA"
+				type: "item"
+				item: "mysticalagriculture:livingrock_essence"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 1.5d
+			id: "3A85B2053925FE75"
+			tasks: [{
+				id: "49258322BFDD7D91"
+				type: "item"
+				item: "mysticalagriculture:livingwood_essence"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 8.5d
+			id: "1CAAB8D2F73A9D84"
+			tasks: [{
+				id: "2BEB55937951D77A"
+				type: "item"
+				item: "mysticalagriculture:red_matter_essence"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 9.5d
+			id: "3256D4BB029650DD"
+			tasks: [{
+				id: "1611CB2AB87AD404"
+				type: "item"
+				item: "mysticalagriculture:soulium_essence"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			id: "5D75E080BC316684"
+			tasks: [{
+				id: "5C87FBF323A36F96"
+				type: "item"
+				item: "mysticalagriculture:soul_essence"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 9.5d
+			id: "05AC84CB2AE82A57"
+			tasks: [{
+				id: "4398C4F8FCC69543"
+				type: "item"
+				item: "mysticalagriculture:ultimate_essence"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -1.0d
+			id: "4B12C81CC81073C3"
+			tasks: [{
+				id: "0E9638514C944A50"
+				type: "item"
+				item: "mysticalagriculture:dark_essence"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			id: "50C5ED752A601B85"
+			tasks: [{
+				id: "242DCAF7DE26CAB5"
+				type: "item"
+				item: "mysticalagriculture:light_essence"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 13.0d
+			id: "131F1743FB968B5B"
+			tasks: [{
+				id: "6567200832FA8C4E"
+				type: "item"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "agricraft:agri_seed"
+								Count: 1b
+							}
+							{
+								id: "itemfilters:strong_nbt"
+								Count: 1b
+								tag: {
+									value: {
+										agri_genome: [{
+											agri_dominant: {
+												agri_plant: "mysticalagriculture:air_plant"
+											}
+											agri_gene: "agri_species"
+										}]
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+	]
+}

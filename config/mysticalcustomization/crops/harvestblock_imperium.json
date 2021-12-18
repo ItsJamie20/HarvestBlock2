@@ -1,7 +1,7 @@
 {
   "name": "Imperium",
   "type": "resource",
-  "tier": "mysticalagradditions:6",
+  "tier": "mysticalagradditions:4",
   "ingredient": {
     "item": "mysticalagriculture:imperium_essence"
   },

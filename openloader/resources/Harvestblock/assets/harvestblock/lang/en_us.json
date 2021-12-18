@@ -18,11 +18,18 @@
   "agricraft.plant.mysticalagriculture.tertium": "Tertium Seeds",
   "agricraft.plant.mysticalagriculture.ultimate": "Ultimate Seeds",
   "agricraft.plant.mysticalagriculture.simple_crystal": "Simple Crystal Seeds",
+  "agricraft.plant.mysticalagriculture.light": "Light Seeds",
+  "agricraft.plant.mysticalagriculture.dark": "Dark Seeds",
+  "agricraft.plant.mysticalagriculture.plastic": "Plastic Seeds",
   "crop.mysticalagriculture.prudentium": "Prudentium",  
   "crop.mysticalagriculture.tertium": "Tertium",
   "crop.mysticalagriculture.imperium": "Imperium",
   "crop.mysticalagriculture.supremium": "Supremium",  
-  "crop.mysticalagriculture.insanium": "Insanium"
+  "crop.mysticalagriculture.insanium": "Insanium",
+  "crop.mysticalagriculture.soul": "Soul", 
+  "crop.mysticalagriculture.light": "Light",  
+  "crop.mysticalagriculture.dark": "Dark",  
+  "crop.mysticalagriculture.plastic": "Plastic"
 
 
 }

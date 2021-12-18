@@ -1,7 +1,7 @@
 {
   "name": "Supremium",
   "type": "resource",
-  "tier": "mysticalagradditions:6",
+  "tier": "mysticalagradditions:5",
   "ingredient": {
     "item": "mysticalagriculture:supremium_essence"
   },

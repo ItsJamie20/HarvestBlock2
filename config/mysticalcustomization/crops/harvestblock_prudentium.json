@@ -1,7 +1,7 @@
 {
   "name": "Prudentium",
   "type": "resource",
-  "tier": "mysticalagradditions:6",
+  "tier": "mysticalagradditions:2",
   "ingredient": {
     "item": "mysticalagriculture:prudentium_essence"
   },

@@ -1,0 +1,13 @@
+{
+    "type": "lordcraft:ritual",
+    "research": "dark",
+    "ritual": "fusion",
+    "reagents": [
+      {"item": "lordcraft:dust_basic"},
+      {"item":"harvestblock:rune_dark"}
+    ],
+    "result": {
+      "item": "lordcraft:dust_dark",
+      "count": 4
+    }
+  }

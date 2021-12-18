@@ -1,0 +1,14 @@
+{
+  "path": "mod_mysticalcustomization/mutations/light_mutation.json",
+  "version": "1.16.4",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_mutation/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "chance": 0.5,
+  "child": "mysticalagriculture:light_plant",
+  "parent1": "mysticalagriculture:earth_plant",
+  "parent2": "mysticalagriculture:air_plant"
+}

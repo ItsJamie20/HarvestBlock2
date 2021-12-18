@@ -451,9 +451,8 @@ craftingTable.addShaped("harvestblock/essence/coal", <item:minecraft:coal>, [
 ]);
 
 craftingTable.addShaped("harvestblock/essence/cobblestone", <item:minecraft:cobblestone>, [
-    [<item:mysticalagriculture:stone_essence>, <item:mysticalagriculture:stone_essence>, <item:mysticalagriculture:stone_essence>],
-    [<item:mysticalagriculture:stone_essence>, <item:minecraft:air>, <item:mysticalagriculture:stone_essence>],
-    [<item:mysticalagriculture:stone_essence>, <item:mysticalagriculture:stone_essence>, <item:mysticalagriculture:stone_essence>]
+    [<item:mysticalagriculture:stone_essence>, <item:mysticalagriculture:stone_essence>],
+    [<item:mysticalagriculture:stone_essence>, <item:mysticalagriculture:stone_essence>]
 ]);
 
 craftingTable.addShaped("harvestblock/essence/cocoa_beans", <item:minecraft:cocoa_beans>, [
@@ -1441,13 +1440,18 @@ craftingTable.addShaped("harvestblock/essence/simple_crystal", <item:lordcraft:c
     [<item:mysticalagriculture:simple_crystal_essence>, <item:mysticalagriculture:simple_crystal_essence>, <item:mysticalagriculture:simple_crystal_essence>]
 ]);
 
-craftingTable.addShaped("light_agglomeratio", <item:harvestblock:light_agglomeratio>, [
+craftingTable.addShaped("harvestblock/essence/light_agglomeratio", <item:harvestblock:light_agglomeratio>, [
     [<item:mysticalagriculture:light_essence>, <item:mysticalagriculture:light_essence>],
     [<item:mysticalagriculture:light_essence>, <item:mysticalagriculture:light_essence>]
 ]);
 
 
-craftingTable.addShaped("dark_agglomeratio", <item:harvestblock:dark_agglomeratio>, [
+craftingTable.addShaped("harvestblock/essence/dark_agglomeratio", <item:harvestblock:dark_agglomeratio>, [
     [<item:mysticalagriculture:dark_essence>, <item:mysticalagriculture:dark_essence>],
     [<item:mysticalagriculture:dark_essence>, <item:mysticalagriculture:dark_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/soulstone_cobble", <item:mysticalagriculture:soulstone_cobble>, [
+    [<item:mysticalagriculture:stone_essence>, <item:mysticalagriculture:soul_essence>],
+    [<item:mysticalagriculture:soul_essence>, <item:mysticalagriculture:stone_essence>]
 ]);

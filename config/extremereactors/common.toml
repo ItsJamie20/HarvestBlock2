@@ -56,6 +56,20 @@
 		#Disable this if other mods need to smelt coal into their own products.
 		registerCoalForSmelting = true
 
+	#Define how Fluidizer works
+	[common.fluidizer]
+		#The maximum valid size of a Fluidizer in the X/Z plane, in blocks.
+		#Lower this if your server's players are building ginormous Fluidizer.
+		#Range: 3 ~ 64
+		maxFluidizerSize = 16
+		#The amount of energy need to process a single tick of a recipe.
+		#Range: 20 ~ 1000
+		energyPerRecipeTick = 25
+		#The maximum valid size of a Fluidizer in the Y dimension, in blocks.
+		#Lower this if your server's players are building ginormous Fluidizer.
+		#Range: 3 ~ 64
+		maxFluidizerHeight = 16
+
 	#Define how ores generates in the world
 	[common.worldgen]
 		#Enable generation of Yellorite Ore.

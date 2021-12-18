@@ -123,11 +123,11 @@
       ],
       [
         "mysticalagriculture:block/mystical_resource_crop_7",
-        "mysticalagriculture:block/plastic_flower"
+        "harvestblock:block/plastic_flower"
       ]
     ]
   },
-  "seed_texture": "mysticalagriculture:item/plastic_seeds",
-  "seed_model": "mysticalagriculture:item/plastic_seeds",
+  "seed_texture": "harvestblock:item/plastic_seeds",
+  "seed_model": "harvestblock:item/agricraft/plastic_seeds",
   "particle_effects": []
 }

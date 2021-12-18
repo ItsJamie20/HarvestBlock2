@@ -123,11 +123,11 @@
       ],
       [
         "mysticalagriculture:block/mystical_resource_crop_7",
-        "mysticalagriculture:block/flower_ingot"
+        "harvestblock:block/air_flower"
       ]
     ]
   },
-  "seed_texture": "mysticalagriculture:item/air_seeds",
-  "seed_model": "mysticalagriculture:item/air_seeds",
+  "seed_texture": "harvestblock:item/air_seeds",
+  "seed_model": "harvestblock:item/agricraft/air_seeds",
   "particle_effects": []
 }
