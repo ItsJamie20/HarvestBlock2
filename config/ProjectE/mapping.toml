@@ -17,6 +17,10 @@
 		#null
 		enabled = true
 
+	[CraftingMapper.MekPaintingMachine]
+		#Maps Mekanism painting machine recipes.
+		enabled = true
+
 	[CraftingMapper.MekChemicalInfuser]
 		#Maps Mekanism chemical infuser recipes.
 		enabled = true
@@ -65,6 +69,10 @@
 		#Recipe mapper for Mystical Agriculture seed reprocessor recipes
 		enabled = true
 
+	[CraftingMapper.MekItemStackToPigment]
+		#Maps Mekanism item stack to pigment recipes. (Pigment Extracting)
+		enabled = true
+
 	[CraftingMapper.MekItemStackGasToItemStack]
 		#Maps Mekanism Machine recipes that go from item, gas to item. (Compressing, Purifying, Injecting)
 		enabled = true
@@ -98,6 +106,10 @@
 
 	[CraftingMapper.MekItemStackToGas]
 		#Maps Mekanism item stack to gas recipes. (Gas conversion, Oxidizing)
+		enabled = true
+
+	[CraftingMapper.MekPigmentMixer]
+		#Maps Mekanism pigment mixer recipes.
 		enabled = true
 
 	[CraftingMapper.AstralSorceryBlockTransmutationMapper]
