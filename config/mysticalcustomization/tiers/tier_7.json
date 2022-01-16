@@ -1,0 +1,8 @@
+{
+  "name": "7",
+  "value": 7,
+  "farmland": "mysticalagriculture:insanium_farmland",
+  "essence": "mysticalagriculture:insanium_essence",
+  "fertilizable": false,
+  "secondarySeedDrop": false
+}

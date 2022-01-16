@@ -10,5 +10,5 @@
   "chance": 0.5,
   "child": "mysticalagriculture:simple_crystal_plant",
   "parent1": "mysticalagriculture:fire_plant",
-  "parent2": "mysticalagriculture:dirt_plant"
+  "parent2": "mysticalagriculture:glass_plant"
 }

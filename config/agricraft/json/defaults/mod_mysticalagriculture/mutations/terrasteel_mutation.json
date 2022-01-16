@@ -9,6 +9,6 @@
   ],
   "chance": 0.5,
   "child": "mysticalagriculture:terrasteel_plant",
-  "parent1": "mysticalagriculture:elementium_plant",
+  "parent1": "mysticalagriculture:diamond_plant",
   "parent2": "mysticalagriculture:manasteel_plant"
 }

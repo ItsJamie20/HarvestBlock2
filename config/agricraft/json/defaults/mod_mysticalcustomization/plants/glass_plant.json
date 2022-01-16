@@ -1,22 +1,23 @@
 {
-  "path": "mod_mysticalagriculture/plants/lapis_lazuli_plant.json",
+  "path": "mod_mysticalcustomization/plants/glass_plant.json",
   "version": "1.16.4",
   "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_plant/",
   "enabled": true,
   "mods": [
     "mysticalagriculture",
+    "mysticalcustomization",
     "agricraft",
     "minecraft"
   ],
-  "id": "mysticalagriculture:lapis_lazuli_plant",
-  "plant_lang_key": "crop.mysticalagriculture.lapis_lazuli",
-  "seed_lang_key": "agricraft.plant.mysticalagriculture.lapis_lazuli",
-  "desc_lang_key": "crop.mysticalagriculture.lapis_lazuli",
+  "id": "mysticalagriculture:glass_plant",
+  "plant_lang_key": "crop.mysticalagriculture.glass",
+  "seed_lang_key": "agricraft.plant.mysticalagriculture.glass",
+  "desc_lang_key": "crop.mysticalagriculture.glass",
   "seed_items": [
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "mysticalagriculture:lapis_lazuli_seeds",
+      "object": "mysticalagriculture:harvestblock_glass_seeds",
       "useTag": false,
       "data": "",
       "ignoredData": [
@@ -51,7 +52,7 @@
         "chance": 1.0,
         "required": true,
         "type": "item",
-        "object": "mysticalagriculture:lapis_lazuli_essence",
+        "object": "quark:clear_shard",
         "useTag": false,
         "data": "",
         "ignoredData": []
@@ -73,7 +74,7 @@
       "tolerance_factor": 0.0
     },
     "soil_nutrients": {
-      "condition": "low",
+      "condition": "very_low",
       "type": "equal_or_higher",
       "tolerance_factor": 0.0
     },
@@ -123,11 +124,11 @@
       ],
       [
         "mysticalagriculture:block/mystical_resource_crop_7",
-        "mysticalagriculture:block/lapis_lazuli_flower"
+        "harvestblock:block/glass_flower"
       ]
     ]
   },
-  "seed_texture": "mysticalagriculture:item/lapis_lazuli_seeds",
-  "seed_model": "mysticalagriculture:item/lapis_lazuli_seeds",
+  "seed_texture": "harvestblock:item/glass_seeds",
+  "seed_model": "harvestblock:item/agricraft/glass_seeds",
   "particle_effects": []
 }

@@ -19,5 +19,8 @@
     },
     "mysticalagriculture:nickel": {
         "tier": "mysticalagriculture:3"
+    },
+    "mysticalagriculture:elementium": {
+        "tier": "mysticalagradditions:6"
     }
 }
