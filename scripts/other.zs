@@ -16,6 +16,6 @@ craftingTable.removeRecipe(<item:storagedrawers:controller_slave>);
 craftingTable.addShaped("harvestblock/other/controller_slave", <item:storagedrawers:controller_slave>, [
     [<item:minecraft:stone>, <item:minecraft:stone>, <item:minecraft:stone>],
     [<item:minecraft:comparator>, <tag:items:storagedrawers:drawers>, <item:minecraft:comparator>],
-    [<item:minecraft:stone>, <item:minecraft:gold_ingot>, <item:minecraft:stone>]
+    [<item:minecraft:stone>, <item:minecraft:iron_ingot>, <item:minecraft:stone>]
 ]);
 

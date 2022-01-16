@@ -1455,3 +1455,21 @@ craftingTable.addShaped("harvestblock/essence/soulstone_cobble", <item:mysticala
     [<item:mysticalagriculture:stone_essence>, <item:mysticalagriculture:soul_essence>],
     [<item:mysticalagriculture:soul_essence>, <item:mysticalagriculture:stone_essence>]
 ]);
+
+craftingTable.addShaped("harvestblock/essence/crystalized_menril_chunk", <item:integrateddynamics:crystalized_menril_chunk>, [
+    [<item:mysticalagriculture:menril_essence>, <item:mysticalagriculture:menril_essence>],
+    [<item:mysticalagriculture:menril_essence>, <item:mysticalagriculture:menril_essence>]
+]);
+
+craftingTable.addShapedMirrored("harvestblock/essence/menril_berries", <item:integrateddynamics:menril_berries>, [
+    [<item:mysticalagriculture:nature_essence>, <item:mysticalagriculture:menril_essence>],
+    [<item:mysticalagriculture:menril_essence>, <item:mysticalagriculture:nature_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/menril_sapling", <item:integrateddynamics:menril_sapling>, [
+    [<item:mysticalagriculture:menril_essence>, <item:mysticalagriculture:nature_essence>, <item:mysticalagriculture:menril_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/menril_log", <item:integrateddynamics:menril_log>, [
+    [<item:mysticalagriculture:wood_essence>, <item:mysticalagriculture:menril_essence>, <item:mysticalagriculture:wood_essence>]
+]);

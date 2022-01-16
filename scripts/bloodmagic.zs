@@ -15,3 +15,5 @@
 
 <recipetype:bloodmagic:alchemytable>.removeRecipe(<item:bloodmagic:reagentbloodlight>);
 <recipetype:bloodmagic:alchemytable>.addRecipe("harvestblock/bloodmagic/reagentbloodlight", <item:bloodmagic:reagentbloodlight>, [<item:botania:mana_powder>,<item:lordcraft:dust_light>,<item:lordcraft:dust_light>], 0, 100, 0);
+
+<recipetype:bloodmagic:soulforge>.addRecipe("harvestblock/bloodmagic/rock_crystal", <item:astralsorcery:rock_crystal>, [<item:astralsorcery:marble_raw>, <item:bloodmagic:infusedslate>, <item:minecraft:iron_nugget>, <item:minecraft:diamond>], 0, 500);

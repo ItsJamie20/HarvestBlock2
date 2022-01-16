@@ -129,60 +129,60 @@ craftingTable.addShaped("harvestblock/mysticalagriculture/soulium_dagger", <item
 
 craftingTable.addShaped("harvestblock/mysticalagriculture/prudentium_1", <item:mysticalagriculture:prudentium_essence>, [
     [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>],
-    [<item:mysticalagriculture:inferium_essence>, <item:matc:prudentium_crystal>, <item:mysticalagriculture:inferium_essence>],
+    [<item:mysticalagriculture:inferium_essence>, <item:matc:prudentium_crystal>.anyDamage().transformDamage(), <item:mysticalagriculture:inferium_essence>],
     [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("harvestblock/mysticalagriculture/prudentium_2", <item:mysticalagriculture:prudentium_essence>, [
     [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>],
-    [<item:mysticalagriculture:inferium_essence>, <item:matc:tertium_crystal>, <item:mysticalagriculture:inferium_essence>],
+    [<item:mysticalagriculture:inferium_essence>, <item:matc:tertium_crystal>.anyDamage().transformDamage(), <item:mysticalagriculture:inferium_essence>],
     [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("harvestblock/mysticalagriculture/prudentium_3", <item:mysticalagriculture:prudentium_essence>, [
     [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>],
-    [<item:mysticalagriculture:inferium_essence>, <item:matc:imperium_crystal>, <item:mysticalagriculture:inferium_essence>],
+    [<item:mysticalagriculture:inferium_essence>, <item:matc:imperium_crystal>.anyDamage().transformDamage(), <item:mysticalagriculture:inferium_essence>],
     [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("harvestblock/mysticalagriculture/prudentium_4", <item:mysticalagriculture:prudentium_essence>, [
     [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>],
-    [<item:mysticalagriculture:inferium_essence>, <item:matc:supremium_crystal>, <item:mysticalagriculture:inferium_essence>],
+    [<item:mysticalagriculture:inferium_essence>, <item:matc:supremium_crystal>.anyDamage().transformDamage(), <item:mysticalagriculture:inferium_essence>],
     [<item:minecraft:air>, <item:mysticalagriculture:inferium_essence>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("harvestblock/mysticalagriculture/tertium_1", <item:mysticalagriculture:tertium_essence>, [
     [<item:minecraft:air>, <item:mysticalagriculture:prudentium_essence>, <item:minecraft:air>],
-    [<item:mysticalagriculture:prudentium_essence>, <item:matc:tertium_crystal>, <item:mysticalagriculture:prudentium_essence>],
+    [<item:mysticalagriculture:prudentium_essence>, <item:matc:tertium_crystal>.anyDamage().transformDamage(), <item:mysticalagriculture:prudentium_essence>],
     [<item:minecraft:air>, <item:mysticalagriculture:prudentium_essence>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("harvestblock/mysticalagriculture/tertium_2", <item:mysticalagriculture:tertium_essence>, [
     [<item:minecraft:air>, <item:mysticalagriculture:prudentium_essence>, <item:minecraft:air>],
-    [<item:mysticalagriculture:prudentium_essence>, <item:matc:imperium_crystal>, <item:mysticalagriculture:prudentium_essence>],
+    [<item:mysticalagriculture:prudentium_essence>, <item:matc:imperium_crystal>.anyDamage().transformDamage(), <item:mysticalagriculture:prudentium_essence>],
     [<item:minecraft:air>, <item:mysticalagriculture:prudentium_essence>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("harvestblock/mysticalagriculture/tertium_3", <item:mysticalagriculture:tertium_essence>, [
     [<item:minecraft:air>, <item:mysticalagriculture:prudentium_essence>, <item:minecraft:air>],
-    [<item:mysticalagriculture:prudentium_essence>, <item:matc:supremium_crystal>, <item:mysticalagriculture:prudentium_essence>],
+    [<item:mysticalagriculture:prudentium_essence>, <item:matc:supremium_crystal>.anyDamage().transformDamage(), <item:mysticalagriculture:prudentium_essence>],
     [<item:minecraft:air>, <item:mysticalagriculture:prudentium_essence>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("harvestblock/mysticalagriculture/imperium_1", <item:mysticalagriculture:imperium_essence>, [
     [<item:minecraft:air>, <item:mysticalagriculture:tertium_essence>, <item:minecraft:air>],
-    [<item:mysticalagriculture:tertium_essence>, <item:matc:imperium_crystal>, <item:mysticalagriculture:tertium_essence>],
+    [<item:mysticalagriculture:tertium_essence>, <item:matc:imperium_crystal>.anyDamage().transformDamage(), <item:mysticalagriculture:tertium_essence>],
     [<item:minecraft:air>, <item:mysticalagriculture:tertium_essence>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("harvestblock/mysticalagriculture/imperium_2", <item:mysticalagriculture:imperium_essence>, [
     [<item:minecraft:air>, <item:mysticalagriculture:tertium_essence>, <item:minecraft:air>],
-    [<item:mysticalagriculture:tertium_essence>, <item:matc:supremium_crystal>, <item:mysticalagriculture:tertium_essence>],
+    [<item:mysticalagriculture:tertium_essence>, <item:matc:supremium_crystal>.anyDamage().transformDamage(), <item:mysticalagriculture:tertium_essence>],
     [<item:minecraft:air>, <item:mysticalagriculture:tertium_essence>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("harvestblock/mysticalagriculture/supremium", <item:mysticalagriculture:supremium_essence>, [
     [<item:minecraft:air>, <item:mysticalagriculture:imperium_essence>, <item:minecraft:air>],
-    [<item:mysticalagriculture:imperium_essence>, <item:matc:supremium_crystal>, <item:mysticalagriculture:imperium_essence>],
+    [<item:mysticalagriculture:imperium_essence>, <item:matc:supremium_crystal>.anyDamage().transformDamage(), <item:mysticalagriculture:imperium_essence>],
     [<item:minecraft:air>, <item:mysticalagriculture:imperium_essence>, <item:minecraft:air>]
 ]);

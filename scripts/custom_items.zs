@@ -10,9 +10,9 @@ craftingTable.addShaped("dirt_sticks", <item:harvestblock:dirt_stick> * 4, [
 
 craftingTable.removeRecipe(<item:harvestblock:tier_2_soil>);
 craftingTable.addShaped("harvestblock/custom_items/tier_2_soil", <item:harvestblock:tier_2_soil> * 4, [
-    [<item:minecraft:air>,<item:harvestblock:tier_1_soil>,<item:minecraft:air>],
+    [<item:mysticalagriculture:prudentium_essence>,<item:harvestblock:tier_1_soil>,<item:mysticalagriculture:prudentium_essence>],
     [<item:harvestblock:tier_1_soil>,<item:botania:rune_earth>,<item:harvestblock:tier_1_soil>],
-    [<item:minecraft:air>,<item:harvestblock:tier_1_soil>,<item:minecraft:air>]
+    [<item:mysticalagriculture:prudentium_essence>,<item:harvestblock:tier_1_soil>,<item:mysticalagriculture:prudentium_essence>]
 ]);
 
 craftingTable.removeRecipe(<item:harvestblock:tier_3_soil>);
