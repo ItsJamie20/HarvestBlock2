@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:mustardseedsseeditem",
+      "object": "pamhc2crops:mustardseedsitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

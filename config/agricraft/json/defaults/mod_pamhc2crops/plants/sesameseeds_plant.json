@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:sesameseedsseeditem",
+      "object": "pamhc2crops:sesameseedsitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

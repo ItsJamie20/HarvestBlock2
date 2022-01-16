@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:cottonseeditem",
+      "object": "pamhc2crops:cottonitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

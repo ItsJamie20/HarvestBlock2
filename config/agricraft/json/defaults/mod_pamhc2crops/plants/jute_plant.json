@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:juteseeditem",
+      "object": "pamhc2crops:juteitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

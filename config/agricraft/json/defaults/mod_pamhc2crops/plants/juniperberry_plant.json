@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:juniperberryseeditem",
+      "object": "pamhc2crops:juniperberryitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

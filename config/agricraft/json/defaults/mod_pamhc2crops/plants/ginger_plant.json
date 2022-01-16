@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:gingerseeditem",
+      "object": "pamhc2crops:gingeritem",
       "useTag": false,
       "data": "",
       "ignoredData": [

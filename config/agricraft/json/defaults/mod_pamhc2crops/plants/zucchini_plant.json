@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:zucchiniseeditem",
+      "object": "pamhc2crops:zucchiniitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

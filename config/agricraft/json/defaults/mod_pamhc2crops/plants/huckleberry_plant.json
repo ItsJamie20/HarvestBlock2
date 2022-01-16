@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:huckleberryseeditem",
+      "object": "pamhc2crops:huckleberryitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

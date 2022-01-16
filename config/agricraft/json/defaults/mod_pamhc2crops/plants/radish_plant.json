@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:radishseeditem",
+      "object": "pamhc2crops:radishitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

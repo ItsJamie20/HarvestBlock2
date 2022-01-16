@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:taroseeditem",
+      "object": "pamhc2crops:taroitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

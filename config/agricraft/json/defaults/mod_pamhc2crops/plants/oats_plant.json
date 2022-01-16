@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:oatsseeditem",
+      "object": "pamhc2crops:oatsitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

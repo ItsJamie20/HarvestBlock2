@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:lettuceseeditem",
+      "object": "pamhc2crops:lettuceitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

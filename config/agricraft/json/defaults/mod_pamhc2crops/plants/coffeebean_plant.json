@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:coffeebeanseeditem",
+      "object": "pamhc2crops:coffeebeanitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

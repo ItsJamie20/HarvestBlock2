@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:garlicseeditem",
+      "object": "pamhc2crops:garlicitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

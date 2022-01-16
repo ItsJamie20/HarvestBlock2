@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:rhubarbseeditem",
+      "object": "pamhc2crops:rhubarbitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

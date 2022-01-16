@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:chickpeaseeditem",
+      "object": "pamhc2crops:chickpeaitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

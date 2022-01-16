@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:turnipseeditem",
+      "object": "pamhc2crops:turnipitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

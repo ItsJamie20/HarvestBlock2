@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:cranberryseeditem",
+      "object": "pamhc2crops:cranberryitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

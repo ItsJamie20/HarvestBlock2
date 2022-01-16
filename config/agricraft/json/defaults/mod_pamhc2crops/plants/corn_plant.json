@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:cornseeditem",
+      "object": "pamhc2crops:cornitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

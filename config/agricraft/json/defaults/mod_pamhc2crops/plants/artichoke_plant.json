@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:artichokeseeditem",
+      "object": "pamhc2crops:artichokeitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

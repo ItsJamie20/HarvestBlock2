@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:scallionseeditem",
+      "object": "pamhc2crops:scallionitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:cucumberseeditem",
+      "object": "pamhc2crops:cucumberitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:blackberryseeditem",
+      "object": "pamhc2crops:blackberryitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

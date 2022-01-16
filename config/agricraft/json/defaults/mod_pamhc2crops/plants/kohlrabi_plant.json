@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:kohlrabiseeditem",
+      "object": "pamhc2crops:kohlrabiitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

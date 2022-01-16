@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:kiwiseeditem",
+      "object": "pamhc2crops:kiwiitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

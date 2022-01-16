@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:broccoliseeditem",
+      "object": "pamhc2crops:broccoliitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:ryeseeditem",
+      "object": "pamhc2crops:ryeitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

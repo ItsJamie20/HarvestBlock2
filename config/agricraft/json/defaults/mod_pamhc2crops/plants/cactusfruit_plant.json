@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:cactusfruitseeditem",
+      "object": "pamhc2crops:cactusfruititem",
       "useTag": false,
       "data": "",
       "ignoredData": [

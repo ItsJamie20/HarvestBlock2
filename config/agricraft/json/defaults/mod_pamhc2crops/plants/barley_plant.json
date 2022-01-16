@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:barleyseeditem",
+      "object": "pamhc2crops:barleyitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

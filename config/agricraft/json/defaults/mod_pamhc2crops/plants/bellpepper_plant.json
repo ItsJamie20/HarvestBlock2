@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:bellpepperseeditem",
+      "object": "pamhc2crops:bellpepperitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

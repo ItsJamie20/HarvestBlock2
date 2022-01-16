@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:milletseeditem",
+      "object": "pamhc2crops:milletitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

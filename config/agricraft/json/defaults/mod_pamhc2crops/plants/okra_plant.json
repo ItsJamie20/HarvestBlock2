@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:okraseeditem",
+      "object": "pamhc2crops:okraitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

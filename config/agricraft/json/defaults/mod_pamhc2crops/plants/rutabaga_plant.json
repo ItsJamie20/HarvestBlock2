@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:rutabagaseeditem",
+      "object": "pamhc2crops:rutabagaitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

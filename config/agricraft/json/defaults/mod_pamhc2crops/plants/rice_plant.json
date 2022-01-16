@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:riceseeditem",
+      "object": "pamhc2crops:riceitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

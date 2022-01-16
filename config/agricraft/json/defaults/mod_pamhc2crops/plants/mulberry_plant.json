@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:mulberryseeditem",
+      "object": "pamhc2crops:mulberryitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

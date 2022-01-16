@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:elderberryseeditem",
+      "object": "pamhc2crops:elderberryitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

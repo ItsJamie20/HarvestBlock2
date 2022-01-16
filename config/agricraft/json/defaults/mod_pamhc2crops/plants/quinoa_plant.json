@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:quinoaseeditem",
+      "object": "pamhc2crops:quinoaitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

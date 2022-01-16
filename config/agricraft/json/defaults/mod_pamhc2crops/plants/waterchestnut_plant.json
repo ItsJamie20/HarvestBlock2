@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:waterchestnutseeditem",
+      "object": "pamhc2crops:waterchestnutitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

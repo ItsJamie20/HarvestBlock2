@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:whitemushroomseeditem",
+      "object": "pamhc2crops:whitemushroomitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

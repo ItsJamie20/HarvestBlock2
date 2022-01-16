@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:peasseeditem",
+      "object": "pamhc2crops:peasitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:brusselsproutseeditem",
+      "object": "pamhc2crops:brusselsproutitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

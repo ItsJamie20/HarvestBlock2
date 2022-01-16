@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:arrowrootseeditem",
+      "object": "pamhc2crops:arrowrootitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:flaxseeditem",
+      "object": "pamhc2crops:flaxitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:cauliflowerseeditem",
+      "object": "pamhc2crops:caulifloweritem",
       "useTag": false,
       "data": "",
       "ignoredData": [

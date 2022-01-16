@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:grapeseeditem",
+      "object": "pamhc2crops:grapeitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

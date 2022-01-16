@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:jicamaseeditem",
+      "object": "pamhc2crops:jicamaitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

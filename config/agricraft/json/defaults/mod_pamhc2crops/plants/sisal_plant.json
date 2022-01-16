@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:sisalseeditem",
+      "object": "pamhc2crops:sisalitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

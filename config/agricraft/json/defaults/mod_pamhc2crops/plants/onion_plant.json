@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:onionseeditem",
+      "object": "pamhc2crops:onionitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

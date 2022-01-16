@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:cantaloupeseeditem",
+      "object": "pamhc2crops:cantaloupeitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

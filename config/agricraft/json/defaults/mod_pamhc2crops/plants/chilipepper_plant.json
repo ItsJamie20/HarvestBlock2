@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:chilipepperseeditem",
+      "object": "pamhc2crops:chilipepperitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

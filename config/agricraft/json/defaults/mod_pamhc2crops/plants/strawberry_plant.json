@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:strawberryseeditem",
+      "object": "pamhc2crops:strawberryitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

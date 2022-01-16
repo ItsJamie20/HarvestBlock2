@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:kaleseeditem",
+      "object": "pamhc2crops:kaleitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

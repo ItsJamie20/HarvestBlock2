@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:tomatilloseeditem",
+      "object": "pamhc2crops:tomatilloitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

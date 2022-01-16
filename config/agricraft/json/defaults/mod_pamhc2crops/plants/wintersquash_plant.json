@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:wintersquashseeditem",
+      "object": "pamhc2crops:wintersquashitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

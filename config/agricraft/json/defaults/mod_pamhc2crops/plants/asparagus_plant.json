@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:asparagusseeditem",
+      "object": "pamhc2crops:asparagusitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

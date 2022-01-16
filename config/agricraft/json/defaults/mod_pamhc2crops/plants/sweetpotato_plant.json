@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:sweetpotatoseeditem",
+      "object": "pamhc2crops:sweetpotatoitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

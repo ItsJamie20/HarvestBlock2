@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:celeryseeditem",
+      "object": "pamhc2crops:celeryitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

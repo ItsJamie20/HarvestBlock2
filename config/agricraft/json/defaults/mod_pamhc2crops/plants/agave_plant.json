@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:agaveseeditem",
+      "object": "pamhc2crops:agaveitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

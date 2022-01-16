@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:lentilseeditem",
+      "object": "pamhc2crops:lentilitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:eggplantseeditem",
+      "object": "pamhc2crops:eggplantitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

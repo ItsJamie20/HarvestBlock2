@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:spinachseeditem",
+      "object": "pamhc2crops:spinachitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

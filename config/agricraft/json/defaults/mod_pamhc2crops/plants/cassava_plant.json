@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:cassavaseeditem",
+      "object": "pamhc2crops:cassavaitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

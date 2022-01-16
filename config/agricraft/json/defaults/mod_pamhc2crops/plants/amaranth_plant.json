@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:amaranthseeditem",
+      "object": "pamhc2crops:amaranthitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

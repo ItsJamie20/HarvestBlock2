@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:candleberryseeditem",
+      "object": "pamhc2crops:candleberryitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

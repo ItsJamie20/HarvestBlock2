@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:leekseeditem",
+      "object": "pamhc2crops:leekitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

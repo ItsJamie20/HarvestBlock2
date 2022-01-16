@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:parsnipseeditem",
+      "object": "pamhc2crops:parsnipitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:cabbageseeditem",
+      "object": "pamhc2crops:cabbageitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

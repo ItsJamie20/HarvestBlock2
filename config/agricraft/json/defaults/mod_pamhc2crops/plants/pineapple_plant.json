@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:pineappleseeditem",
+      "object": "pamhc2crops:pineappleitem",
       "useTag": false,
       "data": "",
       "ignoredData": [

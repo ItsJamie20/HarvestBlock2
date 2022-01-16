@@ -16,7 +16,7 @@
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "pamhc2crops:raspberryseeditem",
+      "object": "pamhc2crops:raspberryitem",
       "useTag": false,
       "data": "",
       "ignoredData": [
