@@ -1,0 +1,46 @@
+{
+    "type":"agricraft:grass_seed_drops",
+    "conditions": [
+      {
+        "condition":"minecraft:inverted",
+        "term":{
+          "condition":"minecraft:match_tool",
+          "predicate":{
+            "item":"minecraft:shears"
+          }
+        }
+      },{
+        "condition":"block_state_property",
+        "block":"minecraft:grass"
+      }
+    ],
+    "reset": true,
+    "chance": 0.2,
+    "seeds": [
+      {
+        "plant": "vanilla:carrot_plant",
+        "stats": [1, 1],
+        "weight": 10
+      },
+      {
+        "plant": "vanilla:potato_plant",
+        "stats": [1, 1],
+        "weight": 10
+      },
+      {
+        "plant": "vanilla:wheat_plant",
+        "stats": [1, 1],
+        "weight": 10
+      },
+      {
+        "plant": "vanilla:beet_root_plant",
+        "stats": [1, 1],
+        "weight": 10
+      },
+      {
+        "plant": "immersiveengineering:hemp_plant",
+        "stats": [1, 1],
+        "weight": 10
+      }
+    ]
+  }

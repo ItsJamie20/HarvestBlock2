@@ -21,6 +21,8 @@
   "agricraft.plant.mysticalagriculture.light": "Light Seeds",
   "agricraft.plant.mysticalagriculture.dark": "Dark Seeds",
   "agricraft.plant.mysticalagriculture.plastic": "Plastic Seeds",
+  "agricraft.plant.mysticalagriculture.glass": "Glass Seeds",
+  "agricraft.plant.mysticalagriculture.menril": "Menril Seeds",
   "crop.mysticalagriculture.prudentium": "Prudentium",  
   "crop.mysticalagriculture.tertium": "Tertium",
   "crop.mysticalagriculture.imperium": "Imperium",
@@ -29,7 +31,10 @@
   "crop.mysticalagriculture.soul": "Soul", 
   "crop.mysticalagriculture.light": "Light",  
   "crop.mysticalagriculture.dark": "Dark",  
-  "crop.mysticalagriculture.plastic": "Plastic"
+  "crop.mysticalagriculture.plastic": "Plastic",  
+  "crop.mysticalagriculture.prsoperity": "Prosperity",  
+  "crop.mysticalagriculture.glass": "Glass",  
+  "crop.mysticalagriculture.menril": "Menril"
 
 
 }
