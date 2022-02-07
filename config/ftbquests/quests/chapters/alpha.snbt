@@ -1089,16 +1089,6 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -2.5d
-			id: "28D4B0D69239384B"
-			tasks: [{
-				id: "0471D57AE6C24CE0"
-				type: "item"
-				item: "mysticalagriculture:simple_crystal_essence"
-			}]
-		}
-		{
 			x: 12.5d
 			y: 8.5d
 			id: "3F530021AF946099"
@@ -1225,6 +1215,78 @@
 			tasks: [{
 				id: "6567200832FA8C4E"
 				type: "item"
+				title: "Air Seeds"
+				icon: {
+					id: "agricraft:agri_seed"
+					Count: 1b
+					tag: {
+						agri_genome: [
+							{
+								agri_gene: "agri_species"
+								agri_dominant: {
+									agri_plant: "mysticalagriculture:air_plant"
+								}
+								agri_recessive: {
+									agri_plant: "mysticalagriculture:air_plant"
+								}
+							}
+							{
+								agri_gene: "fertility"
+								agri_dominant: {
+									fertility: 1
+								}
+								agri_recessive: {
+									fertility: 1
+								}
+							}
+							{
+								agri_gene: "gain"
+								agri_dominant: {
+									gain: 1
+								}
+								agri_recessive: {
+									gain: 1
+								}
+							}
+							{
+								agri_gene: "growth"
+								agri_dominant: {
+									growth: 1
+								}
+								agri_recessive: {
+									growth: 1
+								}
+							}
+							{
+								agri_gene: "mutativity"
+								agri_dominant: {
+									mutativity: 1
+								}
+								agri_recessive: {
+									mutativity: 1
+								}
+							}
+							{
+								agri_gene: "resistance"
+								agri_dominant: {
+									resistance: 1
+								}
+								agri_recessive: {
+									resistance: 1
+								}
+							}
+							{
+								agri_gene: "strength"
+								agri_dominant: {
+									strength: 1
+								}
+								agri_recessive: {
+									strength: 1
+								}
+							}
+						]
+					}
+				}
 				item: {
 					id: "itemfilters:and"
 					Count: 1b

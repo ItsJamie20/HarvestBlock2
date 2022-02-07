@@ -22,5 +22,8 @@
     },
     "mysticalagriculture:elementium": {
         "tier": "mysticalagradditions:6"
+    },
+    "mysticalagriculture:yellorium": {
+        "tier": "mysticalagriculture:4"
     }
 }
