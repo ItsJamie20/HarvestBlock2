@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.tertium",
+  "colors": [
+    "D54700",
+    "822F00"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:tertium_ingot"
+  }
+}

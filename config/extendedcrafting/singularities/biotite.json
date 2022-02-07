@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.biotite",
+  "colors": [
+    "2A2230",
+    "000000"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/biotite"
+  }
+}

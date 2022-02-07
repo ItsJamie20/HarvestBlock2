@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.quartz_enriched_iron",
+  "colors": [
+    "FCFCFC",
+    "7C7A77"
+  ],
+  "ingredient": {
+    "item": "refinedstorage:quartz_enriched_iron"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.cyanite",
+  "colors": [
+    "AADAFC",
+    "4276A4"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/cyanite"
+  }
+}

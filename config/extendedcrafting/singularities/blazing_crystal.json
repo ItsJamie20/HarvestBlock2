@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.blazing_crystal",
+  "colors": [
+    "E5B30C",
+    "B46410"
+  ],
+  "ingredient": {
+    "item": "powah:crystal_blazing"
+  }
+}

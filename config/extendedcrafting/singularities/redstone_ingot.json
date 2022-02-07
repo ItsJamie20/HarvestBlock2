@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.redstone_ingot",
+  "colors": [
+    "A80F01",
+    "5B0700"
+  ],
+  "ingredient": {
+    "item": "extendedcrafting:redstone_ingot"
+  }
+}

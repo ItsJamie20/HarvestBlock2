@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.supremium",
+  "colors": [
+    "D00000",
+    "910000"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:supremium_ingot"
+  }
+}

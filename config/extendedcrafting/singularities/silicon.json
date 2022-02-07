@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.silicon",
+  "colors": [
+    "ACA4A7",
+    "3C3C3C"
+  ],
+  "ingredient": {
+    "tag": "forge:silicon"
+  }
+}

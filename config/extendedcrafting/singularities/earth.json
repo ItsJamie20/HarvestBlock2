@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.earth",
+  "colors": [
+    "42AB3C",
+    "2C7128"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:earth_agglomeratio"
+  }
+}

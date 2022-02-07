@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.fire",
+  "colors": [
+    "AB3C3C",
+    "712828"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:fire_agglomeratio"
+  }
+}

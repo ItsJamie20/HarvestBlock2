@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.air",
+  "colors": [
+    "ABA83C",
+    "716F28"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:air_agglomeratio"
+  }
+}

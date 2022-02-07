@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.dark_matter",
+  "colors": [
+    "36173D",
+    "1A091D"
+  ],
+  "ingredient": {
+    "item": "projecte:dark_matter"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.rock_crystal",
+  "colors": [
+    "FCFCFC",
+    "B2B2B2"
+  ],
+  "ingredient": {
+    "item": "astralsorcery:rock_crystal"
+  }
+}

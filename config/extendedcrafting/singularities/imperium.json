@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.imperium",
+  "colors": [
+    "0083DA",
+    "005694"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:imperium_ingot"
+  }
+}

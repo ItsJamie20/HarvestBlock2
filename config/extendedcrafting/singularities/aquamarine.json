@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.aquamarine",
+  "colors": [
+    "00E7F3",
+    "002F82"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/aquamarine"
+  }
+}

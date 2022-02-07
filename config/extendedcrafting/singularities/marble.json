@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.marble",
+  "colors": [
+    "D8DADE",
+    "B2B4B8"
+  ],
+  "ingredient": {
+    "item": "chisel:marble/raw"
+  }
+}

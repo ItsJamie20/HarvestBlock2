@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.yellorium",
+  "colors": [
+    "E3D570",
+    "7A7205"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/yellorium"
+  }
+}

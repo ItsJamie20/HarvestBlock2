@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.menril",
+  "colors": [
+    "43BDD6",
+    "10434E"
+  ],
+  "ingredient": {
+    "item": "integrateddynamics:crystalized_menril_chunk"
+  }
+}

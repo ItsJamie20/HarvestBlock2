@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.nether_quartz",
+  "colors": [
+    "F4F2EF",
+    "B19E8F"
+  ],
+  "ingredient": {
+    "item": "minecraft:quartz"
+  }
+}

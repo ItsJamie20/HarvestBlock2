@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.gaia",
+  "colors": [
+    "CDBEF4",
+    "CDBEF4"
+  ],
+  "ingredient": {
+    "item": "botania:gaia_ingot"
+  }
+}

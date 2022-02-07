@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.black_iron",
+  "colors": [
+    "868686",
+    "222222"
+  ],
+  "ingredient": {
+    "item": "extendedcrafting:black_iron_ingot"
+  }
+}

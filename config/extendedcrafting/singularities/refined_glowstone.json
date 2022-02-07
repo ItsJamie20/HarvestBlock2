@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.refined_glowstone",
+  "colors": [
+    "FCEA99",
+    "FCD84E"
+  ],
+  "ingredient": {
+    "item": "mekanism:ingot_refined_glowstone"
+  }
+}

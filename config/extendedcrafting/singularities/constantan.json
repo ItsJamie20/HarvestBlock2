@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.constantan",
+  "colors": [
+    "ECBF62",
+    "B07534"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/constantan"
+  }
+}

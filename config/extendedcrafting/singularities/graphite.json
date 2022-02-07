@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.graphite",
+  "colors": [
+    "9E9EA0",
+    "414143"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/graphite"
+  }
+}

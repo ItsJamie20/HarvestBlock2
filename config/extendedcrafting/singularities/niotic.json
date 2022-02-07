@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.niotic",
+  "colors": [
+    "59F2F2",
+    "004A86"
+  ],
+  "ingredient": {
+    "item": "powah:crystal_niotic"
+  }
+}

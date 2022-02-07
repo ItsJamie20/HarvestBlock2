@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.dragon",
+  "colors": [
+    "1E1E1E",
+    "2C0132"
+  ],
+  "ingredient": {
+    "item": "mysticalagradditions:dragon_egg_chunk"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.limestone",
+  "colors": [
+    "9E9983",
+    "686250"
+  ],
+  "ingredient": {
+    "item": "chisel:limestone/raw"
+  }
+}

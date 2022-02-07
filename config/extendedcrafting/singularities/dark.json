@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.dark",
+  "colors": [
+    "000000",
+    "000000"
+  ],
+  "ingredient": {
+    "item": "harvestblock:dark_agglomeratio"
+  }
+}

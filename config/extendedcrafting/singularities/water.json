@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.water",
+  "colors": [
+    "3C63AB",
+    "284171"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:water_agglomeratio"
+  }
+}

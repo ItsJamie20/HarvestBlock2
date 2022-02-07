@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.livingrock",
+  "colors": [
+    "F1EFE9",
+    "997D63"
+  ],
+  "ingredient": {
+    "item": "botania:livingrock"
+  }
+}

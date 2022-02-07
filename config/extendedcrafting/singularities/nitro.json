@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.nitro",
+  "colors": [
+    "A42022",
+    "790907"
+  ],
+  "ingredient": {
+    "item": "powah:crystal_nitro"
+  }
+}

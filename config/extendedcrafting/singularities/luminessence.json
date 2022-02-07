@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.luminessence",
+  "colors": [
+    "F6F74F",
+    "878A32"
+  ],
+  "ingredient": {
+    "item": "extendedcrafting:luminessence"
+  }
+}

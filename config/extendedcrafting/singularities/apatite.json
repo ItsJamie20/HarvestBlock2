@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.apatite",
+  "colors": [
+    "2CC7C9",
+    "185C93"
+  ],
+  "ingredient": {
+    "tag": "forge:gems/apatite"
+  }
+}

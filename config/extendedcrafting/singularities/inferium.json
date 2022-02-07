@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.inferium",
+  "colors": [
+    "92B000",
+    "586A00"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:inferium_ingot"
+  }
+}

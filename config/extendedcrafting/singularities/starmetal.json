@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.starmetal",
+  "colors": [
+    "0032A8",
+    "1E205B"
+  ],
+  "ingredient": {
+    "item": "astralsorcery:starmetal_ingot"
+  }
+}

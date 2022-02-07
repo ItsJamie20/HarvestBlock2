@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.spirited_crystal",
+  "colors": [
+    "9FE150",
+    "157A00"
+  ],
+  "ingredient": {
+    "item": "powah:crystal_spirited"
+  }
+}

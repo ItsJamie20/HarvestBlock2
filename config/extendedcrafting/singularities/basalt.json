@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.basalt",
+  "colors": [
+    "262626",
+    "1F1F1F"
+  ],
+  "ingredient": {
+    "item": "chisel:basalt/raw"
+  }
+}

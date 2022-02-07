@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.energized_steel",
+  "colors": [
+    "CEB08A",
+    "837054"
+  ],
+  "ingredient": {
+    "item": "powah:steel_energized"
+  }
+}
