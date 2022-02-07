@@ -123,7 +123,6 @@ InfusionCrafting.remove(<item:mysticalagriculture:dark_matter_seeds>);
 InfusionCrafting.remove(<item:mysticalagriculture:crystaltine_seeds>);
 InfusionCrafting.remove(<item:mysticalagriculture:dark_seeds>);
 InfusionCrafting.remove(<item:mysticalagriculture:ultimate_seeds>);
-InfusionCrafting.remove(<item:mysticalagriculture:simple_crystal_seeds>);
 InfusionCrafting.remove(<item:mysticalagriculture:basalt_seeds>);
 InfusionCrafting.remove(<item:mysticalagriculture:light_seeds>);
 InfusionCrafting.remove(<item:mysticalagriculture:livingrock_seeds>);

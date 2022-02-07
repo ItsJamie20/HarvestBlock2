@@ -1,19 +1,21 @@
 <recipetype:bloodmagic:alchemytable>.removeRecipe(<item:bloodmagic:reagentwater>);
-<recipetype:bloodmagic:alchemytable>.addRecipe("harvestblock/bloodmagic/reagentwater", <item:bloodmagic:reagentwater>, [<item:botania:mana_powder>,<item:lordcraft:dust_water>,<item:lordcraft:dust_water>], 0, 100, 0);
+<recipetype:bloodmagic:alchemytable>.addRecipe("harvestblock/bloodmagic/reagentwater", <item:bloodmagic:reagentwater>, [<item:botania:mana_powder>,<item:mysticalagriculture:water_agglomeratio>,<item:mysticalagriculture:water_agglomeratio>], 0, 100, 0);
 
 <recipetype:bloodmagic:alchemytable>.removeRecipe(<item:bloodmagic:reagentlava>);
-<recipetype:bloodmagic:alchemytable>.addRecipe("harvestblock/bloodmagic/reagentlava", <item:bloodmagic:reagentlava>, [<item:botania:mana_powder>,<item:lordcraft:dust_fire>,<item:lordcraft:dust_fire>], 0, 100, 0);
+<recipetype:bloodmagic:alchemytable>.addRecipe("harvestblock/bloodmagic/reagentlava", <item:bloodmagic:reagentlava>, [<item:botania:mana_powder>,<item:mysticalagriculture:fire_agglomeratio>,<item:mysticalagriculture:fire_agglomeratio>], 0, 100, 0);
 
 <recipetype:bloodmagic:alchemytable>.removeRecipe(<item:bloodmagic:reagentgrowth>);
-<recipetype:bloodmagic:alchemytable>.addRecipe("harvestblock/bloodmagic/reagentgrowth", <item:bloodmagic:reagentgrowth>, [<item:botania:mana_powder>,<item:lordcraft:dust_earth>,<item:lordcraft:dust_earth>], 0, 100, 0);
+<recipetype:bloodmagic:alchemytable>.addRecipe("harvestblock/bloodmagic/reagentgrowth", <item:bloodmagic:reagentgrowth>, [<item:botania:mana_powder>,<item:mysticalagriculture:earth_agglomeratio>,<item:mysticalagriculture:earth_agglomeratio>], 0, 100, 0);
 
 <recipetype:bloodmagic:alchemytable>.removeRecipe(<item:bloodmagic:reagentair>);
-<recipetype:bloodmagic:alchemytable>.addRecipe("harvestblock/bloodmagic/reagentair", <item:bloodmagic:reagentair>, [<item:botania:mana_powder>,<item:lordcraft:dust_air>,<item:lordcraft:dust_air>], 0, 100, 0);
+<recipetype:bloodmagic:alchemytable>.addRecipe("harvestblock/bloodmagic/reagentair", <item:bloodmagic:reagentair>, [<item:botania:mana_powder>,<item:mysticalagriculture:air_agglomeratio>,<item:mysticalagriculture:air_agglomeratio>], 0, 100, 0);
 
 <recipetype:bloodmagic:alchemytable>.removeRecipe(<item:bloodmagic:reagentvoid>);
-<recipetype:bloodmagic:alchemytable>.addRecipe("harvestblock/bloodmagic/reagentvoid", <item:bloodmagic:reagentvoid>, [<item:botania:mana_powder>,<item:lordcraft:dust_dark>,<item:lordcraft:dust_dark>], 0, 100, 0);
+<recipetype:bloodmagic:alchemytable>.addRecipe("harvestblock/bloodmagic/reagentvoid", <item:bloodmagic:reagentvoid>, [<item:botania:mana_powder>,<item:harvestblock:dark_agglomeratio>,<item:harvestblock:dark_agglomeratio>], 0, 100, 0);
 
 <recipetype:bloodmagic:alchemytable>.removeRecipe(<item:bloodmagic:reagentbloodlight>);
-<recipetype:bloodmagic:alchemytable>.addRecipe("harvestblock/bloodmagic/reagentbloodlight", <item:bloodmagic:reagentbloodlight>, [<item:botania:mana_powder>,<item:lordcraft:dust_light>,<item:lordcraft:dust_light>], 0, 100, 0);
+<recipetype:bloodmagic:alchemytable>.addRecipe("harvestblock/bloodmagic/reagentbloodlight", <item:bloodmagic:reagentbloodlight>, [<item:botania:mana_powder>,<item:harvestblock:light_agglomeratio>,<item:harvestblock:light_agglomeratio>], 0, 100, 0);
 
 <recipetype:bloodmagic:soulforge>.addRecipe("harvestblock/bloodmagic/rock_crystal", <item:astralsorcery:rock_crystal>, [<item:astralsorcery:marble_raw>, <item:bloodmagic:infusedslate>, <item:minecraft:iron_nugget>, <item:minecraft:diamond>], 0, 500);
+
+<recipetype:bloodmagic:soulforge>.addRecipe("harvestblock/bloodmagic/advanced_component", <item:extendedcrafting:advanced_component>, [<item:extendedcrafting:black_iron_slate>, <item:bloodmagic:demonslate>, <item:minecraft:gold_ingot>, <item:extendedcrafting:luminessence>], 0, 500);
