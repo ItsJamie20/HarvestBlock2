@@ -1,0 +1,13 @@
+{
+  "name": "Black Iron",
+  "type": "resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "extendedcrafting:black_iron_ingot"
+  },
+  "color": "222222",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}
