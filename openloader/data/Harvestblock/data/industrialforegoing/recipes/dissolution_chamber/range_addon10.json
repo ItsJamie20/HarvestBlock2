@@ -1,0 +1,36 @@
+{
+  "input": [
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:1000}",
+  "processingTime": 500,
+  "output": {
+    "item": "industrialforegoing:range_addon10",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Range:10.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

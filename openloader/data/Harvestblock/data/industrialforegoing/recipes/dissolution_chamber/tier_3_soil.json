@@ -1,0 +1,35 @@
+{
+    "input": [
+      {
+        "item": "mysticalagriculture:tertium_essence"
+      },
+      {
+        "item": "harvestblock:tier_2_soil"
+      },
+      {
+        "item": "mysticalagriculture:tertium_essence"
+      },
+      {
+        "item": "harvestblock:tier_2_soil"
+      },
+      {
+        "item": "harvestblock:tier_2_soil"
+      },
+      {
+        "item": "mysticalagriculture:tertium_essence"
+      },
+      {
+        "item": "harvestblock:tier_2_soil"
+      },
+      {
+        "item": "mysticalagriculture:tertium_essence"
+      }
+    ],
+    "inputFluid": "{FluidName:\"mysticalagradditions:molten_inferium\",Amount:250}",
+    "processingTime": 100,
+    "output": {
+      "item": "harvestblock:tier_3_soil",
+      "count": 4
+    },
+    "type": "industrialforegoing:dissolution_chamber"
+  }

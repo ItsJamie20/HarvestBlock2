@@ -1,0 +1,10 @@
+{
+    "input": {
+      "item": "mysticalagriculture:inferium_block"
+    },
+    "result": "minecraft:air",
+    "breakChance": 0.005,
+    "output": "{FluidName:\"mysticalagradditions:molten_inferium\",Amount:4}",
+    "defaultRecipe": false,
+    "type": "industrialforegoing:fluid_extractor"
+  }

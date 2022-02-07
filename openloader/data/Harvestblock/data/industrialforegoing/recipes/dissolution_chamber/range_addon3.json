@@ -1,0 +1,36 @@
+{
+  "input": [
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:1000}",
+  "processingTime": 100,
+  "output": {
+    "item": "industrialforegoing:range_addon3",
+    "count": 1,
+    "nbt": "{TitaniumAugment:{Range:3.0f}}"
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}
