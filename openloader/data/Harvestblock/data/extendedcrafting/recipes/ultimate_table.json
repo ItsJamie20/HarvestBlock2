@@ -1,0 +1,29 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABA",
+      "CDC",
+      "AEA"
+    ],
+    "key": {
+      "A": {
+        "item": "extendedcrafting:ultimate_component"
+      },
+      "B": {
+        "item": "extendedcrafting:ultimate_catalyst"
+      },
+      "C": {
+        "item": "extendedcrafting:elite_table"
+      },
+      "D": {
+        "tag": "forge:storage_blocks/emerald"
+      },
+      "E": {
+        "item": "extendedcrafting:black_iron_slate"
+      }
+    },
+    "result": {
+      "item": "extendedcrafting:ultimate_table",
+      "count": 1
+    }
+  }

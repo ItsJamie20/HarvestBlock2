@@ -1,0 +1,29 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABA",
+      "CDC",
+      "AEA"
+    ],
+    "key": {
+      "A": {
+        "item": "extendedcrafting:advanced_component"
+      },
+      "B": {
+        "item": "extendedcrafting:advanced_catalyst"
+      },
+      "C": {
+        "item": "extendedcrafting:basic_table"
+      },
+      "D": {
+        "tag": "forge:storage_blocks/gold"
+      },
+      "E": {
+        "item": "extendedcrafting:black_iron_slate"
+      }
+    },
+    "result": {
+      "item": "extendedcrafting:advanced_table",
+      "count": 1
+    }
+  }

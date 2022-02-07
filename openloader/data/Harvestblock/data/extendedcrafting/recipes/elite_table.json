@@ -1,0 +1,29 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABA",
+      "CDC",
+      "AEA"
+    ],
+    "key": {
+      "A": {
+        "item": "extendedcrafting:elite_component"
+      },
+      "B": {
+        "item": "extendedcrafting:elite_catalyst"
+      },
+      "C": {
+        "item": "extendedcrafting:advanced_table"
+      },
+      "D": {
+        "tag": "forge:storage_blocks/diamond"
+      },
+      "E": {
+        "item": "extendedcrafting:black_iron_slate"
+      }
+    },
+    "result": {
+      "item": "extendedcrafting:elite_table",
+      "count": 1
+    }
+  }

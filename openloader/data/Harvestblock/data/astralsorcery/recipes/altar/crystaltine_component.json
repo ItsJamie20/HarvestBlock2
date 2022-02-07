@@ -1,0 +1,38 @@
+{
+    "type": "astralsorcery:altar",
+    "altar_type": 3,
+    "duration": 100,
+    "starlight": 4000,
+    "pattern": [
+      "_____",
+      "_____",
+      "__A__",
+      "_____",
+      "_____"
+    ],
+    "key": {
+      "A": {
+        "item": "extendedcrafting:black_iron_slate"
+      }
+    },
+    "output": [
+      {
+        "item": "extendedcrafting:crystaltine_component",
+        "count": 1
+      }
+    ],
+    "relay_inputs": [
+      {
+        "item": "extendedcrafting:crystaltine_ingot"
+      },
+      {
+        "item": "extendedcrafting:luminessence"
+      }
+    ],
+    "effects": [
+      "astralsorcery:built_in_effect_trait_relay_highlight",
+      "astralsorcery:built_in_effect_discovery_central_beam",
+      "astralsorcery:built_in_effect_trait_focus_circle",
+      "astralsorcery:altar_default_sparkle"
+    ]
+  }
