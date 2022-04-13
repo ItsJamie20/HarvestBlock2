@@ -8,6 +8,8 @@
 		operatorRecursionLimit = 256
 		#If the ingredient network observer can work on separate thread.
 		ingredientNetworkObserverEnableMultithreading = true
+		#The maximum frequency at which speach messages can be played in millis.
+		speachMaxFrequency = 1000
 		#The number of threads that the ingredient network observer can use.
 		ingredientNetworkObserverThreads = 4
 		#The ingredient network observation frequency slowdown rate in ticks.
@@ -16,6 +18,8 @@
 		ingredientNetworkObserverFrequencyForced = 0
 		#The fastest possible frequency in ticks at which ingredient network should be observed.
 		ingredientNetworkObserverFrequencyMin = 5
+		#If corrupted networks should automatically be restored on first tick.
+		recreateCorruptedNetworks = true
 		#If an anonymous mod startup analytics request may be sent to our analytics service.
 		analytics = true
 		#When enabled, networks will stop ticking and values will not be shown and evaluated again. This can be used to fix crashing networks by temporarily enabling this option.

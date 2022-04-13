@@ -1,0 +1,412 @@
+{
+	id: "6FA5DE1255EB9E7D"
+	group: ""
+	order_index: 5
+	filename: "diamonds"
+	title: "Diamonds"
+	icon: "minecraft:diamond"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: 1.0d
+			subtitle: "There are multiple ways to get diamonds from tier 3. It will become easier later."
+			dependencies: [
+				"136E6CC7156D1ACD"
+				"10C45D9B547EBF98"
+			]
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			id: "46365A5F302C27F2"
+			tasks: [{
+				id: "3B013DC000FC9375"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "5ACF088474BE53AE"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: [
+				"1FCB815144408D56"
+				"1E502786895BCD30"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "10C45D9B547EBF98"
+			tasks: [{
+				id: "3A1B6EE3DF35EDA2"
+				type: "item"
+				item: "immersiveengineering:ingot_hop_graphite"
+			}]
+			rewards: [{
+				id: "3269913252F89984"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["1885684355AEEC8B"]
+			optional: true
+			id: "1E502786895BCD30"
+			tasks: [{
+				id: "308225B1680A8C8D"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [{
+				id: "49EE5EF5247B8BD2"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["1885684355AEEC8B"]
+			optional: true
+			id: "1FCB815144408D56"
+			tasks: [{
+				id: "2D04B7C1E130F9C4"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_arcfurnace"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "069C681E233F917D"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: [
+				"1F74AAB369042038"
+				"490F71AC3FF3BA7A"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "1885684355AEEC8B"
+			tasks: [{
+				id: "36C5FC5243D1A179"
+				type: "item"
+				item: "immersiveengineering:dust_hop_graphite"
+			}]
+			rewards: [{
+				id: "7E5A396E1B9BE9ED"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			dependencies: ["3FB9FC6D2AAE6C4B"]
+			optional: true
+			id: "1F74AAB369042038"
+			tasks: [{
+				id: "060988BF7B3C099F"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			rewards: [{
+				id: "20A44A957A73D75D"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			title: "Industrial Squeezer"
+			x: 1.0d
+			y: -5.0d
+			dependencies: ["3FB9FC6D2AAE6C4B"]
+			optional: true
+			id: "490F71AC3FF3BA7A"
+			tasks: [{
+				id: "286B53F5F8764541"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "464BFC1367521C9B"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			dependencies: [
+				"5A5BDEC08F757E62"
+				"3266524F4C043A29"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "3FB9FC6D2AAE6C4B"
+			tasks: [{
+				id: "5D217C8F7FF54717"
+				type: "item"
+				item: "immersiveengineering:dust_coke"
+			}]
+			rewards: [{
+				id: "27EE7A6A09F0BB0E"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.5d
+			dependencies: ["60E052111FB70B02"]
+			optional: true
+			id: "5A5BDEC08F757E62"
+			tasks: [{
+				id: "56FDA01279CD8C05"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			rewards: [{
+				id: "0C268977C40AF383"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.5d
+			dependencies: ["12AB6B2C03F01246"]
+			optional: true
+			id: "3266524F4C043A29"
+			tasks: [{
+				id: "4606831368953608"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_crusher"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7AFD06C42352BEC1"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: -9.0d
+			dependencies: ["0CF8AF62621A525A"]
+			optional: true
+			id: "12AB6B2C03F01246"
+			tasks: [{
+				id: "25BA8C34A05B696F"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+			}]
+			rewards: [{
+				id: "717F5DBEB7F64477"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: -9.0d
+			dependencies: ["45B060B939D007F8"]
+			optional: true
+			id: "60E052111FB70B02"
+			tasks: [{
+				id: "5FDC1D6C844937FA"
+				type: "item"
+				item: "thermal:coal_coke"
+			}]
+			rewards: [{
+				id: "5E8CA3E82E5CFE41"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: -10.5d
+			dependencies: ["6A358A9BD1ACF916"]
+			optional: true
+			id: "45B060B939D007F8"
+			tasks: [{
+				id: "77D90C51CC49C34A"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+			rewards: [{
+				id: "7A065699693B5118"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: -10.5d
+			dependencies: ["6A358A9BD1ACF916"]
+			optional: true
+			id: "0CF8AF62621A525A"
+			tasks: [{
+				id: "619C5287443EFDC8"
+				type: "checkmark"
+				title: "Coke Oven"
+			}]
+			rewards: [{
+				id: "0A7A10A50F80A0DA"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: -12.0d
+			dependencies: ["6E126ECDC4347750"]
+			optional: true
+			id: "6A358A9BD1ACF916"
+			tasks: [{
+				id: "2C17563942F89C78"
+				type: "item"
+				item: { id: "minecraft:coal", Count: 8b }
+			}]
+			rewards: [{
+				id: "60E85716166C44D9"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["01FFD21188E3E7E4"]
+			optional: true
+			id: "136E6CC7156D1ACD"
+			tasks: [{
+				id: "34A9AF9137767B44"
+				type: "item"
+				item: "minecraft:diamond_ore"
+			}]
+			rewards: [{
+				id: "7A26EDF8B49E6ABB"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			dependencies: ["00319990B0300660"]
+			optional: true
+			id: "01FFD21188E3E7E4"
+			tasks: [{
+				id: "63FFF86CCA20D215"
+				type: "item"
+				item: "botania:orechid"
+			}]
+			rewards: [{
+				id: "28EB81EF97BAC509"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 4.5d
+			y: -9.0d
+			dependencies: ["3098FC7CFB2FB73D"]
+			optional: true
+			id: "34D075D4BE6E742B"
+			tasks: [{
+				id: "2EE7B3826A1C2E4E"
+				type: "item"
+				item: "botania:rune_pride"
+			}]
+			rewards: [{
+				id: "2060CFD541C75AB1"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 2.5d
+			y: -9.0d
+			dependencies: ["3098FC7CFB2FB73D"]
+			optional: true
+			id: "7C1776EC69E0D838"
+			tasks: [{
+				id: "603CD5B26916F587"
+				type: "item"
+				item: "botania:rune_greed"
+			}]
+			rewards: [{
+				id: "4E7FE2D41DA8CBE0"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			dependencies: [
+				"7C1776EC69E0D838"
+				"34D075D4BE6E742B"
+			]
+			optional: true
+			id: "00319990B0300660"
+			tasks: [{
+				id: "2362E084A4F40A4B"
+				type: "item"
+				item: "botania:redstone_root"
+			}]
+			rewards: [{
+				id: "286F6A2BD0973B7A"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 3.5d
+			y: -12.0d
+			dependencies: ["6E126ECDC4347750"]
+			optional: true
+			id: "3098FC7CFB2FB73D"
+			tasks: [{
+				id: "6521F4997BE99A38"
+				type: "item"
+				item: "industrialforegoing:pink_slime_ingot"
+			}]
+			rewards: [{
+				id: "6F0CADE4C6AB984E"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+	]
+}

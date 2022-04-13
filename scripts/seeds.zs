@@ -127,9 +127,14 @@ InfusionCrafting.remove(<item:mysticalagriculture:basalt_seeds>);
 InfusionCrafting.remove(<item:mysticalagriculture:light_seeds>);
 InfusionCrafting.remove(<item:mysticalagriculture:livingrock_seeds>);
 InfusionCrafting.remove(<item:mysticalagriculture:livingwood_seeds>);
-InfusionCrafting.remove(<item:mysticalagriculture:pink_slime_seeds>);
 InfusionCrafting.remove(<item:mysticalagriculture:luminessence_seeds>);
 InfusionCrafting.remove(<item:mysticalagriculture:ender_seeds>);
+InfusionCrafting.remove(<item:mysticalagriculture:flux_seeds>);
+InfusionCrafting.remove(<item:mysticalagriculture:redstone_ingot_seeds>);
+InfusionCrafting.remove(<item:mysticalagriculture:black_iron_seeds>);
+InfusionCrafting.remove(<item:mysticalagriculture:glass_seeds>);
+InfusionCrafting.remove(<item:mysticalagriculture:menril_seeds>);
+InfusionCrafting.remove(<item:mysticalagriculture:shulker_seeds>);
 
 <recipetype:thermal:insolator>.removeByName("thermalexpansion:machine/insolator/wolf_seeds");
 <recipetype:thermal:insolator>.removeByName("thermalexpansion:machine/insolator/vindicator_seeds");

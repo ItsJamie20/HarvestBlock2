@@ -25,5 +25,8 @@
     },
     "mysticalagriculture:yellorium": {
         "tier": "mysticalagriculture:4"
+    },
+    "mysticalagriculture:energized_steel": {
+        "tier": "mysticalagriculture:3"
     }
 }

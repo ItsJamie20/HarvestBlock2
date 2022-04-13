@@ -1,0 +1,20 @@
+{
+    "input": [
+      {
+        "item": "extendedcrafting:blank_iron_slate"
+      },
+      {
+        "item": "extendedcrafting:luminessence"
+      },
+      {
+        "item": "extendedcrafting:redstone_ingot"
+      }
+    ],
+    "inputFluid": "{FluidName:\"thermal:destabilized_redstone\",Amount:1000}",
+    "processingTime": 100,
+    "output": {
+      "item": "extendedcrafting:redstone_component",
+      "count": 1
+    },
+    "type": "industrialforegoing:dissolution_chamber"
+  }

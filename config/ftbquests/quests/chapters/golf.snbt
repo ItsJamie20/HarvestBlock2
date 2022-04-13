@@ -1,0 +1,197 @@
+{
+	id: "1AD50F3240290A26"
+	group: "06E5F28C3B7CCBFF"
+	order_index: 5
+	filename: "golf"
+	title: "Tier 6"
+	icon: "extendedcrafting:ultimate_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "Used to craft all other tiers of tables"
+			dependencies: ["74F293C247FE707D"]
+			id: "3CAE29EDF20B7ADF"
+			tasks: [{
+				id: "286CC1E7A00A0DC8"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+			rewards: [{
+				id: "401B426B7872B2C4"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			subtitle: "Required for tier 6 soil. Later higher tiers can be used instead."
+			dependencies: ["2885BA97AA1128B2"]
+			id: "09D343D2E2F1837A"
+			tasks: [{
+				id: "0D0AB8440C10FB2B"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+			rewards: [{
+				id: "05E1AA40E776B541"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: [
+				"245127F239D24105"
+				"09D343D2E2F1837A"
+			]
+			size: 2.0d
+			id: "38E87C4ECE2FB4E3"
+			tasks: [{
+				id: "5EA9D062A0AF4639"
+				type: "item"
+				item: "harvestblock:tier_6_soil"
+			}]
+			rewards: [{
+				id: "3C64D146B7933359"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["55CBEDA25E0195DA"]
+			id: "74F293C247FE707D"
+			tasks: [{
+				id: "495B197E962D773D"
+				type: "item"
+				item: "extendedcrafting:basic_component"
+			}]
+			rewards: [{
+				id: "30EA380A428E76CD"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: [
+				"74F293C247FE707D"
+				"19DB6B1E258E01BB"
+			]
+			id: "2885BA97AA1128B2"
+			tasks: [{
+				id: "240BC5E8F845F0D8"
+				type: "item"
+				item: "extendedcrafting:advanced_component"
+			}]
+			rewards: [{
+				id: "76640230788EE039"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			subtitle: "Summon the gaia by placing 4 gaia pylons around a beacon in specific locations. You can use the lexica botania to find the exact placement. Click terrasteel on the beacon to start the fight"
+			dependencies: ["607E884CF6D17FB2"]
+			id: "067717AEC17351AA"
+			tasks: [{
+				id: "06038EC252302525"
+				type: "item"
+				item: "botania:gaia_pylon"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1159BA6037202F9A"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			subtitle: "Upon killing the gaia it will drop gaia spirit. This can be crafted into gaia spirit ingots"
+			dependencies: ["067717AEC17351AA"]
+			id: "2001F1539E7AD4F9"
+			tasks: [{
+				id: "1522DD2204A2459E"
+				type: "item"
+				item: "botania:life_essence"
+			}]
+			rewards: [{
+				id: "1517429D260800F5"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			subtitle: "You can summon the gaia using a gaia spirit ingot for a more difficult fight with greater rewards."
+			dependencies: ["2001F1539E7AD4F9"]
+			id: "245127F239D24105"
+			tasks: [{
+				id: "47D20DD1F1319E37"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+			rewards: [{
+				id: "6F2D92D5B372A823"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			subtitle: "Upgrade blood altar to tier 4"
+			dependencies: ["1C951500C43A3143"]
+			id: "19DB6B1E258E01BB"
+			tasks: [{
+				id: "5CAEB969A0496ADB"
+				type: "item"
+				item: "bloodmagic:demonslate"
+			}]
+			rewards: [{
+				id: "1306512364B9D839"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			subtitle: "Upgrade blood altar to tier 3"
+			dependencies: ["47FEFD127D7867C6"]
+			id: "1C951500C43A3143"
+			tasks: [{
+				id: "037421E084ADB28E"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+			}]
+			rewards: [{
+				id: "1D19C15BD540A67E"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+	]
+}

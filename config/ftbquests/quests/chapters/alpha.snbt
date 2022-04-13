@@ -1,1318 +1,2360 @@
 {
 	id: "5F9B990C4F99B368"
 	group: ""
-	order_index: 0
+	order_index: 1
 	filename: "alpha"
-	title: "Alpha"
+	title: "Seeds"
 	icon: "mysticalagriculture:inferium_essence"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 15.5d
-			y: 7.5d
+			x: 11.5d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
 			id: "5061C06F20B85177"
 			tasks: [{
 				id: "4AA9FB4AB1B23F51"
 				type: "item"
 				item: "extendedcrafting:luminessence"
 			}]
+			rewards: [{
+				id: "144C119871414CC5"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -8.0d
-			y: -2.0d
+			x: 25.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"5D0F311B7C4A75D3"
+				"15B3BBE7A4234E42"
+			]
+			size: 2.0d
 			id: "2A305B4DC46AD918"
 			tasks: [{
 				id: "2E3113A2D3451F0B"
 				type: "item"
 				item: "mysticalagriculture:inferium_essence"
 			}]
-		}
-		{
-			x: 3.5d
-			y: -1.5d
-			id: "326C233C75C0C35B"
-			tasks: [{
-				id: "5C9676A38EE88282"
+			rewards: [{
+				id: "4EEFFE6C6260F846"
 				type: "item"
-				item: "mysticalagriculture:prudentium_essence"
+				item: "harvestblock:hbc"
+				count: 5
 			}]
 		}
 		{
-			x: 14.5d
-			y: -1.5d
-			id: "4061A81C2ED157E6"
-			tasks: [{
-				id: "1124EF2508504752"
-				type: "item"
-				item: "mysticalagriculture:tertium_essence"
-			}]
-		}
-		{
-			x: -8.5d
-			y: 6.5d
-			id: "79BC0D90B096C8B1"
-			tasks: [{
-				id: "326AE6DDBDA47BF7"
-				type: "item"
-				item: "mysticalagriculture:imperium_essence"
-			}]
-		}
-		{
-			x: 4.0d
-			y: 6.5d
-			id: "1EFB691534D98A47"
-			tasks: [{
-				id: "0D88B56347D3A1E5"
-				type: "item"
-				item: "mysticalagriculture:supremium_essence"
-			}]
-		}
-		{
-			x: -7.0d
-			y: -2.0d
+			x: 26.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["2A305B4DC46AD918"]
 			id: "156E1F3D29D821BD"
 			tasks: [{
 				id: "540B7A1594651B70"
 				type: "item"
 				item: "mysticalagriculture:air_essence"
 			}]
+			rewards: [{
+				id: "5B22E94A44CD0692"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -7.0d
-			y: -1.0d
+			x: 24.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["2A305B4DC46AD918"]
 			id: "3E0C513FBFC95DE0"
 			tasks: [{
 				id: "16D434C65DDC535B"
 				type: "item"
 				item: "mysticalagriculture:earth_essence"
 			}]
+			rewards: [{
+				id: "135248DC9E5A4A5B"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -7.0d
-			y: -3.0d
+			x: 26.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["2A305B4DC46AD918"]
 			id: "29A1E1475D539053"
 			tasks: [{
 				id: "7F190775839E78A1"
 				type: "item"
 				item: "mysticalagriculture:water_essence"
 			}]
+			rewards: [{
+				id: "5A5C61FA9937DF6E"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -8.0d
-			y: -3.0d
+			x: 24.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["2A305B4DC46AD918"]
 			id: "3C22405555E269FB"
 			tasks: [{
 				id: "0D012DFD5396A64B"
 				type: "item"
 				item: "mysticalagriculture:fire_essence"
 			}]
+			rewards: [{
+				id: "7D65B685264E0035"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -8.0d
-			y: -1.0d
+			x: 25.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["2A305B4DC46AD918"]
 			id: "51D2BAC5A11D50A1"
 			tasks: [{
 				id: "2DFFC16A214161DD"
 				type: "item"
 				item: "mysticalagriculture:stone_essence"
 			}]
+			rewards: [{
+				id: "29C82CE2BEC5FDAD"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -14.5d
-			y: -2.0d
+			x: 26.0d
+			y: -3.5d
+			dependencies: ["64084C209CBA71C2"]
 			id: "15B3BBE7A4234E42"
 			tasks: [{
 				id: "3D208F8185D45F30"
 				type: "item"
 				item: "mysticalagriculture:dirt_essence"
 			}]
+			rewards: [{
+				id: "553F510955BCA6C3"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -14.5d
-			y: -1.0d
+			x: 24.0d
+			y: -3.5d
+			dependencies: ["44A849E03CB59791"]
 			id: "5D0F311B7C4A75D3"
 			tasks: [{
 				id: "30FA2432F09D8787"
 				type: "item"
 				item: "mysticalagriculture:wood_essence"
 			}]
+			rewards: [{
+				id: "33A58C5FFB68A188"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -7.0d
-			y: 0.0d
+			x: 25.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["2A305B4DC46AD918"]
 			id: "431FFD749FB0B32A"
 			tasks: [{
 				id: "221ECFDDAFFB80F9"
 				type: "item"
 				item: "mysticalagriculture:ice_essence"
 			}]
+			rewards: [{
+				id: "4F0AE0D09CDF9BF1"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -8.0d
-			y: 0.0d
+			x: 19.5d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "58A2B7DF88EB03DB"
 			tasks: [{
 				id: "0AE8D47394DAF63F"
 				type: "item"
 				item: "mysticalagriculture:nature_essence"
 			}]
+			rewards: [{
+				id: "61A9C4AD427B991E"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 4.5d
-			y: -1.5d
+			x: 16.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "117A21ACF33D2533"
 			tasks: [{
 				id: "299D088D89F85283"
 				type: "item"
 				item: "mysticalagriculture:dye_essence"
 			}]
+			rewards: [{
+				id: "0D1FE39E567CB2DC"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 5.5d
-			y: -1.5d
+			x: 20.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "7B9A47C0B5226E59"
 			tasks: [{
 				id: "77D96AF6C91AE691"
 				type: "item"
 				item: "mysticalagriculture:nether_essence"
 			}]
+			rewards: [{
+				id: "2B9FDEEBF14A1BF4"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 3.5d
-			y: -0.5d
+			x: 21.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "344EA56C26802A80"
 			tasks: [{
 				id: "628F7F5D42797857"
 				type: "item"
 				item: "mysticalagriculture:coal_essence"
 			}]
+			rewards: [{
+				id: "67F8591AE80F7776"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 4.5d
-			y: -0.5d
+			x: 16.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "3AAF6CD3F7348E81"
 			tasks: [{
 				id: "3C29FDBE48CE3E26"
 				type: "item"
 				item: "mysticalagriculture:coral_essence"
 			}]
+			rewards: [{
+				id: "0FF3B40D8EBD1F5F"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 5.5d
-			y: -0.5d
+			x: 19.5d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "3E28AB97874FCDE9"
 			tasks: [{
 				id: "165570F44466E609"
 				type: "item"
 				item: "mysticalagriculture:honey_essence"
 			}]
+			rewards: [{
+				id: "5B54057C7142D603"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 2.5d
-			y: -2.5d
+			x: 20.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "79DD512FFA2546CE"
 			tasks: [{
 				id: "621B9FFAED8220DD"
 				type: "item"
 				item: "mysticalagriculture:pig_essence"
 			}]
+			rewards: [{
+				id: "71DEEC653BB7490E"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 0.5d
-			y: -0.5d
+			x: 20.5d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "504E7C47A85C2607"
 			tasks: [{
 				id: "27909158C4020959"
 				type: "item"
 				item: "mysticalagriculture:chicken_essence"
 			}]
+			rewards: [{
+				id: "4822FBEB699B87A7"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 2.5d
-			y: -1.5d
+			x: 18.5d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "58E0542AEAEC32E8"
 			tasks: [{
 				id: "54A91E434EC3EEFB"
 				type: "item"
 				item: "mysticalagriculture:cow_essence"
 			}]
+			rewards: [{
+				id: "3F934F8B2A5887D8"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 1.5d
-			y: -0.5d
+			x: 18.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "3B2F4E32F2CC6793"
 			tasks: [{
 				id: "191DE49086AD9C4D"
 				type: "item"
 				item: "mysticalagriculture:sheep_essence"
 			}]
+			rewards: [{
+				id: "0FB53B19198A6C96"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 1.5d
-			y: 0.5d
+			x: 18.5d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "6CE9839FB8BCFE67"
 			tasks: [{
 				id: "0153B3B72D5AF852"
 				type: "item"
 				item: "mysticalagriculture:squid_essence"
 			}]
+			rewards: [{
+				id: "1B3F1D87D5AF8715"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 5.5d
-			y: 0.5d
+			x: 17.5d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "76B54B57A2BF01B0"
 			tasks: [{
 				id: "5695AF8D35042C4F"
 				type: "item"
 				item: "mysticalagriculture:fish_essence"
 			}]
+			rewards: [{
+				id: "6110FB46376B647C"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 6.5d
-			y: 0.5d
+			x: 21.5d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "03049CADF29D72A4"
 			tasks: [{
 				id: "5EC7D46C9F6BEF5F"
 				type: "item"
 				item: "mysticalagriculture:slime_essence"
 			}]
+			rewards: [{
+				id: "20323BBC4610D3A7"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 2.5d
-			y: 0.5d
+			x: 20.5d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "262CC1662687AB8B"
 			tasks: [{
 				id: "4CE8677D8B048E96"
 				type: "item"
 				item: "mysticalagriculture:turtle_essence"
 			}]
+			rewards: [{
+				id: "3C9A7E0D106E1FE6"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 3.5d
-			y: -2.5d
+			x: 19.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "61E218B87D37013C"
 			tasks: [{
 				id: "030E48AE38FDA112"
 				type: "item"
 				item: "mysticalagriculture:rubber_essence"
 			}]
+			rewards: [{
+				id: "1108A977FBAA03C5"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 4.5d
-			y: -2.5d
+			x: 20.5d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "78265713A83D9B01"
 			tasks: [{
 				id: "3318ED07D1D0C9D2"
 				type: "item"
 				item: "mysticalagriculture:silicon_essence"
 			}]
+			rewards: [{
+				id: "6B3ECBE6AC79E6B8"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 0.5d
-			y: 0.5d
+			x: 17.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "51D7469A11C4A175"
 			tasks: [{
 				id: "2BDD9CFC110469BB"
 				type: "item"
 				item: "mysticalagriculture:sulfur_essence"
 			}]
+			rewards: [{
+				id: "11500F74521F2AA3"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 0.5d
-			y: -1.5d
+			x: 18.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "24205765F21ED8DA"
 			tasks: [{
 				id: "6C4F6DA079A5EB7D"
 				type: "item"
 				item: "mysticalagriculture:aluminum_essence"
 			}]
+			rewards: [{
+				id: "1AD002A6FAD592CA"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 1.5d
-			y: -1.5d
+			x: 17.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "10656E9DD46C43D3"
 			tasks: [{
 				id: "05A5D10CC4D6F31F"
 				type: "item"
 				item: "mysticalagriculture:copper_essence"
 			}]
+			rewards: [{
+				id: "169D2E506F560DBD"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 2.5d
-			y: -0.5d
+			x: 15.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "54900E63DEDD194E"
 			tasks: [{
 				id: "3CF85B8D51B5AFAC"
 				type: "item"
 				item: "mysticalagriculture:apatite_essence"
 			}]
+			rewards: [{
+				id: "48251B410CF8DB2A"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 4.5d
-			y: 0.5d
+			x: 16.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "069FD6A8A5B896C7"
 			tasks: [{
 				id: "366758EAB3AD41F2"
 				type: "item"
 				item: "mysticalagriculture:mystical_flower_essence"
 			}]
+			rewards: [{
+				id: "457665F359E775DE"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 3.5d
-			y: 0.5d
+			x: 22.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "3F9F6DC7787A301F"
 			tasks: [{
 				id: "5041A8C47B95CD3D"
 				type: "item"
 				item: "mysticalagriculture:marble_essence"
 			}]
+			rewards: [{
+				id: "5DABE43108362962"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 6.5d
-			y: -0.5d
+			x: 22.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "3DC0E848C19D1B12"
 			tasks: [{
 				id: "41229CDFB68DC0FD"
 				type: "item"
 				item: "mysticalagriculture:limestone_essence"
 			}]
+			rewards: [{
+				id: "5F068D9A1FA0458E"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 6.5d
-			y: -1.5d
+			x: 21.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "778E0F26F6AED593"
 			tasks: [{
 				id: "2D3FB2160EBCB698"
 				type: "item"
 				item: "mysticalagriculture:basalt_essence"
 			}]
-		}
-		{
-			x: 14.5d
-			y: -0.5d
-			id: "7F4C7954DFE665EB"
-			tasks: [{
-				id: "13DC91A5FFF26176"
+			rewards: [{
+				id: "39CAD9AE59C0F002"
 				type: "item"
-				item: "mysticalagriculture:plastic_essence"
+				item: "harvestblock:hbc"
+				count: 5
 			}]
 		}
 		{
-			x: 5.5d
-			y: -2.5d
+			x: 18.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "582B1E70D5B5CDF7"
 			tasks: [{
 				id: "751BFA7DDE45BB11"
 				type: "item"
 				item: "mysticalagriculture:iron_essence"
 			}]
+			rewards: [{
+				id: "15490BB5E7EC9822"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 13.5d
-			y: -1.5d
+			x: 30.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "601619307303572D"
 			tasks: [{
 				id: "728E025E16BE0B53"
 				type: "item"
 				item: "mysticalagriculture:nether_quartz_essence"
 			}]
+			rewards: [{
+				id: "112D88737355669C"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 6.5d
-			y: -2.5d
+			x: 20.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "7DE3A91A4F3237AD"
 			tasks: [{
 				id: "779F3D24A2E7A161"
 				type: "item"
 				item: "mysticalagriculture:glowstone_essence"
 			}]
+			rewards: [{
+				id: "0476440539E4B21B"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 15.5d
-			y: -1.5d
+			x: 34.0d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "69B9EBF97FFB03F3"
 			tasks: [{
 				id: "0A5CA15053CEBBF6"
 				type: "item"
 				item: "mysticalagriculture:redstone_essence"
 			}]
+			rewards: [{
+				id: "1D26F7DA67B1DCDD"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 13.5d
-			y: -0.5d
+			x: 33.0d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "77D8A35D41F941E1"
 			tasks: [{
 				id: "55D3E6B67B50D678"
 				type: "item"
 				item: "mysticalagriculture:obsidian_essence"
 			}]
+			rewards: [{
+				id: "589364B40BFBDC0F"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 15.5d
-			y: -3.5d
+			x: 30.0d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "3BBA46F9AB56F0F4"
 			tasks: [{
 				id: "4B6B49248305E68E"
 				type: "item"
 				item: "mysticalagriculture:prismarine_essence"
 			}]
+			rewards: [{
+				id: "63AA0CD02916864E"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 14.5d
-			y: -3.5d
+			x: 31.0d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "4CE7B83291B6D1C9"
 			tasks: [{
 				id: "461124F65850EE56"
 				type: "item"
 				item: "mysticalagriculture:zombie_essence"
 			}]
+			rewards: [{
+				id: "4EC829E21E8DB71B"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 13.5d
-			y: -3.5d
+			x: 29.0d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "54263DD41C8DD578"
 			tasks: [{
 				id: "6B818C54D2BFE761"
 				type: "item"
 				item: "mysticalagriculture:skeleton_essence"
 			}]
+			rewards: [{
+				id: "20DB9B4C94504BB4"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 12.5d
-			y: -3.5d
+			x: 30.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "2A131B2D1F6E47D6"
 			tasks: [{
 				id: "4F63058ED6D994DA"
 				type: "item"
 				item: "mysticalagriculture:creeper_essence"
 			}]
+			rewards: [{
+				id: "19FC429EC2D32A48"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 14.5d
-			y: 1.5d
+			x: 30.0d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "08B09212D6F42CEB"
 			tasks: [{
 				id: "3AC485AAD8C98F80"
 				type: "item"
 				item: "mysticalagriculture:spider_essence"
 			}]
+			rewards: [{
+				id: "7BE709A5C1ADFBA8"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 16.5d
-			y: -3.5d
+			x: 26.0d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "194C042AB61116D2"
 			tasks: [{
 				id: "13869BD363D357D6"
 				type: "item"
 				item: "mysticalagriculture:rabbit_essence"
 			}]
+			rewards: [{
+				id: "526CC3A7C52B5B9B"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 12.5d
-			y: 0.5d
+			x: 31.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "69B3DD1E015A3737"
 			tasks: [{
 				id: "33DF66B8A5A863DE"
 				type: "item"
 				item: "mysticalagriculture:tin_essence"
 			}]
+			rewards: [{
+				id: "01E211EE60EFCE53"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 12.5d
-			y: -0.5d
+			x: 29.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "2ED04A6A2838F61D"
 			tasks: [{
 				id: "28F03B041FA4A627"
 				type: "item"
 				item: "mysticalagriculture:bronze_essence"
 			}]
+			rewards: [{
+				id: "58BFAFC39D269AAC"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 12.5d
-			y: -1.5d
+			x: 31.0d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "39504F887B6BF58F"
 			tasks: [{
 				id: "10AEB14EDBA5A308"
 				type: "item"
 				item: "mysticalagriculture:silver_essence"
 			}]
+			rewards: [{
+				id: "6177C60F9242DCD0"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 12.5d
-			y: -2.5d
+			x: 31.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "0E19B8E69F6F76A6"
 			tasks: [{
 				id: "04A45AB8F4217F60"
 				type: "item"
 				item: "mysticalagriculture:lead_essence"
 			}]
+			rewards: [{
+				id: "171D226FC8BCE079"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 13.5d
-			y: -2.5d
+			x: 29.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "45BFB085C85F563C"
 			tasks: [{
 				id: "62FCDE54E05D0A09"
 				type: "item"
 				item: "mysticalagriculture:graphite_essence"
 			}]
+			rewards: [{
+				id: "4CC0F77F9CF77D15"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 14.5d
-			y: -2.5d
+			x: 27.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "647DD85578EBF4AD"
 			tasks: [{
 				id: "1C6AE549C7845E00"
 				type: "item"
 				item: "mysticalagriculture:blizz_essence"
 			}]
+			rewards: [{
+				id: "4521FF4267340789"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 15.5d
-			y: -2.5d
+			x: 27.0d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "10ADAC5149D6F113"
 			tasks: [{
 				id: "11EB5F0D45FD3124"
 				type: "item"
 				item: "mysticalagriculture:blitz_essence"
 			}]
+			rewards: [{
+				id: "4D74A4DAE8147DB9"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 16.5d
-			y: -2.5d
+			x: 27.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "0977F61FFA215746"
 			tasks: [{
 				id: "735EC22D6C651212"
 				type: "item"
 				item: "mysticalagriculture:basalz_essence"
 			}]
+			rewards: [{
+				id: "3FFA5478F226A6EA"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 16.5d
-			y: -1.5d
+			x: 32.0d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "62440CE6C5C1E615"
 			tasks: [{
 				id: "33155DF2BB519F88"
 				type: "item"
 				item: "mysticalagriculture:manasteel_essence"
 			}]
+			rewards: [{
+				id: "2C248D24834DB480"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 16.5d
-			y: -0.5d
+			x: 28.0d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "46BC287C5ADD87ED"
 			tasks: [{
 				id: "26F04D17AF117499"
 				type: "item"
 				item: "mysticalagriculture:ender_biotite_essence"
 			}]
+			rewards: [{
+				id: "0D5FB58D613F6075"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 16.5d
-			y: 0.5d
+			x: 30.0d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "2B98DD5338B9001D"
 			tasks: [{
 				id: "21DB15A297278135"
 				type: "item"
 				item: "mysticalagriculture:aquamarine_essence"
 			}]
+			rewards: [{
+				id: "14E6B8683DFBEC88"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 15.5d
-			y: -0.5d
+			x: 28.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "0E9AB35E4AB7AF67"
 			tasks: [{
 				id: "7655B1D647485822"
 				type: "item"
 				item: "mysticalagriculture:sky_stone_essence"
 			}]
+			rewards: [{
+				id: "00FA65A51C0E66F4"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 15.5d
-			y: 0.5d
+			x: 29.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "6D13D7E0A89E29E3"
 			tasks: [{
 				id: "632E464F2543E75F"
 				type: "item"
 				item: "mysticalagriculture:certus_quartz_essence"
 			}]
+			rewards: [{
+				id: "33BFAB23B7BBD58D"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 14.5d
-			y: 0.5d
+			x: 33.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "7B39872FB703033E"
 			tasks: [{
 				id: "2C31A787AC3E473A"
 				type: "item"
 				item: "mysticalagriculture:quartz_enriched_iron_essence"
 			}]
+			rewards: [{
+				id: "663DFDE9F883A077"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 13.5d
-			y: 0.5d
+			x: 33.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "6E7615BDD47AF336"
 			tasks: [{
 				id: "315475B1DF55889E"
 				type: "item"
 				item: "mysticalagriculture:gold_essence"
 			}]
+			rewards: [{
+				id: "26B459984CC2F796"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -8.5d
-			y: 7.5d
+			x: 32.0d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "09045606E43804A6"
 			tasks: [{
 				id: "14CD0F4C3E340D05"
 				type: "item"
 				item: "mysticalagriculture:lapis_lazuli_essence"
 			}]
+			rewards: [{
+				id: "07C4EFFAB897B5F5"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -7.5d
-			y: 6.5d
+			x: 35.5d
+			y: 15.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "46F7BADCA964995B"
 			tasks: [{
 				id: "047D879EF14AA091"
 				type: "item"
 				item: "mysticalagriculture:end_essence"
 			}]
+			rewards: [{
+				id: "6A20C9685535BB99"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -8.5d
-			y: 5.5d
+			x: 37.5d
+			y: 11.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "6FDA004B754A7131"
 			tasks: [{
 				id: "449C3EB593835785"
 				type: "item"
 				item: "mysticalagriculture:experience_essence"
 			}]
+			rewards: [{
+				id: "33C4195F88939ED8"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -7.5d
-			y: 5.5d
+			x: 34.5d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "062D0A776270C18B"
 			tasks: [{
 				id: "3BE8A852EAAC5AF5"
 				type: "item"
 				item: "mysticalagriculture:blaze_essence"
 			}]
+			rewards: [{
+				id: "0B3EA24FD69C8324"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -7.5d
-			y: 7.5d
+			x: 36.5d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "546AE326890FBE87"
 			tasks: [{
 				id: "05EBF7F5A04046B4"
 				type: "item"
 				item: "mysticalagriculture:ghast_essence"
 			}]
+			rewards: [{
+				id: "1F9EC3DCE94522E6"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -9.5d
-			y: 6.5d
+			x: 39.5d
+			y: 11.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "4836747AE468FC8E"
 			tasks: [{
 				id: "27D5FBF1CECF542A"
 				type: "item"
 				item: "mysticalagriculture:steel_essence"
 			}]
+			rewards: [{
+				id: "641AA22F50CFB746"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -9.5d
-			y: 7.5d
+			x: 34.5d
+			y: 12.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "6BC3A6260C4D8E7E"
 			tasks: [{
 				id: "243D772D6B21246A"
 				type: "item"
 				item: "mysticalagriculture:enderman_essence"
 			}]
+			rewards: [{
+				id: "68A227A855BB9225"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -10.5d
-			y: 5.5d
+			x: 29.0d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "260CC2B7A5B6BC4E"
 			tasks: [{
 				id: "2CFBC2F4A0389F57"
 				type: "item"
 				item: "mysticalagriculture:nickel_essence"
 			}]
+			rewards: [{
+				id: "7FD859661E5ED56F"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -10.5d
-			y: 6.5d
+			x: 38.5d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "3923D6A50A98D4DF"
 			tasks: [{
 				id: "6100ACA7A1057900"
 				type: "item"
 				item: "mysticalagriculture:constantan_essence"
 			}]
+			rewards: [{
+				id: "4857F1ECC22FFFE9"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -10.5d
-			y: 7.5d
+			disable_toast: true
+			x: 38.5d
+			y: 12.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "6217DBC1DDCCDE5E"
 			tasks: [{
 				id: "1E9BDE7096F437D4"
 				type: "item"
 				item: "mysticalagriculture:electrum_essence"
 			}]
+			rewards: [{
+				id: "50F4F2E0B3F98713"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -10.5d
-			y: 8.5d
+			x: 37.5d
+			y: 13.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "70D36E2600F126D2"
 			tasks: [{
 				id: "460F8F7EE823A006"
 				type: "item"
 				item: "mysticalagriculture:invar_essence"
 			}]
+			rewards: [{
+				id: "4FCDF9CE666C39C1"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -9.5d
-			y: 4.5d
+			x: 34.5d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "38763439809EA17F"
 			tasks: [{
 				id: "57A9E6B6A35D01E0"
 				type: "item"
 				item: "mysticalagriculture:uranium_essence"
 			}]
+			rewards: [{
+				id: "0277B07D56DBE610"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -10.5d
-			y: 4.5d
+			x: 37.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "3727663C47DEFA99"
 			tasks: [{
 				id: "4542EFA257D9F2BA"
 				type: "item"
 				item: "mysticalagriculture:signalum_essence"
 			}]
+			rewards: [{
+				id: "2AD5A73601D76D48"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -5.5d
-			y: 4.5d
+			x: 36.5d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "26CD89BC136B9793"
 			tasks: [{
 				id: "4F71670C9C63936F"
 				type: "item"
 				item: "mysticalagriculture:lumium_essence"
 			}]
+			rewards: [{
+				id: "0E93B457E13E652C"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -6.5d
-			y: 4.5d
+			x: 32.5d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "302ABB1F7E050107"
 			tasks: [{
 				id: "0335CAA00DE7AE7D"
 				type: "item"
 				item: "mysticalagriculture:hop_graphite_essence"
 			}]
+			rewards: [{
+				id: "6EDD1C89E9377CF6"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -7.5d
-			y: 4.5d
+			x: 15.0d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
 			id: "6D1AF6691E975DF8"
 			tasks: [{
 				id: "20B04D422232F0EF"
 				type: "item"
 				item: "mysticalagriculture:elementium_essence"
 			}]
+			rewards: [{
+				id: "0E5796B481B7C26C"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -8.5d
-			y: 4.5d
+			x: 31.5d
+			y: 11.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "17BA6FA439683054"
 			tasks: [{
 				id: "4C146F1DCA1EA28A"
 				type: "item"
 				item: "mysticalagriculture:osmium_essence"
 			}]
+			rewards: [{
+				id: "4D41285168512133"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -9.5d
-			y: 8.5d
+			x: 34.5d
+			y: 14.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "01DD4FDCFD12E3C6"
 			tasks: [{
 				id: "2D2006B418AD36BF"
 				type: "item"
 				item: "mysticalagriculture:fluorite_essence"
 			}]
+			rewards: [{
+				id: "5C3691F9659E81A3"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -8.5d
-			y: 8.5d
+			x: 32.5d
+			y: 12.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "09EA860FB609CEF3"
 			tasks: [{
 				id: "2ACA99AE142961D4"
 				type: "item"
 				item: "mysticalagriculture:refined_glowstone_essence"
 			}]
+			rewards: [{
+				id: "1B1EFC27E482C07D"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -7.5d
-			y: 8.5d
+			x: 33.5d
+			y: 13.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "4D7DFBE58BA2FBA2"
 			tasks: [{
 				id: "169CA0F1F0DA6D61"
 				type: "item"
 				item: "mysticalagriculture:refined_obsidian_essence"
 			}]
+			rewards: [{
+				id: "22D493D8604F04CA"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -6.5d
-			y: 8.5d
+			x: 35.5d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "6787BC54F5008D09"
 			tasks: [{
 				id: "4D935E273318ED88"
 				type: "item"
 				item: "mysticalagriculture:starmetal_essence"
 			}]
+			rewards: [{
+				id: "14B4E8BC46D564DA"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -9.5d
-			y: 5.5d
+			x: 33.5d
+			y: 11.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "570EAB32FB42F114"
 			tasks: [{
 				id: "3BFB48170D506847"
 				type: "item"
 				item: "mysticalagriculture:fluix_essence"
 			}]
+			rewards: [{
+				id: "76FE1515ADE5B2E8"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -6.5d
-			y: 5.5d
+			x: 28.0d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
 			id: "499E16843FCD5F86"
 			tasks: [{
 				id: "36D81CF75986E356"
 				type: "item"
 				item: "mysticalagriculture:energized_steel_essence"
 			}]
+			rewards: [{
+				id: "7CCE61A0C7A81FF3"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -6.5d
-			y: 6.5d
+			x: 36.5d
+			y: 14.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "0E9FFDF0C327A3E2"
 			tasks: [{
 				id: "543CBD2157586F4E"
 				type: "item"
 				item: "mysticalagriculture:blazing_crystal_essence"
 			}]
+			rewards: [{
+				id: "233A5A92C686BE16"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -6.5d
-			y: 7.5d
+			x: 36.5d
+			y: 12.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "2B5398A998DC5C67"
 			tasks: [{
 				id: "1AD1ED10E9306DFF"
 				type: "item"
 				item: "mysticalagriculture:pink_slime_essence"
 			}]
+			rewards: [{
+				id: "1991E367E160AB80"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 3.0d
-			y: 6.5d
+			x: 25.0d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["450517E8A94238AB"]
 			id: "751EBB7652934C3A"
 			tasks: [{
 				id: "339ABFA2ED87154A"
 				type: "item"
 				item: "mysticalagriculture:diamond_essence"
 			}]
+			rewards: [{
+				id: "47821B57F65E2D3F"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 3.0d
-			y: 7.5d
+			x: 25.0d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: ["450517E8A94238AB"]
 			id: "3C2C5953C4639DF6"
 			tasks: [{
 				id: "651C1DCFBB70207B"
 				type: "item"
 				item: "mysticalagriculture:emerald_essence"
 			}]
+			rewards: [{
+				id: "2EB69F004BC62B27"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 4.0d
-			y: 7.5d
+			x: 22.5d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: ["450517E8A94238AB"]
 			id: "356046C19DBD1F9C"
 			tasks: [{
 				id: "2C76542A3E485459"
 				type: "item"
 				item: "mysticalagriculture:netherite_essence"
 			}]
+			rewards: [{
+				id: "7A9F5F16D0F43652"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 5.0d
-			y: 7.5d
+			x: 25.0d
+			y: 14.5d
+			hide_dependency_lines: true
+			dependencies: ["450517E8A94238AB"]
 			id: "5B5292C527EB3638"
 			tasks: [{
 				id: "785EB7857175DB4B"
 				type: "item"
 				item: "mysticalagriculture:wither_skeleton_essence"
 			}]
+			rewards: [{
+				id: "42865CA775AB7233"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 5.0d
-			y: 6.5d
+			x: 23.5d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: ["450517E8A94238AB"]
 			id: "609D33007F760626"
 			tasks: [{
 				id: "3D100477EEC2FE36"
 				type: "item"
 				item: "mysticalagriculture:enderium_essence"
 			}]
+			rewards: [{
+				id: "6E4CC39EF83BB4E7"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 5.0d
-			y: 5.5d
+			x: 27.5d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: ["450517E8A94238AB"]
 			id: "3F7F1B1AF53D6923"
 			tasks: [{
 				id: "7676D3DF43087189"
 				type: "item"
 				item: "mysticalagriculture:terrasteel_essence"
 			}]
+			rewards: [{
+				id: "37E280B69D77494E"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 4.0d
-			y: 5.5d
+			x: 24.0d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["450517E8A94238AB"]
 			id: "60A3E1A04058D2E7"
 			tasks: [{
 				id: "1FD29F1ACE64205D"
 				type: "item"
 				item: "mysticalagriculture:rock_crystal_essence"
 			}]
+			rewards: [{
+				id: "666EE134AF726403"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 6.0d
-			y: 7.5d
+			x: 33.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
 			id: "7077983643B42B81"
 			tasks: [{
 				id: "56F765C986539A37"
 				type: "item"
 				item: "mysticalagriculture:yellorium_essence"
 			}]
+			rewards: [{
+				id: "54C405B2AAAFF5BD"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 6.0d
-			y: 6.5d
+			x: 26.5d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: ["450517E8A94238AB"]
 			id: "218286D53A392E64"
 			tasks: [{
 				id: "45B873B49432F88B"
 				type: "item"
 				item: "mysticalagriculture:cyanite_essence"
 			}]
+			rewards: [{
+				id: "2B0E7FE736DA731A"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 3.0d
-			y: 5.5d
+			x: 26.0d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["450517E8A94238AB"]
 			id: "4690D4CFC33BF911"
 			tasks: [{
 				id: "5399B5DB8C9F3A93"
 				type: "item"
 				item: "mysticalagriculture:niotic_crystal_essence"
 			}]
+			rewards: [{
+				id: "4E60EE1A8D09D06D"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 6.0d
-			y: 5.5d
+			x: 24.0d
+			y: 13.0d
+			hide_dependency_lines: true
+			dependencies: ["450517E8A94238AB"]
 			id: "2FBD3E1631955115"
 			tasks: [{
 				id: "192348DBB54C6CC9"
 				type: "item"
 				item: "mysticalagriculture:spirited_crystal_essence"
 			}]
+			rewards: [{
+				id: "24BB12D2423E6FDE"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 7.0d
-			y: 5.5d
+			x: 26.0d
+			y: 13.0d
+			hide_dependency_lines: true
+			dependencies: ["450517E8A94238AB"]
 			id: "6AE4A74C01B92ACA"
 			tasks: [{
 				id: "582E8F98F57931D9"
 				type: "item"
 				item: "mysticalagriculture:uraninite_essence"
 			}]
+			rewards: [{
+				id: "0A7E25BDC79F8AE1"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 14.5d
-			y: 7.5d
+			x: 13.5d
+			y: 9.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
 			id: "557DD1630B6B7217"
 			tasks: [{
 				id: "7A4B79D9044DFB10"
 				type: "item"
 				item: "mysticalagriculture:nether_star_essence"
 			}]
+			rewards: [{
+				id: "2D1CFAEBABE07054"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 14.5d
-			y: 8.5d
+			x: 12.5d
+			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
 			id: "28C02FAD5C429106"
 			tasks: [{
 				id: "317E189EB9AFDB82"
 				type: "item"
 				item: "mysticalagriculture:dragon_egg_essence"
 			}]
+			rewards: [{
+				id: "4DA5671FD6747AA6"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
 			x: 14.5d
-			y: 9.5d
+			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
 			id: "5A72401489A35342"
 			tasks: [{
 				id: "3D4C63B797D21E03"
 				type: "item"
 				item: "mysticalagriculture:nitro_crystal_essence"
 			}]
-		}
-		{
-			x: 15.5d
-			y: 8.5d
-			id: "7D23E60DACD94DCC"
-			tasks: [{
-				id: "12A3986812B2A5B0"
+			rewards: [{
+				id: "45E6228C346D8A6E"
 				type: "item"
-				item: "mysticalagradditions:insanium_essence"
+				item: "harvestblock:hbc"
+				count: 5
 			}]
 		}
 		{
-			x: 3.0d
-			y: 13.5d
-			id: "654F21BE1337EB16"
-			tasks: [{
-				id: "06C429620212719B"
-				type: "item"
-				item: "mysticalagradditions:creative_essence"
-			}]
-		}
-		{
-			x: 15.5d
-			y: 1.5d
+			x: 31.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
+			dependency_requirement: "one_completed"
 			id: "603C952A88CFCF86"
 			tasks: [{
 				id: "75BAA835DFD6C54A"
 				type: "item"
 				item: "mysticalagriculture:prosperity_essence"
 			}]
+			rewards: [{
+				id: "7B0313F37BF7EC18"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 12.5d
-			y: 8.5d
+			x: 14.5d
+			y: 14.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
 			id: "3F530021AF946099"
 			tasks: [{
 				id: "5FE70F895D49A572"
 				type: "item"
 				item: "mysticalagriculture:crystaltine_essence"
 			}]
+			rewards: [{
+				id: "2444BCD0F005F3AB"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 12.5d
-			y: 7.5d
+			x: 17.0d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
 			id: "654C15EC28F42ADC"
 			tasks: [{
 				id: "5C875780B64B5B30"
 				type: "item"
 				item: "mysticalagriculture:dark_matter_essence"
 			}]
+			rewards: [{
+				id: "568C8155899FCD59"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 12.5d
-			y: 9.5d
+			x: 11.5d
+			y: 13.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
 			id: "7CB6BF02E28AFE56"
 			tasks: [{
 				id: "322DF383FC539B9E"
 				type: "item"
 				item: "mysticalagriculture:ender_essence"
 			}]
+			rewards: [{
+				id: "5F87809D9ACB9516"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 13.5d
-			y: 7.5d
+			x: 12.5d
+			y: 14.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
 			id: "30F617E65ED45CF0"
 			tasks: [{
 				id: "1D90A081400669D7"
 				type: "item"
 				item: "mysticalagriculture:gaia_essence"
 			}]
+			rewards: [{
+				id: "2B3D76A70FFF8063"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 12.5d
-			y: 1.5d
+			x: 22.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "67957DFAA2D8A76E"
 			tasks: [{
 				id: "73A66A3D2BC66FFA"
 				type: "item"
 				item: "mysticalagriculture:livingrock_essence"
 			}]
+			rewards: [{
+				id: "5A435E4CAC0474E8"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 16.5d
-			y: 1.5d
+			x: 23.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "3A85B2053925FE75"
 			tasks: [{
 				id: "49258322BFDD7D91"
 				type: "item"
 				item: "mysticalagriculture:livingwood_essence"
 			}]
+			rewards: [{
+				id: "6FCF52170F8D306A"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 13.5d
-			y: 8.5d
+			x: 10.0d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
 			id: "1CAAB8D2F73A9D84"
 			tasks: [{
 				id: "2BEB55937951D77A"
 				type: "item"
 				item: "mysticalagriculture:red_matter_essence"
 			}]
+			rewards: [{
+				id: "6FFB2AAFBC8E4FCF"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 13.5d
-			y: 9.5d
+			x: 12.0d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
 			id: "3256D4BB029650DD"
 			tasks: [{
 				id: "1611CB2AB87AD404"
 				type: "item"
 				item: "mysticalagriculture:soulium_essence"
 			}]
+			rewards: [{
+				id: "0E26BAD6AE972004"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 0.5d
-			y: -2.5d
+			x: 19.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
 			id: "5D75E080BC316684"
 			tasks: [{
 				id: "5C87FBF323A36F96"
 				type: "item"
 				item: "mysticalagriculture:soul_essence"
 			}]
+			rewards: [{
+				id: "6CA494845E3FA959"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: 15.5d
-			y: 9.5d
+			x: 13.5d
+			y: 15.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
 			id: "05AC84CB2AE82A57"
 			tasks: [{
 				id: "4398C4F8FCC69543"
 				type: "item"
 				item: "mysticalagriculture:ultimate_essence"
 			}]
+			rewards: [{
+				id: "537652A0EA5F46AD"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -9.0d
-			y: -1.0d
+			x: 27.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["2A305B4DC46AD918"]
 			id: "4B12C81CC81073C3"
 			tasks: [{
 				id: "0E9638514C944A50"
 				type: "item"
 				item: "mysticalagriculture:dark_essence"
 			}]
+			rewards: [{
+				id: "576A8184676957F5"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -9.0d
+			x: 23.0d
 			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["2A305B4DC46AD918"]
 			id: "50C5ED752A601B85"
 			tasks: [{
 				id: "242DCAF7DE26CAB5"
 				type: "item"
 				item: "mysticalagriculture:light_essence"
 			}]
+			rewards: [{
+				id: "23A49942523D20AC"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
 		}
 		{
-			x: -6.0d
-			y: 13.0d
-			id: "131F1743FB968B5B"
+			x: 32.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
+			id: "0ADE7ABE8D748151"
 			tasks: [{
-				id: "6567200832FA8C4E"
+				id: "512DCCB7EA2807E6"
 				type: "item"
-				title: "Air Seeds"
-				icon: {
-					id: "agricraft:agri_seed"
-					Count: 1b
-					tag: {
-						agri_genome: [
-							{
-								agri_gene: "agri_species"
-								agri_dominant: {
-									agri_plant: "mysticalagriculture:air_plant"
-								}
-								agri_recessive: {
-									agri_plant: "mysticalagriculture:air_plant"
-								}
-							}
-							{
-								agri_gene: "fertility"
-								agri_dominant: {
-									fertility: 1
-								}
-								agri_recessive: {
-									fertility: 1
-								}
-							}
-							{
-								agri_gene: "gain"
-								agri_dominant: {
-									gain: 1
-								}
-								agri_recessive: {
-									gain: 1
-								}
-							}
-							{
-								agri_gene: "growth"
-								agri_dominant: {
-									growth: 1
-								}
-								agri_recessive: {
-									growth: 1
-								}
-							}
-							{
-								agri_gene: "mutativity"
-								agri_dominant: {
-									mutativity: 1
-								}
-								agri_recessive: {
-									mutativity: 1
-								}
-							}
-							{
-								agri_gene: "resistance"
-								agri_dominant: {
-									resistance: 1
-								}
-								agri_recessive: {
-									resistance: 1
-								}
-							}
-							{
-								agri_gene: "strength"
-								agri_dominant: {
-									strength: 1
-								}
-								agri_recessive: {
-									strength: 1
-								}
-							}
-						]
-					}
-				}
-				item: {
-					id: "itemfilters:and"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "agricraft:agri_seed"
-								Count: 1b
-							}
-							{
-								id: "itemfilters:strong_nbt"
-								Count: 1b
-								tag: {
-									value: {
-										agri_genome: [{
-											agri_dominant: {
-												agri_plant: "mysticalagriculture:air_plant"
-											}
-											agri_gene: "agri_species"
-										}]
-									}
-								}
-							}
-						]
-					}
-				}
+				item: "mysticalagriculture:menril_essence"
+			}]
+			rewards: [{
+				id: "24ACBA6AE365FBE0"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 18.5d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
+			id: "3007F9864BB4BBD1"
+			tasks: [{
+				id: "1118CEC25BF1E4F3"
+				type: "item"
+				item: "mysticalagriculture:plastic_essence"
+			}]
+			rewards: [{
+				id: "2AF8975E3D12FDDC"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 14.5d
+			y: 13.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
+			id: "7DB02DA78BB7CC96"
+			tasks: [{
+				id: "1AFC5BD9436F69C0"
+				type: "item"
+				item: "harvestblock:crystaltine_crux"
+			}]
+			rewards: [{
+				id: "65E0E44F629A15C3"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 16.0d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
+			id: "05DF8973DD23F910"
+			tasks: [{
+				id: "4C15E286C9D4DE48"
+				type: "item"
+				item: "harvestblock:dark_matter_crux"
+			}]
+			rewards: [{
+				id: "1DBF6D6AA6B1A7E9"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 11.0d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
+			id: "20E8985085E94CB9"
+			tasks: [{
+				id: "41B241C827B68B9E"
+				type: "item"
+				item: "harvestblock:red_matter_crux"
+			}]
+			rewards: [{
+				id: "36F6519361269B01"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 12.5d
+			y: 13.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
+			id: "4B9D1FEA88FCE09D"
+			tasks: [{
+				id: "11B5B5F61644FE2F"
+				type: "item"
+				item: "harvestblock:gaia_crux"
+			}]
+			rewards: [{
+				id: "45264A54FB71E813"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 13.5d
+			y: 14.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
+			id: "47D55FBD7DBFEF92"
+			tasks: [{
+				id: "13B7D6B8A8B525B3"
+				type: "item"
+				item: "harvestblock:ultimate_crux"
+			}]
+			rewards: [{
+				id: "151E3E49C971DF35"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 13.5d
+			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
+			id: "7BA76E5DF7C7224F"
+			tasks: [{
+				id: "59A96E9A2B0E1790"
+				type: "item"
+				item: "mysticalagradditions:nether_star_crux"
+			}]
+			rewards: [{
+				id: "04460D2DC3F59C71"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 12.5d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
+			id: "3B1ECD9F39D551FE"
+			tasks: [{
+				id: "791160E0A34A5F5C"
+				type: "item"
+				item: "mysticalagradditions:dragon_egg_crux"
+			}]
+			rewards: [{
+				id: "29602CB6656045EA"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 14.5d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
+			id: "0DC7FDCBF348542F"
+			tasks: [{
+				id: "497A4E5923EBFEF2"
+				type: "item"
+				item: "mysticalagradditions:nitro_crystal_crux"
+			}]
+			rewards: [{
+				id: "2FB6BC66E6BF3A19"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 19.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["2A305B4DC46AD918"]
+			size: 2.0d
+			id: "44C4D6526EA04E1D"
+			tasks: [{
+				id: "21AD38C4AC123FFF"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+			rewards: [{
+				id: "157E8B3DE22346D0"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 30.0d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["44C4D6526EA04E1D"]
+			size: 2.0d
+			id: "1CADE0F3FAB7C1D6"
+			tasks: [{
+				id: "0886375298F3D6C0"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+			}]
+			rewards: [{
+				id: "06E838462DB91FA9"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 35.5d
+			y: 11.5d
+			hide_dependency_lines: true
+			dependencies: ["1CADE0F3FAB7C1D6"]
+			size: 2.0d
+			id: "01F12D818FD85AAC"
+			tasks: [{
+				id: "3D5C82B0D93FFFB5"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+			rewards: [{
+				id: "51360F00D4689911"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 25.0d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: ["01F12D818FD85AAC"]
+			size: 2.0d
+			id: "450517E8A94238AB"
+			tasks: [{
+				id: "1BE1ACAE19BF73FF"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+			rewards: [{
+				id: "733A47E2A1FC035C"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 13.5d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: ["450517E8A94238AB"]
+			size: 2.0d
+			id: "64773D5DC33C849E"
+			tasks: [{
+				id: "6C7D8ADA6FE22258"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+			}]
+			rewards: [{
+				id: "5E649F7699D27651"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 15.5d
+			y: 13.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
+			id: "466260954645C15B"
+			tasks: [{
+				id: "06CC51437DD4292F"
+				type: "item"
+				item: "mysticalagriculture:black_iron_essence"
+			}]
+			rewards: [{
+				id: "64A08836927048DE"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 15.5d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["64773D5DC33C849E"]
+			id: "0FA343308CFE240C"
+			tasks: [{
+				id: "083C9886C60DD477"
+				type: "item"
+				item: "mysticalagriculture:redstone_ingot_essence"
+			}]
+			rewards: [{
+				id: "750B89B6E96E921A"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
 			}]
 		}
 	]

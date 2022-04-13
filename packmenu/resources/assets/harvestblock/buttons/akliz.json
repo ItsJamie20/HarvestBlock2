@@ -1,0 +1,21 @@
+{
+	"x": -160,
+	"y": 60,
+	"width": 320,
+	"height": 30,
+	"langKey": "packmenu.harvestblock.akliz",
+	"action": "OPEN_URL",
+	"data": "https://akliz.net/harvestblock",
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 30,
+	"texWidth": 320,
+	"texHeight": 60,
+	"texture": "harvestblock:textures/button.png",
+	"fontColor": 16777215,
+	"hoverFontColor": 0,
+	"dropShadow": false,
+	"textXOffset": 0,
+	"textYOffset": -3
+}

@@ -25,6 +25,10 @@
 		#Maps Mekanism chemical infuser recipes.
 		enabled = true
 
+	[CraftingMapper.ExtendedCraftingTableMapper]
+		#Maps Extended Crafting Table recipes
+		enabled = true
+
 	[CraftingMapper.MekChemicalCrystallizer]
 		#Maps Mekanism crystallizing recipes.
 		enabled = true
@@ -57,6 +61,10 @@
 		#null
 		enabled = true
 
+	[CraftingMapper.IndustrialForegoingDissolutionChamberMapper]
+		#ProjectE-Integration Recipe Mapper for Industrial Foregoing Dissolution Chamber Mapper. Required Mods: [industrialforegoing]
+		enabled = true
+
 	[CraftingMapper.MekRotary]
 		#Maps Mekanism rotary condensentrator recipes.
 		enabled = true
@@ -71,6 +79,10 @@
 
 	[CraftingMapper.MekItemStackToPigment]
 		#Maps Mekanism item stack to pigment recipes. (Pigment Extracting)
+		enabled = true
+
+	[CraftingMapper.ExtendedCraftingCombinationMapper]
+		#Maps Extended Crafting Combination recipes
 		enabled = true
 
 	[CraftingMapper.MekItemStackGasToItemStack]
@@ -112,6 +124,10 @@
 		#Maps Mekanism pigment mixer recipes.
 		enabled = true
 
+	[CraftingMapper.IndustrialForegoingCrusherMapper]
+		#ProjectE-Integration Recipe Mapper for Industrial Foregoing Crusher Mapper. Required Mods: [industrialforegoing]
+		enabled = true
+
 	[CraftingMapper.AstralSorceryBlockTransmutationMapper]
 		#A recipe mapper for Astral Sorcery Block Transmutation recipes.
 		enabled = true
@@ -140,12 +156,20 @@
 		#null
 		enabled = true
 
+	[CraftingMapper.IndustrialForegoingStoneWorksGenerateMapper]
+		#ProjectE-Integration Recipe Mapper for Industrial Foregoing Stone Works Generate Mapper. Required Mods: [industrialforegoing] NOTE: Disabled by default.
+		enabled = false
+
 	[CraftingMapper.MekSawmill]
 		#Maps Mekanism sawmill recipes. (Disabled by default, due to causing various EMC values to be removed pertaining to charcoal/wood)
 		enabled = false
 
 	[CraftingMapper.MekCombiner]
 		#Maps Mekanism combiner recipes.
+		enabled = true
+
+	[CraftingMapper.ExtendedCraftingCompressorMapper]
+		#ProjectE-Integration Recipe Mapper for Extended Crafting Compressor Mapper. Required Mods: [extendedcrafting]
 		enabled = true
 
 	[CraftingMapper.BotaniaPureDaisyMapper]
@@ -207,6 +231,10 @@
 	[CraftingMapper.AstralSorceryWellLiquefactionMapper]
 		#A recipe mapper for Astral Sorcery Well Liquefaction recipes. Disabled by default. Maps 1 Item to 1 bucket (1000)
 		enabled = false
+
+	[CraftingMapper.ExtendedCraftingEnderCrafterMapper]
+		#Maps extended crafting Ender Crafter recipes
+		enabled = true
 
 	[CraftingMapper.AppliedEnergisticsGrinderMapper]
 		#Recipe mapper for Applied Energistics grinder. NOTE: Optional outputs are ignored

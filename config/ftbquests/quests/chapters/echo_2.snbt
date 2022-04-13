@@ -1,0 +1,255 @@
+{
+	id: "2AAE7FC63F2CFF2B"
+	group: "06E5F28C3B7CCBFF"
+	order_index: 3
+	filename: "echo_2"
+	title: "Tier 4"
+	icon: "bloodmagic:altar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "The starting point for all blood magic"
+			dependencies: ["6E126ECDC4347750"]
+			id: "42B1391CD8C782F9"
+			tasks: [{
+				id: "0F1D2565FAFC2032"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [{
+				id: "4D3822FD10401EE3"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			subtitle: "Crafted by placing stone in a blood altar"
+			dependencies: ["525270EFE9C0CF04"]
+			id: "2A762D946CE83E3A"
+			tasks: [{
+				id: "7CC0D86834FD466B"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+			rewards: [{
+				id: "39146BABC0C19B98"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			dependencies: [
+				"2FDC162756B71C95"
+				"3D3A464E9682C44F"
+				"357A3E4A5A1DF1E6"
+				"22BAE8B6A592BB5D"
+				"5D372E2CE9D761CC"
+			]
+			size: 2.0d
+			id: "55556EE3EB61F383"
+			tasks: [{
+				id: "32DA87F5BBFF6A07"
+				type: "item"
+				item: "harvestblock:tier_4_soil"
+			}]
+			rewards: [{
+				id: "19ABC6CC80D8ACAE"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.5d
+			dependencies: ["4B342916931DDB8D"]
+			id: "22BAE8B6A592BB5D"
+			tasks: [{
+				id: "2831FEEB384B8380"
+				type: "item"
+				item: "bloodmagic:reagentwater"
+			}]
+			rewards: [{
+				id: "399A5FFAC9612CCF"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.5d
+			dependencies: ["4B342916931DDB8D"]
+			id: "357A3E4A5A1DF1E6"
+			tasks: [{
+				id: "3458AADDA8D685B2"
+				type: "item"
+				item: "bloodmagic:reagentlava"
+			}]
+			rewards: [{
+				id: "5AC36AE421D1F4A4"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.5d
+			dependencies: ["4B342916931DDB8D"]
+			id: "3D3A464E9682C44F"
+			tasks: [{
+				id: "238E56EC983C6A02"
+				type: "item"
+				item: "bloodmagic:reagentgrowth"
+			}]
+			rewards: [{
+				id: "22762A2E7F59AD11"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.5d
+			dependencies: ["4B342916931DDB8D"]
+			id: "2FDC162756B71C95"
+			tasks: [{
+				id: "0559B6CD0FB9F00A"
+				type: "item"
+				item: "bloodmagic:reagentair"
+			}]
+			rewards: [{
+				id: "3732B1DD6C8C59BA"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			subtitle: "Stores blood and is also used in crafting recipes"
+			dependencies: ["525270EFE9C0CF04"]
+			id: "53EE374110B4273A"
+			tasks: [{
+				id: "04D91F3732E02065"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+			rewards: [{
+				id: "17DA76AD40DF9035"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["47FEFD127D7867C6"]
+			id: "4B342916931DDB8D"
+			tasks: [{
+				id: "50A17312E486800B"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+			rewards: [{
+				id: "5D6A98A33EB85101"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			subtitle: "Tier 4 Soil requires a terrestial agglomeration plate to craft"
+			dependencies: ["4A021E557328DB0D"]
+			id: "5D372E2CE9D761CC"
+			tasks: [{
+				id: "0AF6158E0B913D2D"
+				type: "item"
+				item: "botania:terra_plate"
+			}]
+			rewards: [{
+				id: "2DC39DF8BA7FF5C8"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Place in a ring below the altar to upgrade to tier 2"
+			dependencies: [
+				"53EE374110B4273A"
+				"2A762D946CE83E3A"
+			]
+			id: "71C91312186BB964"
+			tasks: [{
+				id: "0C1A55FD9BC8000C"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 8L
+			}]
+			rewards: [{
+				id: "11F7A53D5FA2D99C"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			subtitle: "Upgrade a blank slate to reinforced by placing it in a tier 2 altar"
+			dependencies: ["71C91312186BB964"]
+			id: "47FEFD127D7867C6"
+			tasks: [{
+				id: "0A5F8C510AA34402"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+			}]
+			rewards: [{
+				id: "6ED613C123C45B85"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Sacrifice your health to fill the altar with blood"
+			dependencies: ["42B1391CD8C782F9"]
+			id: "525270EFE9C0CF04"
+			tasks: [{
+				id: "55AA33938EA64AF7"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "29DF854C23DFACAF"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+	]
+}

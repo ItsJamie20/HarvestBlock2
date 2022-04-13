@@ -1,0 +1,1748 @@
+{
+	id: "14B05B214EC01261"
+	group: ""
+	order_index: 3
+	filename: "power"
+	title: "Power"
+	icon: "fluxnetworks:flux_core"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["7A1ABE34A3B27F9A"]
+			id: "4CC3FCFA31150CD6"
+			tasks: [{
+				id: "20804D6E6C34ECE6"
+				type: "item"
+				item: "powah:furnator_starter"
+			}]
+			rewards: [
+				{
+					id: "6F298109FCA2694E"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "4F822D92DC913878"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "787E2F269EB6A1FF"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["7A1ABE34A3B27F9A"]
+			id: "4EB6D23F3CFD8AB0"
+			tasks: [{
+				id: "6D6CFA58F2B1E1A7"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+			rewards: [
+				{
+					id: "462615E1FC3127B9"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "4F149A00ED3989A4"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "7BCEF3A32505F02E"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["46365A5F302C27F2"]
+			id: "022AD25EDA78DA21"
+			tasks: [{
+				id: "213111FF0C5D9351"
+				type: "item"
+				item: "bigreactors:basic_reactorcasing"
+			}]
+			rewards: [
+				{
+					id: "1DD36AB87F62D035"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "2FDA6E49846D131C"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "6E946DFFCCD0B711"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["4411A119BE138119"]
+			id: "4459653BD4D2D31E"
+			tasks: [{
+				id: "0F68E6BC13025895"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+			rewards: [
+				{
+					id: "0A9194F021FBE556"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "402C6AEAD329E3CE"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "6BD8095323F1758E"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["6E126ECDC4347750"]
+			id: "3A4478E8787E27D1"
+			tasks: [{
+				id: "02D8F62C3427E135"
+				type: "item"
+				item: "industrialforegoing:biofuel_generator"
+			}]
+			rewards: [
+				{
+					id: "4B3A611159E16B48"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "4DA8BB7E0977D55B"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "41129D0622A0F142"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["55556EE3EB61F383"]
+			id: "21C66A011CCAA279"
+			tasks: [{
+				id: "202EDC835F2CD3C3"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+			rewards: [
+				{
+					id: "384EEFD36ACE85D1"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "65F237939D0B9727"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "0E2099882DB936BF"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["4EB6D23F3CFD8AB0"]
+			id: "68DB0BA763854F8C"
+			tasks: [{
+				id: "1376D1F285707118"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+			rewards: [
+				{
+					id: "7B10794FEE40A311"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "4D409AC7AFD54AB4"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "31E6E202832F99CA"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			dependencies: ["68DB0BA763854F8C"]
+			id: "78FEFD103350D0F9"
+			tasks: [{
+				id: "0CEA8B2ED46EF16B"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+			rewards: [
+				{
+					id: "249AFE0E6A2727B1"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "673790561263DCC0"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "44DB493CE610B176"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["78FEFD103350D0F9"]
+			id: "7CA6A2D6CACB67FD"
+			tasks: [{
+				id: "72295D596196CBC6"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+			rewards: [
+				{
+					id: "11CD0B4D8266F7C4"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "7E878FB9BB984C38"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "2984A083698B5E79"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			dependencies: ["7CA6A2D6CACB67FD"]
+			id: "6DB0E6EAAFD89F1E"
+			tasks: [{
+				id: "1E5A6DC2ABC990DB"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+			rewards: [
+				{
+					id: "0344A72B4E303144"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "7E8B9B7BD70FFF6E"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "2F6009B5898A1811"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			dependencies: ["6DB0E6EAAFD89F1E"]
+			id: "03B1795683595707"
+			tasks: [{
+				id: "7055C735F7EBEDAC"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+			rewards: [
+				{
+					id: "63E99A610E5E26D5"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "15F52F3B8447FCC5"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "0E92B68C07E44245"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			dependencies: ["03B1795683595707"]
+			id: "01FBD62E0D992695"
+			tasks: [{
+				id: "7C6571AD06952514"
+				type: "item"
+				item: "solarflux:sp_7"
+			}]
+			rewards: [
+				{
+					id: "461058EDA6FDD822"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "05878DF335A960B1"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "2003EABF1E1FE10D"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -3.5d
+			dependencies: ["01FBD62E0D992695"]
+			id: "72F79B9C0240B406"
+			tasks: [{
+				id: "5EE2A9BE7A8E5E79"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+			rewards: [
+				{
+					id: "4092D89448D96EAB"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "0A8C96EEC1AE58BD"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "2F78848EBCB4DB7E"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["022AD25EDA78DA21"]
+			id: "5CA84EB0D531EE65"
+			tasks: [{
+				id: "395484E63965688F"
+				type: "item"
+				item: "bigreactors:basic_reactorglass"
+			}]
+			rewards: [
+				{
+					id: "75C377942012353D"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "6AF610BCB2ADABC1"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "4B74708943F3AE89"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["022AD25EDA78DA21"]
+			id: "1B9B2E4C54A6350A"
+			tasks: [{
+				id: "499B1FD2652137A0"
+				type: "item"
+				item: "bigreactors:basic_reactorcontroller"
+			}]
+			rewards: [
+				{
+					id: "7E4A23F13EB85202"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "382C9CF7EC7030BB"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "666197A775921CD1"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["022AD25EDA78DA21"]
+			id: "56DF55D152353606"
+			tasks: [{
+				id: "10BC347BA4E543F6"
+				type: "item"
+				item: "bigreactors:basic_reactorfuelrod"
+			}]
+			rewards: [
+				{
+					id: "6237355ED56B4714"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "217813413AC812A9"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "62D665C10F394221"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["022AD25EDA78DA21"]
+			id: "179F250609FD059E"
+			tasks: [{
+				id: "43ED1C971620B397"
+				type: "item"
+				item: "bigreactors:basic_reactorcontrolrod"
+			}]
+			rewards: [
+				{
+					id: "5CEB346F9CB014BD"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "53B1DAEB81A9F98D"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "4686F44085F9A17A"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["022AD25EDA78DA21"]
+			id: "413EAD581A166E4A"
+			tasks: [{
+				id: "0965D3D0482B18C0"
+				type: "item"
+				item: "bigreactors:basic_reactorsolidaccessport"
+			}]
+			rewards: [
+				{
+					id: "15F9B53609B9A061"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "480ED26D5DEF6187"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "34BC341DE7AB0A16"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["022AD25EDA78DA21"]
+			id: "2F35B69BFF6FDF8C"
+			tasks: [{
+				id: "1B955A75EDD408EF"
+				type: "item"
+				item: "bigreactors:basic_reactorpowertapfe_active"
+			}]
+			rewards: [
+				{
+					id: "510CFA222B5BADEF"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "6C6F8ED0B65D4F61"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "540572FC1082AD26"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			dependencies: ["022AD25EDA78DA21"]
+			id: "72F6F921F875B294"
+			tasks: [{
+				id: "00D28EB9914ACDF7"
+				type: "item"
+				item: "bigreactors:basic_reactorpowertapfe_passive"
+			}]
+			rewards: [
+				{
+					id: "614ED91CF18BBAE2"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "6D30E9C0C127CC1D"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "414CCDDDE4943432"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			dependencies: ["022AD25EDA78DA21"]
+			id: "2FFD76E0F48EAF53"
+			tasks: [{
+				id: "58D6C50270020FDD"
+				type: "item"
+				item: "bigreactors:basic_reactorredstoneport"
+			}]
+			rewards: [
+				{
+					id: "71FA67C2D8E7AD99"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "162E4A85F45F8AEB"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "1FB35B518DED476E"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			dependencies: ["022AD25EDA78DA21"]
+			id: "6EDD2ED796222EE5"
+			tasks: [{
+				id: "13EE96110978496E"
+				type: "item"
+				item: "bigreactors:basic_reactorchargingportfe"
+			}]
+			rewards: [
+				{
+					id: "7CD2038AAC07D51B"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "113FEA886FF9B826"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "4F2593BE8ECED2F9"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["4411A119BE138119"]
+			id: "2A198CCF2D89495C"
+			tasks: [{
+				id: "7F4A863132961178"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+			rewards: [
+				{
+					id: "4C7E2A068E27982E"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "3F9A835828430ECA"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "686C8F4F1A908FED"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["4411A119BE138119"]
+			id: "0D5440611B175C5F"
+			tasks: [{
+				id: "7EDA7E3D97EB93F2"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+			rewards: [
+				{
+					id: "708795F94F1BFF96"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "5EE59FF1E956B64C"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "0FE032B340350404"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["6E126ECDC4347750"]
+			id: "4411A119BE138119"
+			tasks: [{
+				id: "1F49B4A4C4F19E8B"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+			rewards: [
+				{
+					id: "4CABE0F0D634A814"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "5649009CFBDF8047"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "27E2295E0E4ED752"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["4411A119BE138119"]
+			id: "56B83388EC778B08"
+			tasks: [{
+				id: "70FA76327E072EE7"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "62517D742B4B5C08"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "7A8D5944C743CDD8"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "5DFEBC3BA4BA73D6"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			dependencies: ["4411A119BE138119"]
+			id: "3285CFE3AED19BB7"
+			tasks: [{
+				id: "55E00BC7054F226A"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "1A498A2FFD39319B"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "2324C350C9A42C86"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "32B113FED1E12C37"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			dependencies: ["4411A119BE138119"]
+			id: "32B3072308F76987"
+			tasks: [{
+				id: "18178DF4E3B077A9"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "328851434C271505"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "0092571B6780E0F8"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "1264522F7694D462"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["6E126ECDC4347750"]
+			id: "08D75545FB84DA74"
+			tasks: [{
+				id: "33DFAAC938BF8761"
+				type: "item"
+				item: "industrialforegoing:mycelial_furnace"
+			}]
+			rewards: [
+				{
+					id: "7B53EB009CCE6991"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "6D5451F98E2C1D7E"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "44D2B4B14DC11B61"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			dependencies: ["46365A5F302C27F2"]
+			id: "0D32E0CDEAD6936A"
+			tasks: [{
+				id: "00BD01F6FCFF2FC8"
+				type: "item"
+				item: "industrialforegoing:mycelial_slimey"
+			}]
+			rewards: [
+				{
+					id: "2340378E2BAADF96"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "7975029D967CD34A"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "08926CAEB2CB4105"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["6E126ECDC4347750"]
+			id: "1D090833080A0125"
+			tasks: [{
+				id: "39EE1D716825AE60"
+				type: "item"
+				item: "industrialforegoing:mycelial_culinary"
+			}]
+			rewards: [
+				{
+					id: "7134377CEF3649D2"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "6804966A6256179C"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "5F5DFF783C6CEAFD"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["46365A5F302C27F2"]
+			id: "76A1E66EAC8400FA"
+			tasks: [{
+				id: "3C1C7536F5929E53"
+				type: "item"
+				item: "industrialforegoing:mycelial_potion"
+			}]
+			rewards: [
+				{
+					id: "68C6F7465D745C50"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "3B98FA5BD6F0C712"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "6254DFC6CE62E514"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["46365A5F302C27F2"]
+			id: "0F064328B660EF42"
+			tasks: [{
+				id: "139E8CBE5F8AFA1B"
+				type: "item"
+				item: "industrialforegoing:mycelial_disenchantment"
+			}]
+			rewards: [
+				{
+					id: "1C31D38913B7ABC5"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "1364A54B50B91EFF"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "542679D9B7CF88FE"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			dependencies: ["46365A5F302C27F2"]
+			id: "10B20DB6E6D5EA5F"
+			tasks: [{
+				id: "2A9892779FA6FBF6"
+				type: "item"
+				item: "industrialforegoing:mycelial_ender"
+			}]
+			rewards: [
+				{
+					id: "6C7D24DD68BC0B65"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "300A1D2B8A3799E4"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "3DDDB103CA66B579"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			dependencies: ["46365A5F302C27F2"]
+			id: "78262B46BBD90D90"
+			tasks: [{
+				id: "33F02A7B64ED211A"
+				type: "item"
+				item: "industrialforegoing:mycelial_explosive"
+			}]
+			rewards: [
+				{
+					id: "064CA7F65B95792F"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "10A0E31679529F98"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "385C6BFCA5B8E545"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["6E126ECDC4347750"]
+			id: "27A928E96943735A"
+			tasks: [{
+				id: "52D967B5C8D99BBA"
+				type: "item"
+				item: "industrialforegoing:mycelial_frosty"
+			}]
+			rewards: [
+				{
+					id: "16D42137D5820A9A"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "4215633F8EDE9707"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "6EEB67DFF9662C37"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			dependencies: ["55CBEDA25E0195DA"]
+			id: "3BF1A8BC243CCF46"
+			tasks: [{
+				id: "2821C3140C9AD0EB"
+				type: "item"
+				item: "industrialforegoing:mycelial_halitosis"
+			}]
+			rewards: [
+				{
+					id: "3A4ECB071A9E835A"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "398EC2126AD5846B"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "231A41B445EE951E"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["46365A5F302C27F2"]
+			id: "733718EBF2425D83"
+			tasks: [{
+				id: "784A5C516293F177"
+				type: "item"
+				item: "industrialforegoing:mycelial_magma"
+			}]
+			rewards: [
+				{
+					id: "5907AA49B81F6B27"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "7766AD1653C4449E"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "181591C9A5CF1445"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["6E126ECDC4347750"]
+			id: "70DC67CF79493523"
+			tasks: [{
+				id: "68591AFBE40F9594"
+				type: "item"
+				item: "industrialforegoing:mycelial_pink"
+			}]
+			rewards: [
+				{
+					id: "229235366D2E5C01"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "60754ADE729B5832"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "609ADB5B98D5F34B"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			dependencies: ["55CBEDA25E0195DA"]
+			id: "18AD65D818B89C7E"
+			tasks: [{
+				id: "6FF666D6B413F655"
+				type: "item"
+				item: "industrialforegoing:mycelial_netherstar"
+			}]
+			rewards: [
+				{
+					id: "5B91E372D03AB382"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "440953CDF6F3E713"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "48E8C71DC6919E16"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			dependencies: ["46365A5F302C27F2"]
+			id: "40D0C192E55EB974"
+			tasks: [{
+				id: "3126C36B381F68B1"
+				type: "item"
+				item: "industrialforegoing:mycelial_death"
+			}]
+			rewards: [
+				{
+					id: "284D2FFE1E1F7D7A"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "1A9B45FCAB5ABD2D"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "39B51C6FCAFF5B5D"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			dependencies: ["46365A5F302C27F2"]
+			id: "3A09746F7891BFD3"
+			tasks: [{
+				id: "1454613C591B809F"
+				type: "item"
+				item: "industrialforegoing:mycelial_rocket"
+			}]
+			rewards: [
+				{
+					id: "78D303D685A9899F"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "1BB05D250AE59A26"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "1A455A7AFAABC564"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["46365A5F302C27F2"]
+			id: "2D1FA53C3C001A65"
+			tasks: [{
+				id: "624E8B3ED82D0477"
+				type: "item"
+				item: "industrialforegoing:mycelial_crimed"
+			}]
+			rewards: [
+				{
+					id: "70E7D1A4EC62DBB0"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "47AE33D2AB3DC5CD"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "565598C6AD1AD54C"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 2.5d
+			dependencies: ["55CBEDA25E0195DA"]
+			id: "51160E1AF967655F"
+			tasks: [{
+				id: "7613CE2E893B123A"
+				type: "item"
+				item: "industrialforegoing:mycelial_meatallurgic"
+			}]
+			rewards: [
+				{
+					id: "6156C6D3231BD7A0"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "0E8E6AE7D7021403"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "55D9F5EF7AD2B210"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			dependencies: ["55556EE3EB61F383"]
+			id: "6FC6415415F2DB18"
+			tasks: [{
+				id: "4A4C52021E489ECF"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+			rewards: [
+				{
+					id: "3472592288FB4C38"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "758F947C981D9CF7"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "2AE9AFFC78F0B942"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			dependencies: ["55556EE3EB61F383"]
+			id: "5A6D988D9E40E540"
+			tasks: [{
+				id: "1F2048BF7DCD7E75"
+				type: "item"
+				item: "mekanismgenerators:gas_burning_generator"
+			}]
+			rewards: [
+				{
+					id: "735A987D49A0FB06"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "0A372191D1EB25E3"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "0FA3CF25721B7323"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			dependencies: ["55556EE3EB61F383"]
+			id: "58FF9F97B97F7B9B"
+			tasks: [{
+				id: "68CE3D35E9C3FED8"
+				type: "item"
+				item: "mekanismgenerators:bio_generator"
+			}]
+			rewards: [
+				{
+					id: "41E243CF542ACD1C"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "5074052C2E5E4E09"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "6C2626AEAA9B4666"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			dependencies: ["55556EE3EB61F383"]
+			id: "3FAFE9D63B629BF1"
+			tasks: [{
+				id: "32204F96405F89B3"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+			rewards: [
+				{
+					id: "1726D72A0DC9FBE5"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "2FEF95D5DE88C780"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "2E777D2B66336821"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 5.0d
+			dependencies: ["55556EE3EB61F383"]
+			id: "48966589CA862756"
+			tasks: [{
+				id: "5AC416E8AB8D4BF6"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+			rewards: [
+				{
+					id: "726ED84CE73EECFF"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "21C340A97C641968"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "568F7E20D37AD102"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["4CC3FCFA31150CD6"]
+			id: "54ADFBB7E77983F9"
+			tasks: [{
+				id: "7FDFC1488EB2B398"
+				type: "item"
+				item: "powah:energy_cell_starter"
+			}]
+			rewards: [
+				{
+					id: "44B2EFCD772335A9"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "17104A7FDF83790B"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "1FAFEABF9F800834"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			dependencies: ["4CC3FCFA31150CD6"]
+			id: "12C1A73267FE5057"
+			tasks: [{
+				id: "5E2F31BA1DFD9AF5"
+				type: "item"
+				item: "powah:energy_cable_starter"
+			}]
+			rewards: [
+				{
+					id: "4B016A550633BDF5"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "70113777B068020E"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "03246B8DDBD894E5"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["4CC3FCFA31150CD6"]
+			id: "2F1097108AA6A00A"
+			tasks: [{
+				id: "34E6B6F07484EF8C"
+				type: "item"
+				item: "powah:energizing_rod_starter"
+			}]
+			rewards: [
+				{
+					id: "515219B55761ABF2"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "04497DB5D0876163"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "6BFB9F5545867FF2"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["4CC3FCFA31150CD6"]
+			id: "629DFC336DF8F9AF"
+			tasks: [{
+				id: "458793EC975B522B"
+				type: "item"
+				item: "powah:magmator_starter"
+			}]
+			rewards: [
+				{
+					id: "768907C22FAD1C64"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "0DFE59B1CF22E83B"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "15580404ABCA72FD"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["4CC3FCFA31150CD6"]
+			id: "300CA7C44464F689"
+			tasks: [{
+				id: "7902778EA833AFCC"
+				type: "item"
+				item: "powah:thermo_generator_starter"
+			}]
+			rewards: [
+				{
+					id: "57182EB3F434ECFD"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "14756EFF2823F07D"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "29CD7C94F602BFDE"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["4CC3FCFA31150CD6"]
+			id: "60DC1E23B84703F6"
+			tasks: [{
+				id: "5F35DA91FA9371ED"
+				type: "item"
+				item: "powah:solar_panel_starter"
+			}]
+			rewards: [
+				{
+					id: "1B19CFC5841EAD52"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "485522A0DDA022D9"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "127DEC85D6E4CFC7"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			dependencies: ["4CC3FCFA31150CD6"]
+			id: "36854816D78B70BF"
+			tasks: [{
+				id: "02FF348DDA7C181A"
+				type: "item"
+				item: "powah:reactor_starter"
+			}]
+			rewards: [
+				{
+					id: "7620F11A2921541F"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "334B88B11DDD203B"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "24FFFC780D5F7DEC"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+	]
+}

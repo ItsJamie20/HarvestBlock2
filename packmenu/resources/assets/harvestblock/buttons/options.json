@@ -1,0 +1,21 @@
+{
+	"x": -160,
+	"y": 100,
+	"width": 155,
+	"height": 30,
+	"langKey": "menu.options",
+	"action": "OPEN_GUI",
+	"data": "OPTIONS",
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 30,
+	"texWidth": 155,
+	"texHeight": 60,
+	"texture": "harvestblock:textures/button.png",
+	"fontColor": 16777215,
+	"hoverFontColor": 0,
+	"dropShadow": false,
+	"textXOffset": 0,
+	"textYOffset": -3
+}

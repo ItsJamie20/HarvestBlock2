@@ -1,0 +1,198 @@
+{
+	id: "5861CFC99150D86A"
+	group: "06E5F28C3B7CCBFF"
+	order_index: 7
+	filename: "creative"
+	title: "Creative"
+	icon: "mysticalagradditions:creative_essence"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["24D383FD57C88F52"]
+			id: "5FE8AE1F32E295B3"
+			tasks: [{
+				id: "785A267771631B60"
+				type: "item"
+				item: "powah:energy_cell_creative"
+			}]
+			rewards: [{
+				id: "3D2BB398AE819F90"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			dependencies: ["24D383FD57C88F52"]
+			id: "736E1CB730F7FCB4"
+			tasks: [{
+				id: "4386A9AABED804A5"
+				type: "item"
+				item: "refinedstorage:creative_storage_disk"
+			}]
+			rewards: [{
+				id: "4CB0F76DDAB318A5"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			dependencies: ["24D383FD57C88F52"]
+			id: "3C0B5E449B2F348B"
+			tasks: [{
+				id: "655C733E919D78A8"
+				type: "item"
+				item: "refinedstorage:creative_controller"
+			}]
+			rewards: [{
+				id: "530297A3542C80F4"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			dependencies: ["24D383FD57C88F52"]
+			id: "12B52B8C41CE2ACE"
+			tasks: [{
+				id: "2C27F564D015E6C3"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:creative_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3285CFBAE829A96B"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			dependencies: ["5DD6A9C9F0425A65"]
+			size: 2.0d
+			id: "24D383FD57C88F52"
+			tasks: [{
+				id: "6E3BB5C66D6B9C67"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+			}]
+			rewards: [{
+				id: "1B4DF8ED326CAC9B"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["24D383FD57C88F52"]
+			id: "0175093A421F1815"
+			tasks: [{
+				id: "1048087B9422976B"
+				type: "item"
+				item: "storagedrawers:creative_storage_upgrade"
+			}]
+			rewards: [{
+				id: "6EC8D85994007F4F"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			dependencies: ["24D383FD57C88F52"]
+			id: "3457A79E4EEEC6B7"
+			tasks: [{
+				id: "2642FEF7D25C1752"
+				type: "item"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4E4C0201F4AC08D5"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["24D383FD57C88F52"]
+			id: "7E0F8553D0277DE3"
+			tasks: [{
+				id: "2C8BFF3FA5C41D09"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+			rewards: [{
+				id: "189621DD4EE5408F"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["24D383FD57C88F52"]
+			id: "089F08A12D00F427"
+			tasks: [{
+				id: "1C88E166214460AF"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+			rewards: [{
+				id: "51A2E299092C9137"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["24D383FD57C88F52"]
+			id: "1786536F3F978CB7"
+			tasks: [{
+				id: "7D42951B756D9A5D"
+				type: "item"
+				item: "appliedenergistics2:creative_energy_cell"
+			}]
+			rewards: [{
+				id: "1C260CEE4A3DC46C"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+	]
+}

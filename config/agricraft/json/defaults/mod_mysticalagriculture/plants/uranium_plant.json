@@ -127,7 +127,7 @@
       ]
     ]
   },
-  "seed_texture": "mysticalagriculture:item/uranium_seeds",
-  "seed_model": "mysticalagriculture:item/uranium_seeds",
+  "seed_texture": "harvestblock:item/uranium_seeds",
+  "seed_model": "harvestblock:item/agricraft/uranium_seeds",
   "particle_effects": []
 }

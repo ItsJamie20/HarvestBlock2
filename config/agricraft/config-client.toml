@@ -253,7 +253,7 @@
 	"Enable Blood Magic compat" = true
 	#
 	#Set to false to disable compatibility with Botany Pots (in case things break)
-	"Enable Botany Pots compat" = false
+	"Enable Botany Pots compat" = true
 	#
 	#Set to false to disable weeds on Botany Pots
 	"Enable Botany Pots weeds" = false

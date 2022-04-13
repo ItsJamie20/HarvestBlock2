@@ -1,0 +1,843 @@
+{
+	id: "36A1F59A56CC750F"
+	group: "06E5F28C3B7CCBFF"
+	order_index: 6
+	filename: "emc"
+	title: "EMC"
+	icon: {
+		id: "projecte:philosophers_stone"
+		Count: 1b
+		tag: { }
+		ForgeCaps: {
+			Parent: { }
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: [
+				"0E2365BCBCD244B1"
+				"3C1AEB4E63B5DDDB"
+				"67C0C651B8EACEB6"
+				"11236163C1B6DF6A"
+			]
+			size: 2.0d
+			id: "21C07777E500F407"
+			tasks: [{
+				id: "04ED3730C00203C9"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "060236668C2B6316"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 25
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			subtitle: "Used for crafting singularities"
+			hide_dependency_lines: true
+			dependencies: ["0BA1CAD93B6C30B8"]
+			id: "7DAE2F6D7717E99A"
+			tasks: [{
+				id: "2413C6D6FEEC79A8"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+			rewards: [{
+				id: "26ED66478B375943"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["7DAE2F6D7717E99A"]
+			id: "11236163C1B6DF6A"
+			tasks: [{
+				id: "48A25EE098A79386"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:diamond"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5522F5258A3D6685"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: [
+				"179EED764BF22AF2"
+				"131D8B806394E7DE"
+			]
+			id: "3C1AEB4E63B5DDDB"
+			tasks: [{
+				id: "7715AE9C779DB473"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+			rewards: [{
+				id: "11554FB081B25040"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["0BA1CAD93B6C30B8"]
+			id: "131D8B806394E7DE"
+			tasks: [{
+				id: "377E93E352780A49"
+				type: "item"
+				item: "extendedcrafting:ultimate_component"
+			}]
+			rewards: [{
+				id: "6D9680F4DC2D8E3F"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["02B3927A28DB6C76"]
+			id: "67C0C651B8EACEB6"
+			tasks: [{
+				id: "0B115AAAACE2B6A8"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_ingot"
+			}]
+			rewards: [{
+				id: "2C48F3F36A0657A1"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			icon: "extendedcrafting:ender_crafter"
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["38E87C4ECE2FB4E3"]
+			id: "02B3927A28DB6C76"
+			tasks: [
+				{
+					id: "1576F33DF41D0EF1"
+					type: "item"
+					item: "extendedcrafting:ender_crafter"
+				}
+				{
+					id: "1A8A3CD9F1113566"
+					type: "item"
+					item: "extendedcrafting:ender_alternator"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "3FFB6B58A13747FB"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["02B3927A28DB6C76"]
+			id: "0E2365BCBCD244B1"
+			tasks: [{
+				id: "158ACF24C64BB8A5"
+				type: "item"
+				item: "extendedcrafting:ender_star"
+			}]
+			rewards: [{
+				id: "5B6325A65512F6EC"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["21C07777E500F407"]
+			id: "61B83130B0DEDDDE"
+			tasks: [{
+				id: "43705A1079861B62"
+				type: "item"
+				item: "projecte:alchemical_chest"
+			}]
+			rewards: [{
+				id: "21B46D1D6122C48A"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: [
+				"61B83130B0DEDDDE"
+				"2C65988E25F62838"
+			]
+			id: "44F591A03E4794B8"
+			tasks: [{
+				id: "01E278894A8F19F1"
+				type: "item"
+				item: "projecte:condenser_mk1"
+			}]
+			rewards: [{
+				id: "6EF16D2E22343C6B"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			dependencies: ["7821384191030F33"]
+			id: "1C04BFD69E92D953"
+			tasks: [{
+				id: "4E11EF8C42F3382C"
+				type: "item"
+				item: "projecte:transmutation_table"
+			}]
+			rewards: [{
+				id: "11739374D7A26E6A"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 25
+			}]
+		}
+		{
+			x: 0.0d
+			y: 11.5d
+			dependencies: [
+				"1C04BFD69E92D953"
+				"5DD6A9C9F0425A65"
+				"0952C370AAF3FA9A"
+			]
+			id: "73C1DD76C616CA00"
+			tasks: [{
+				id: "4BDBD5460CC47505"
+				type: "item"
+				item: "projecte:transmutation_tablet"
+			}]
+			rewards: [{
+				id: "1859757990B68427"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 50
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["21C07777E500F407"]
+			id: "3B238B9D15919417"
+			tasks: [{
+				id: "11BA7FAC7E1F3ADE"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+			rewards: [{
+				id: "3BCDE809DCF5876D"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["21C07777E500F407"]
+			id: "323EA67CF31CE490"
+			tasks: [{
+				id: "789E0ACFC4282D71"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+			rewards: [{
+				id: "20AB858387B5313D"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			dependencies: ["44F591A03E4794B8"]
+			id: "7821384191030F33"
+			tasks: [{
+				id: "0A87929E4BB22F5F"
+				type: "item"
+				item: "projecte:condenser_mk2"
+			}]
+			rewards: [{
+				id: "60C38060F67A2204"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			dependencies: ["321CA840EB16286F"]
+			id: "2C65988E25F62838"
+			tasks: [{
+				id: "6E64EC373BC9E453"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_unit"
+			}]
+			rewards: [{
+				id: "33D13A9AEB8A422F"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -2.5d
+			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: ["7DAE2F6D7717E99A"]
+			id: "13F33F74701E7E01"
+			tasks: [{
+				id: "265F6B1E32564FF7"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+			rewards: [{
+				id: "191CC252F78D964A"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.5d
+			dependencies: ["1C04BFD69E92D953"]
+			id: "7FC131F414D4D148"
+			tasks: [{
+				id: "5B10F85603A79F7A"
+				type: "item"
+				item: "astralsorcery:shifting_star_aevitas"
+			}]
+			rewards: [{
+				id: "31C42D724C12A081"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.5d
+			dependencies: ["1C04BFD69E92D953"]
+			id: "0BA744146252C858"
+			tasks: [{
+				id: "4F7903CBE1EB044A"
+				type: "item"
+				item: "astralsorcery:shifting_star_armara"
+			}]
+			rewards: [{
+				id: "340F2CDBFA6C6985"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: 10.0d
+			dependencies: ["1C04BFD69E92D953"]
+			id: "1E4A9A7A4C796242"
+			tasks: [{
+				id: "33389EA24638A613"
+				type: "item"
+				item: "astralsorcery:shifting_star_discidia"
+			}]
+			rewards: [{
+				id: "00BED03D2D3BF6B1"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.0d
+			dependencies: ["1C04BFD69E92D953"]
+			id: "089CCF82FB98E8FB"
+			tasks: [{
+				id: "5A6D39A5BCC6C7D7"
+				type: "item"
+				item: "astralsorcery:shifting_star_vicio"
+			}]
+			rewards: [{
+				id: "4BAB20CEA28034F2"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["21C07777E500F407"]
+			id: "0D00675ABB7438D9"
+			tasks: [{
+				id: "6AAE4DA81E76332A"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_ein"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "2960974B136FD180"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["0D00675ABB7438D9"]
+			id: "07D452A0DA1452CB"
+			tasks: [{
+				id: "1851C08C04D66D62"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_zwei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "57C69504C5491030"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["07D452A0DA1452CB"]
+			id: "12BCE6CF54565C8B"
+			tasks: [{
+				id: "4C56607F40835656"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_drei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "04EAD20329E21C95"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			dependencies: ["12BCE6CF54565C8B"]
+			id: "4B5EEE3B4E13D784"
+			tasks: [{
+				id: "0A5577134060C866"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_vier"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "20F55655393093B6"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["4B5EEE3B4E13D784"]
+			id: "2F7F17CB36B3D6D3"
+			tasks: [{
+				id: "24946DFE47FC025C"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_sphere"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "278576F7A688A63D"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			dependencies: ["2F7F17CB36B3D6D3"]
+			id: "7AEDC9954CD53962"
+			tasks: [{
+				id: "2B4EDC2FD45F2552"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_omega"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "1DEF86D29DEB225C"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 10
+			}]
+		}
+		{
+			x: 2.5d
+			y: 11.5d
+			hide_dependency_lines: true
+			dependencies: ["02B3927A28DB6C76"]
+			id: "0952C370AAF3FA9A"
+			tasks: [{
+				id: "1719B1511526D016"
+				type: "item"
+				item: "harvestblock:enhanced_gaia_ingot"
+			}]
+			rewards: [{
+				id: "01ADF80683A53B30"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -2.5d
+			y: 11.5d
+			dependencies: ["13F33F74701E7E01"]
+			id: "5DD6A9C9F0425A65"
+			tasks: [{
+				id: "2D9A072FFAF72E30"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+			rewards: [{
+				id: "4C8427398E7DC8F8"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["4BF42FC77EF9E0CE"]
+			id: "6C066DC403346949"
+			tasks: [{
+				id: "2F164F54B8BFEC83"
+				type: "item"
+				item: "projectex:basic_collector"
+			}]
+			rewards: [{
+				id: "41B1AB3C6D7943C2"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			dependencies: ["6C066DC403346949"]
+			id: "680051882F907BFC"
+			tasks: [{
+				id: "4D850A990C0A4B63"
+				type: "item"
+				item: "projectex:basic_compressed_collector"
+			}]
+			rewards: [{
+				id: "0CAA994341D05825"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			dependencies: ["42C2E47D7D95CAE9"]
+			id: "530E39A442B64BC6"
+			tasks: [{
+				id: "3BABFAAE3D63B013"
+				type: "item"
+				item: "projectex:basic_relay"
+			}]
+			rewards: [{
+				id: "052F979CB7E6BEA4"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			dependencies: [
+				"530E39A442B64BC6"
+				"680051882F907BFC"
+			]
+			id: "5C73FF517E1D46A7"
+			tasks: [{
+				id: "6473B881FEDA05E7"
+				type: "item"
+				item: "projectex:basic_power_flower"
+			}]
+			rewards: [{
+				id: "63F7454D29F59043"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			dependencies: ["7AEDC9954CD53962"]
+			id: "0417459BE8148B39"
+			tasks: [{
+				id: "31E3F3E81BFD55CF"
+				type: "item"
+				item: {
+					id: "projectex:magnum_star_omega"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "60CB7EC1B8EFA25F"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			dependencies: ["0417459BE8148B39"]
+			id: "13B8E84182F61454"
+			tasks: [{
+				id: "6655FD40849EE918"
+				type: "item"
+				item: {
+					id: "projectex:colossal_star_omega"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CDEB714853A0EB3"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 25
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["2885BA97AA1128B2"]
+			id: "0BA1CAD93B6C30B8"
+			tasks: [{
+				id: "50E07701CFBD7528"
+				type: "item"
+				item: "extendedcrafting:elite_component"
+			}]
+			rewards: [{
+				id: "1509063548AA1148"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["0BA1CAD93B6C30B8"]
+			id: "179EED764BF22AF2"
+			tasks: [{
+				id: "50B18844906C348B"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+			rewards: [{
+				id: "3B11E303AA8B566A"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			subtitle: "Unlock every EMCable item"
+			dependencies: [
+				"101CEC84534B65E9"
+				"60020C5A9AAD5B31"
+			]
+			size: 2.0d
+			id: "270EA2ADC4C0A374"
+			tasks: [{
+				id: "0A5C97672B4ABF84"
+				type: "item"
+				item: "projecte:tome"
+			}]
+			rewards: [{
+				id: "2C9982D88D459E97"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 64
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.5d
+			dependencies: ["13B8E84182F61454"]
+			id: "60020C5A9AAD5B31"
+			tasks: [{
+				id: "0E1DE6243A53F3B1"
+				type: "item"
+				item: "projectex:final_star_shard"
+			}]
+			rewards: [{
+				id: "35D826BC29188F80"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 50
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			dependencies: ["323EA67CF31CE490"]
+			id: "101CEC84534B65E9"
+			tasks: [{
+				id: "4EF030514277478C"
+				type: "item"
+				item: "projectex:knowledge_sharing_book"
+			}]
+			rewards: [{
+				id: "616EC967E27674C9"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["7DAE2F6D7717E99A"]
+			id: "4BF42FC77EF9E0CE"
+			tasks: [{
+				id: "5B5884ED7D5B7F4F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:light"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4FEF07A44CE626A6"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["7DAE2F6D7717E99A"]
+			id: "42C2E47D7D95CAE9"
+			tasks: [{
+				id: "1082EC2435FEA883"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:dark"
+					}
+				}
+			}]
+			rewards: [{
+				id: "363A6E6EFC600BE8"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+	]
+}

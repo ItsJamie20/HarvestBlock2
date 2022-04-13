@@ -1,0 +1,282 @@
+{
+	id: "49EFBC7E60C50793"
+	group: "06E5F28C3B7CCBFF"
+	order_index: 4
+	filename: "echo"
+	title: "Tier 5"
+	icon: "astralsorcery:altar_radiance"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.0d
+			subtitle: "All astral sorcery crafting begins here"
+			dependencies: ["55556EE3EB61F383"]
+			id: "267F9F2060CE067E"
+			tasks: [{
+				id: "6DE92D645408FC08"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [{
+				id: "6B21285D7BC9A98B"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			subtitle: "Crafting the next tier will convert the table to the next tier. You will require a multiblock structure to use it. Right click with resonating wand to show."
+			dependencies: [
+				"02CF0212E4BCED08"
+				"607E884CF6D17FB2"
+			]
+			id: "16AACA26FBA6D1C3"
+			tasks: [{
+				id: "12024CCF93CF8573"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+			rewards: [{
+				id: "03FAEF7D8072C596"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			subtitle: "Upgrade again. A new structure is now required."
+			dependencies: ["2522324E952F9093"]
+			id: "3D03217A9CE3B48B"
+			tasks: [{
+				id: "335469F304731D23"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
+			rewards: [{
+				id: "002F0079379EFE5D"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			dependencies: ["3D03217A9CE3B48B"]
+			size: 2.0d
+			id: "55CBEDA25E0195DA"
+			tasks: [{
+				id: "5FB4BB0A4BA02CC4"
+				type: "item"
+				item: "harvestblock:tier_5_soil"
+			}]
+			rewards: [{
+				id: "2D17E7F478E20875"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			subtitle: "Before unlocking the seeds you can craft these using the hellfire forge"
+			dependencies: [
+				"22D9324884735C97"
+				"1D4C0B3DA124BE74"
+			]
+			id: "016D574A94D730D7"
+			tasks: [{
+				id: "23AE7BB3AE9D7A02"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "797B8D04752D9E60"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			dependencies: [
+				"016D574A94D730D7"
+				"6B615F6DF473056F"
+			]
+			id: "02CF0212E4BCED08"
+			tasks: [{
+				id: "0678D8EA3AB18031"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+			rewards: [{
+				id: "548D4A2C0643B980"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			subtitle: "2 Manasteel = 1 Elementium"
+			dependencies: ["5E73C3C9687F485A"]
+			id: "607E884CF6D17FB2"
+			tasks: [{
+				id: "4E591B52638A95DA"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+			rewards: [{
+				id: "416981755C1433E2"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			icon: "astralsorcery:stardust"
+			x: 0.0d
+			y: 6.5d
+			subtitle: "Drop a starmetal ingot on the ground and left click it with the cutting tool to create stardust"
+			dependencies: ["16AACA26FBA6D1C3"]
+			id: "2522324E952F9093"
+			tasks: [
+				{
+					id: "7530E31608CD8A6A"
+					type: "item"
+					item: {
+						id: "astralsorcery:chisel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "61A88D6E3F79F7B6"
+					type: "item"
+					item: "astralsorcery:stardust"
+				}
+			]
+			rewards: [{
+				id: "2415B0EF52123335"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			icon: "botania:alfheim_portal"
+			x: 1.0d
+			y: 2.0d
+			subtitle: "Some materials you need will require the elven trade portal. This is a multiblock structure and can be seen in the lexica botania. "
+			dependencies: ["22D9324884735C97"]
+			id: "5E73C3C9687F485A"
+			tasks: [
+				{
+					id: "720434698296B995"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "4CE2C9D1B030929F"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "53275288F6A083FE"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+				{
+					id: "24DFE216D62BD98A"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+				{
+					id: "19A8CEC2DBA53276"
+					type: "item"
+					item: "botania:mana_pool"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "7B9A3A46D8A0E39D"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			subtitle: "Required to initiate crafts"
+			dependencies: ["267F9F2060CE067E"]
+			id: "22D9324884735C97"
+			tasks: [{
+				id: "5CF6A2F413832D18"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+			rewards: [{
+				id: "3C60EB0F5C554C74"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			dependencies: ["42B1391CD8C782F9"]
+			id: "1D4C0B3DA124BE74"
+			tasks: [{
+				id: "46AB91A2BE170DD1"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [{
+				id: "330C935E42256120"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			subtitle: "Produces liquid starlight from aquamarine or rock crystals."
+			dependencies: ["55556EE3EB61F383"]
+			id: "6B615F6DF473056F"
+			tasks: [{
+				id: "50516A839F588B99"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+			rewards: [{
+				id: "2B373BD8F7F8973E"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+	]
+}

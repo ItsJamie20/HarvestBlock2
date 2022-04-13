@@ -10,5 +10,5 @@
   "chance": 0.5,
   "child": "mysticalagriculture:diamond_plant",
   "parent1": "mysticalagriculture:hop_graphite_plant",
-  "parent2": "mysticalagriculture:lapis_plant"
+  "parent2": "mysticalagriculture:lapis_lazuli_plant"
 }

@@ -1,0 +1,218 @@
+{
+	id: "7974B7E970544C8A"
+	group: "06E5F28C3B7CCBFF"
+	order_index: 1
+	filename: "charlie"
+	title: "Tier 2"
+	icon: {
+		id: "botania:lexicon"
+		Count: 1b
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Use some bonemeal to collect flowers and use that to craft some floral fertilizer"
+			dependencies: ["24B1A14C74C9BBD1"]
+			id: "306CB8DBD64A2407"
+			tasks: [{
+				id: "40EED0E29A1B1C1F"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+			rewards: [{
+				id: "7F369F06A1245E88"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "You will need the petal apothecary to craft more types of flowers"
+			dependencies: ["306CB8DBD64A2407"]
+			id: "1A984B768DAD5E06"
+			tasks: [{
+				id: "31706DB6EB36CF4B"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "0DAE3954AF028CCC"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "The pure daisy is the first flower to make. It will allow you to produce living rock and living wood"
+			dependencies: ["1A984B768DAD5E06"]
+			id: "1CBA39CADDE32A22"
+			tasks: [{
+				id: "6812231094A26D74"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "676E84544878C59A"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			subtitle: "Placing stone around a pure daisy will create living rock"
+			dependencies: ["1CBA39CADDE32A22"]
+			id: "478724F970C89A0F"
+			tasks: [{
+				id: "1164C92E85976A90"
+				type: "item"
+				item: "botania:livingrock"
+			}]
+			rewards: [{
+				id: "21D749504E9A26D9"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			subtitle: "Placing wood around a pure daisy will create living wood"
+			dependencies: ["1CBA39CADDE32A22"]
+			id: "087BD726E7DA7D76"
+			tasks: [{
+				id: "7F6D05AC68EFE459"
+				type: "item"
+				item: "botania:livingwood"
+			}]
+			rewards: [{
+				id: "4DBEF274342BC7B2"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			subtitle: "Stores mana"
+			dependencies: ["0EAA11AFB2F4F0AE"]
+			id: "1EDA2B7325F16254"
+			tasks: [{
+				id: "79131FED086C8C6D"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "732FB82A201CE319"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			subtitle: "Used to move mana"
+			dependencies: ["0EAA11AFB2F4F0AE"]
+			id: "5D0E4000388DCD7E"
+			tasks: [{
+				id: "7A0D811C86075206"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "71A13C050E46AF11"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			subtitle: "Used for Crafting runes using mana"
+			dependencies: [
+				"5D0E4000388DCD7E"
+				"1EDA2B7325F16254"
+			]
+			id: "4A021E557328DB0D"
+			tasks: [{
+				id: "467F927AB890B576"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "4532371CCA44398A"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			subtitle: "An endoflame is a basic mana generation source. Give it furnace fuel to produce mana."
+			dependencies: ["1CBA39CADDE32A22"]
+			id: "0EAA11AFB2F4F0AE"
+			tasks: [{
+				id: "6A07991725F09855"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "2832FD6018B84389"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			dependencies: ["4A021E557328DB0D"]
+			id: "704A77784C69E31B"
+			tasks: [{
+				id: "46C2EBA06708F466"
+				type: "item"
+				item: "botania:rune_earth"
+			}]
+			rewards: [{
+				id: "7D2FED72CAF6BDA4"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			dependencies: ["704A77784C69E31B"]
+			size: 2.0d
+			id: "7A1ABE34A3B27F9A"
+			tasks: [{
+				id: "676B3BBF2C78D11C"
+				type: "item"
+				item: "harvestblock:tier_2_soil"
+			}]
+			rewards: [{
+				id: "2874835E62B26F18"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+	]
+}

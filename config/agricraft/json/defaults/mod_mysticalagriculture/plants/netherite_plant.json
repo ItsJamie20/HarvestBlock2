@@ -73,7 +73,7 @@
       "tolerance_factor": 0.0
     },
     "soil_nutrients": {
-      "condition": "very_high",
+      "condition": "high",
       "type": "equal_or_higher",
       "tolerance_factor": 0.0
     },

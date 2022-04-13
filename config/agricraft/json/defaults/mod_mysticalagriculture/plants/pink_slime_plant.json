@@ -8,15 +8,15 @@
     "agricraft",
     "minecraft"
   ],
-  "id": "mysticalagriculture:pig_slime_plant",
-  "plant_lang_key": "crop.mysticalagriculture.pig_slime",
-  "seed_lang_key": "agricraft.plant.mysticalagriculture.pig_slime",
-  "desc_lang_key": "crop.mysticalagriculture.pig_slime",
+  "id": "mysticalagriculture:pink_slime_plant",
+  "plant_lang_key": "crop.mysticalagriculture.pink_slime",
+  "seed_lang_key": "agricraft.plant.mysticalagriculture.pink_slime",
+  "desc_lang_key": "crop.mysticalagriculture.pink_slime",
   "seed_items": [
     {
       "overridePlanting": true,
       "type": "item",
-      "object": "mysticalagriculture:pig_slime_seeds",
+      "object": "mysticalagriculture:pink_slime_seeds",
       "useTag": false,
       "data": "",
       "ignoredData": [
@@ -51,7 +51,7 @@
         "chance": 1.0,
         "required": true,
         "type": "item",
-        "object": "mysticalagriculture:pig_slime_essence",
+        "object": "mysticalagriculture:pink_slime_essence",
         "useTag": false,
         "data": "",
         "ignoredData": []
@@ -123,11 +123,11 @@
       ],
       [
         "mysticalagriculture:block/mystical_resource_crop_7",
-        "mysticalagriculture:block/pig_slime_flower"
+        "harvestblock:block/pink_slime_flower"
       ]
     ]
   },
-  "seed_texture": "mysticalagriculture:item/pig_slime_seeds",
-  "seed_model": "mysticalagriculture:item/pig_slime_seeds",
+  "seed_texture": "harvestblock:item/pink_slime_seeds",
+  "seed_model": "harvestblock:item/agricraft/pink_slime_seeds",
   "particle_effects": []
 }

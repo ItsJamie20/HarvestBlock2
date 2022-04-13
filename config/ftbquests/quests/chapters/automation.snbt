@@ -1,0 +1,355 @@
+{
+	id: "30B950AA6ECD3A47"
+	group: ""
+	order_index: 2
+	filename: "automation"
+	title: "Automation"
+	icon: "industrialforegoing:plant_gatherer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["7A1ABE34A3B27F9A"]
+			size: 2.0d
+			id: "392029869AC2AB32"
+			tasks: [{
+				id: "343C1A3422AB2C40"
+				type: "item"
+				item: "industrialforegoing:plant_gatherer"
+			}]
+			rewards: [
+				{
+					id: "6F9F421D61B8C3B0"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "5087B656385FC8C1"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["46365A5F302C27F2"]
+			id: "50AD4BBA5600F15B"
+			tasks: [{
+				id: "2FA1806FF1FF3DF1"
+				type: "item"
+				item: "mysticalagriculture:inferium_growth_accelerator"
+			}]
+			rewards: [
+				{
+					id: "1F9DAE91F3CFFEDE"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "3040E028CFB672F5"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["50AD4BBA5600F15B"]
+			id: "21029EFB9DB4D439"
+			tasks: [{
+				id: "537335372D566237"
+				type: "item"
+				item: "mysticalagriculture:prudentium_growth_accelerator"
+			}]
+			rewards: [
+				{
+					id: "35367FA8D41F724E"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "7BD0274DD0A5B72D"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["21029EFB9DB4D439"]
+			id: "6D89917114F0D0EC"
+			tasks: [{
+				id: "402E00C40DE9BD26"
+				type: "item"
+				item: "mysticalagriculture:tertium_growth_accelerator"
+			}]
+			rewards: [
+				{
+					id: "19497E3CF8261236"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "591EB74B51AC3B22"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			dependencies: ["6D89917114F0D0EC"]
+			id: "24BAE614E005B331"
+			tasks: [{
+				id: "11157D27B3EAD507"
+				type: "item"
+				item: "mysticalagriculture:imperium_growth_accelerator"
+			}]
+			rewards: [
+				{
+					id: "2A7B334BEDF789B3"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "49DB1E911356B8FE"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["24BAE614E005B331"]
+			id: "6A705DEF2E1DAA16"
+			tasks: [{
+				id: "4C911D61A0560C2D"
+				type: "item"
+				item: "mysticalagriculture:supremium_growth_accelerator"
+			}]
+			rewards: [
+				{
+					id: "274ED0205963F3CB"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "4BFA3742E31EC2A9"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["67DB41C8A64353F2"]
+			id: "1E08AB6D1A6B6B49"
+			tasks: [{
+				id: "67451AA8590630D2"
+				type: "item"
+				item: "agricraft:sprinkler"
+			}]
+			rewards: [
+				{
+					id: "741BF030F170E4C0"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "593EC992BBB20711"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["4E57C01AFCFF1080"]
+			id: "67DB41C8A64353F2"
+			tasks: [{
+				id: "4930A5A4BB906A90"
+				type: "item"
+				item: {
+					id: "agricraft:irrigation_tank"
+					Count: 1b
+					tag: {
+						IL_MATERIAL: {
+							id: "minecraft:oak_planks"
+							Count: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "18522064C76FA378"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "78D5555F59687921"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["20BC8C31680054DD"]
+			id: "4E57C01AFCFF1080"
+			tasks: [{
+				id: "60EBC6A62AEE3801"
+				type: "item"
+				item: {
+					id: "agricraft:irrigation_channel"
+					Count: 1b
+					tag: {
+						IL_MATERIAL: {
+							id: "minecraft:oak_planks"
+							Count: 1b
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "20F7BCFCA38C855E"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "0241A873E46829D7"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["392029869AC2AB32"]
+			id: "2704A2A3D9E00BF4"
+			tasks: [{
+				id: "569AC366AB147917"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon0"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "67823347F8869002"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "229C0331DA3AAC8F"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["2704A2A3D9E00BF4"]
+			id: "772652CDEF5A8AE2"
+			tasks: [{
+				id: "2E682B94B6B2F1A6"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 1.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "55DDF5F40BC5026E"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "03CBCFEAD0E5E341"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["772652CDEF5A8AE2"]
+			id: "604A15454C3BD8E6"
+			tasks: [{
+				id: "74EAFA21352CFEC0"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 2.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "27A0EA97021DE4E1"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "6B20D148BAA66427"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+			]
+		}
+	]
+}

@@ -997,9 +997,15 @@ craftingTable.addShaped("harvestblock/essence/nitro_crystal", <item:powah:crysta
     [<item:mysticalagriculture:nitro_crystal_essence>, <item:mysticalagriculture:nitro_crystal_essence>, <item:mysticalagriculture:nitro_crystal_essence>]
 ]);
 
-craftingTable.addShaped("oak_log", <item:minecraft:oak_log>, [
+craftingTable.addShaped("harvestblock/essence/oak_log", <item:minecraft:oak_log>, [
     [<item:mysticalagriculture:wood_essence>, <item:mysticalagriculture:wood_essence>],
     [<item:mysticalagriculture:wood_essence>, <item:mysticalagriculture:wood_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/oak_log2", <item:minecraft:oak_log>, [
+    [<item:mysticalagriculture:wood_essence>, <item:mysticalagriculture:wood_essence>, <item:mysticalagriculture:wood_essence>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("harvestblock/essence/oak_sapling", <item:minecraft:oak_sapling>, [
@@ -1466,4 +1472,94 @@ craftingTable.addShaped("harvestblock/essence/menril_sapling", <item:integratedd
 
 craftingTable.addShaped("harvestblock/essence/menril_log", <item:integrateddynamics:menril_log>, [
     [<item:mysticalagriculture:wood_essence>, <item:mysticalagriculture:menril_essence>, <item:mysticalagriculture:wood_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/black_iron_ingot", <item:extendedcrafting:black_iron_ingot>, [
+    [<item:mysticalagriculture:black_iron_essence>, <item:mysticalagriculture:black_iron_essence>, <item:mysticalagriculture:black_iron_essence>],
+    [<item:mysticalagriculture:black_iron_essence>, <item:minecraft:air>, <item:mysticalagriculture:black_iron_essence>],
+    [<item:mysticalagriculture:black_iron_essence>, <item:mysticalagriculture:black_iron_essence>, <item:mysticalagriculture:black_iron_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/crystaltine_ingot", <item:extendedcrafting:crystaltine_ingot>, [
+    [<item:mysticalagriculture:crystaltine_essence>, <item:mysticalagriculture:crystaltine_essence>, <item:mysticalagriculture:crystaltine_essence>],
+    [<item:mysticalagriculture:crystaltine_essence>, <item:minecraft:air>, <item:mysticalagriculture:crystaltine_essence>],
+    [<item:mysticalagriculture:crystaltine_essence>, <item:mysticalagriculture:crystaltine_essence>, <item:mysticalagriculture:crystaltine_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/dark_matter", <item:projecte:dark_matter>, [
+    [<item:mysticalagriculture:dark_matter_essence>, <item:mysticalagriculture:dark_matter_essence>, <item:mysticalagriculture:dark_matter_essence>],
+    [<item:mysticalagriculture:dark_matter_essence>, <item:minecraft:air>, <item:mysticalagriculture:dark_matter_essence>],
+    [<item:mysticalagriculture:dark_matter_essence>, <item:mysticalagriculture:dark_matter_essence>, <item:mysticalagriculture:dark_matter_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/ender_ingot", <item:extendedcrafting:ender_ingot>, [
+    [<item:mysticalagriculture:ender_essence>, <item:mysticalagriculture:ender_essence>, <item:mysticalagriculture:ender_essence>],
+    [<item:mysticalagriculture:ender_essence>, <item:minecraft:air>, <item:mysticalagriculture:ender_essence>],
+    [<item:mysticalagriculture:ender_essence>, <item:mysticalagriculture:ender_essence>, <item:mysticalagriculture:ender_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/flux_dust", <item:fluxnetworks:flux_dust>, [
+    [<item:mysticalagriculture:flux_essence>, <item:mysticalagriculture:flux_essence>, <item:mysticalagriculture:flux_essence>],
+    [<item:mysticalagriculture:flux_essence>, <item:minecraft:air>, <item:mysticalagriculture:flux_essence>],
+    [<item:mysticalagriculture:flux_essence>, <item:mysticalagriculture:flux_essence>, <item:mysticalagriculture:flux_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/gaia_ingot", <item:botania:gaia_ingot>, [
+    [<item:mysticalagriculture:gaia_essence>, <item:mysticalagriculture:gaia_essence>, <item:mysticalagriculture:gaia_essence>],
+    [<item:mysticalagriculture:gaia_essence>, <item:minecraft:air>, <item:mysticalagriculture:gaia_essence>],
+    [<item:mysticalagriculture:gaia_essence>, <item:mysticalagriculture:gaia_essence>, <item:mysticalagriculture:gaia_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/livingrock", <item:botania:livingrock>, [
+    [<item:mysticalagriculture:livingrock_essence>, <item:mysticalagriculture:livingrock_essence>, <item:mysticalagriculture:livingrock_essence>],
+    [<item:mysticalagriculture:livingrock_essence>, <item:minecraft:air>, <item:mysticalagriculture:livingrock_essence>],
+    [<item:mysticalagriculture:livingrock_essence>, <item:mysticalagriculture:livingrock_essence>, <item:mysticalagriculture:livingrock_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/livingwood", <item:botania:livingwood>, [
+    [<item:mysticalagriculture:livingwood_essence>, <item:mysticalagriculture:livingwood_essence>, <item:mysticalagriculture:livingwood_essence>],
+    [<item:mysticalagriculture:livingwood_essence>, <item:minecraft:air>, <item:mysticalagriculture:livingwood_essence>],
+    [<item:mysticalagriculture:livingwood_essence>, <item:mysticalagriculture:livingwood_essence>, <item:mysticalagriculture:livingwood_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/red_matter", <item:projecte:red_matter>, [
+    [<item:mysticalagriculture:red_matter_essence>, <item:mysticalagriculture:red_matter_essence>, <item:mysticalagriculture:red_matter_essence>],
+    [<item:mysticalagriculture:red_matter_essence>, <item:minecraft:air>, <item:mysticalagriculture:red_matter_essence>],
+    [<item:mysticalagriculture:red_matter_essence>, <item:mysticalagriculture:red_matter_essence>, <item:mysticalagriculture:red_matter_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/redstone_ingot", <item:extendedcrafting:redstone_ingot>, [
+    [<item:mysticalagriculture:redstone_ingot_essence>, <item:mysticalagriculture:redstone_ingot_essence>, <item:mysticalagriculture:redstone_ingot_essence>],
+    [<item:mysticalagriculture:redstone_ingot_essence>, <item:minecraft:air>, <item:mysticalagriculture:redstone_ingot_essence>],
+    [<item:mysticalagriculture:redstone_ingot_essence>, <item:mysticalagriculture:redstone_ingot_essence>, <item:mysticalagriculture:redstone_ingot_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/soulium_ingot", <item:mysticalagriculture:soulium_ingot>, [
+    [<item:mysticalagriculture:soulium_essence>, <item:mysticalagriculture:soulium_essence>, <item:mysticalagriculture:soulium_essence>],
+    [<item:mysticalagriculture:soulium_essence>, <item:minecraft:air>, <item:mysticalagriculture:soulium_essence>],
+    [<item:mysticalagriculture:soulium_essence>, <item:mysticalagriculture:soulium_essence>, <item:mysticalagriculture:soulium_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/the_ultimate_ingot", <item:extendedcrafting:the_ultimate_ingot>, [
+    [<item:mysticalagriculture:ultimate_essence>, <item:mysticalagriculture:ultimate_essence>, <item:mysticalagriculture:ultimate_essence>],
+    [<item:mysticalagriculture:ultimate_essence>, <item:minecraft:air>, <item:mysticalagriculture:ultimate_essence>],
+    [<item:mysticalagriculture:ultimate_essence>, <item:mysticalagriculture:ultimate_essence>, <item:mysticalagriculture:ultimate_essence>]
+]);
+
+craftingTable.addShaped("harvestblock/essence/shulker_shell", <item:minecraft:shulker_shell>, [
+    [<item:mysticalagriculture:end_essence>, <item:mysticalagriculture:end_essence>, <item:mysticalagriculture:end_essence>],
+    [<item:mysticalagriculture:end_essence>, <item:mysticalagriculture:end_essence>, <item:mysticalagriculture:end_essence>],
+    [<item:mysticalagriculture:end_essence>, <item:mysticalagriculture:end_essence>, <item:mysticalagriculture:end_essence>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped("harvestblock/essence/creative_essence", 4, <item:mysticalagradditions:creative_essence>, [
+    [<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>,<item:mysticalagradditions:insanium_essence>,<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+    [<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>,<item:mysticalagradditions:insanium_essence>,<item:projectex:purple_matter>,<item:mysticalagradditions:insanium_essence>,<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+    [<item:minecraft:air>,<item:minecraft:air>,<item:mysticalagradditions:insanium_essence>,<item:projectex:purple_matter>,<item:harvestblock:enhanced_gaia_ingot>,<item:projectex:purple_matter>,<item:mysticalagradditions:insanium_essence>,<item:minecraft:air>,<item:minecraft:air>],
+    [<item:minecraft:air>,<item:mysticalagradditions:insanium_essence>,<item:projectex:purple_matter>,<item:harvestblock:enhanced_gaia_ingot>,<item:extendedcrafting:luminessence>,<item:harvestblock:enhanced_gaia_ingot>,<item:projectex:purple_matter>,<item:mysticalagradditions:insanium_essence>,<item:minecraft:air>],
+    [<item:mysticalagradditions:insanium_essence>,<item:projectex:purple_matter>,<item:harvestblock:enhanced_gaia_ingot>,<item:extendedcrafting:luminessence>,<item:extendedcrafting:the_ultimate_block>,<item:extendedcrafting:luminessence>,<item:harvestblock:enhanced_gaia_ingot>,<item:projectex:purple_matter>,<item:mysticalagradditions:insanium_essence>],
+    [<item:minecraft:air>,<item:mysticalagradditions:insanium_essence>,<item:projectex:purple_matter>,<item:harvestblock:enhanced_gaia_ingot>,<item:extendedcrafting:luminessence>,<item:harvestblock:enhanced_gaia_ingot>,<item:projectex:purple_matter>,<item:mysticalagradditions:insanium_essence>,<item:minecraft:air>],
+    [<item:minecraft:air>,<item:minecraft:air>,<item:mysticalagradditions:insanium_essence>,<item:projectex:purple_matter>,<item:harvestblock:enhanced_gaia_ingot>,<item:projectex:purple_matter>,<item:mysticalagradditions:insanium_essence>,<item:minecraft:air>,<item:minecraft:air>],
+    [<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>,<item:mysticalagradditions:insanium_essence>,<item:projectex:purple_matter>,<item:mysticalagradditions:insanium_essence>,<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+    [<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>,<item:mysticalagradditions:insanium_essence>,<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]
 ]);

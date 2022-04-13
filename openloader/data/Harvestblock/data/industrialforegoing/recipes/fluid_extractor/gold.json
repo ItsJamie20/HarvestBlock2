@@ -1,0 +1,10 @@
+{
+    "input": {
+      "tag": "forge:storage_blocks/copper"
+    },
+    "result": "minecraft:air",
+    "breakChance": 0.008,
+    "output": "{FluidName:\"mekanism:gold\",Amount:10}",
+    "defaultRecipe": false,
+    "type": "industrialforegoing:fluid_extractor"
+  }

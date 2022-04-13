@@ -1,0 +1,198 @@
+{
+	id: "5981117D9591C6D5"
+	group: "06E5F28C3B7CCBFF"
+	order_index: 2
+	filename: "delta"
+	title: "Tier 3"
+	icon: "industrialforegoing:dissolution_chamber"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.5d
+			subtitle: "You will be able to grow this soon but for now you need to craft it."
+			dependencies: ["47CDA7CF837B6475"]
+			id: "2EE2A18E86532FB5"
+			tasks: [{
+				id: "1EEEB056E4C31953"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+			rewards: [{
+				id: "6EB52C9FD013F3CA"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Power is required for some machines. This is the easiest for now and there will be lots of options later."
+			dependencies: ["2EE2A18E86532FB5"]
+			id: "7EA3BDA446CB60FA"
+			tasks: [{
+				id: "1173911A33B5ABFF"
+				type: "item"
+				item: "industrialforegoing:pitiful_generator"
+			}]
+			rewards: [{
+				id: "62A59FD55ACBBC30"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			subtitle: "This machine required both a fluid and items as well as power to craft. Make sure you have all or it won't work."
+			dependencies: ["5D9AF29827B28509"]
+			id: "321CA840EB16286F"
+			tasks: [{
+				id: "155B5DB495B324AD"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+			rewards: [{
+				id: "5EF031085886F543"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			subtitle: "Used to extract fluid from blocks"
+			dependencies: [
+				"34246A5C10EAE3C8"
+				"1B61F9ECC6E898A9"
+			]
+			dependency_requirement: "one_completed"
+			id: "5D9AF29827B28509"
+			tasks: [{
+				id: "246671328DF98D3E"
+				type: "item"
+				item: "industrialforegoing:fluid_extractor"
+			}]
+			rewards: [{
+				id: "5D8CDBB83713B69A"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			subtitle: "Place the block infront of the fluid extractor to extract molten inferium from it."
+			dependencies: ["5D9AF29827B28509"]
+			id: "01031A381B62F867"
+			tasks: [{
+				id: "124A124C4CD0195D"
+				type: "item"
+				item: "mysticalagriculture:inferium_block"
+			}]
+			rewards: [{
+				id: "29DA2148860BA307"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			dependencies: ["321CA840EB16286F"]
+			size: 2.0d
+			id: "6E126ECDC4347750"
+			tasks: [{
+				id: "544D13A4B64B6665"
+				type: "item"
+				item: "harvestblock:tier_3_soil"
+			}]
+			rewards: [{
+				id: "155F1046F3B559CC"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 20
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			subtitle: "From Powah"
+			dependencies: ["7EA3BDA446CB60FA"]
+			optional: true
+			id: "34246A5C10EAE3C8"
+			tasks: [{
+				id: "3584818572662B20"
+				type: "item"
+				item: "powah:energy_cable_starter"
+			}]
+			rewards: [{
+				id: "6C0A859DA63B8591"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			subtitle: "From Pipez"
+			dependencies: ["7EA3BDA446CB60FA"]
+			optional: true
+			id: "1B61F9ECC6E898A9"
+			tasks: [{
+				id: "57682AAFBAB2FA10"
+				type: "item"
+				item: "pipez:energy_pipe"
+			}]
+			rewards: [{
+				id: "36646EC96D858440"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			subtitle: "Currently this is the only fluid pipe avalible. Others will become avalible later"
+			dependencies: ["5D9AF29827B28509"]
+			id: "613A5D7B6765F36B"
+			tasks: [{
+				id: "1B5BBF03BC001A04"
+				type: "item"
+				item: "pipez:fluid_pipe"
+			}]
+			rewards: [{
+				id: "2FB88CBC8BB543E7"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			subtitle: "To begin progression towards tier 3 soil craft a rune of fire"
+			dependencies: ["4A021E557328DB0D"]
+			id: "47CDA7CF837B6475"
+			tasks: [{
+				id: "0048E774BCF3783E"
+				type: "item"
+				item: "botania:rune_fire"
+			}]
+			rewards: [{
+				id: "4A9E5D64614432A6"
+				type: "item"
+				item: "harvestblock:hbc"
+				count: 5
+			}]
+		}
+	]
+}

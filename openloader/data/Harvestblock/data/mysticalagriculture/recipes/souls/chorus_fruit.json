@@ -1,0 +1,10 @@
+{
+    "type": "mysticalagriculture:soul_extraction",
+    "input": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "output": {
+      "type": "mysticalagriculture:shulker",
+      "souls": 0.1
+    }
+  }

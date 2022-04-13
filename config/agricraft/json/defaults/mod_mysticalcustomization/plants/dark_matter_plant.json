@@ -87,7 +87,23 @@
       "fall",
       "winter"
     ],
-    "conditions": [],
+    "conditions": [
+      {
+        "strength": 11,
+        "amount": 1,
+        "min_x": 0,
+        "min_y": -2,
+        "min_z": 0,
+        "max_x": 0,
+        "max_y": -2,
+        "max_z": 0,
+        "type": "block",
+        "object": "harvestblock:dark_matter_crux",
+        "useTag": false,
+        "data": "",
+        "ignoredData": []
+      }
+    ],
     "fluid": {
       "type": "fluid",
       "object": "minecraft:empty",

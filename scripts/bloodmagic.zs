@@ -19,3 +19,10 @@
 <recipetype:bloodmagic:soulforge>.addRecipe("harvestblock/bloodmagic/rock_crystal", <item:astralsorcery:rock_crystal>, [<item:astralsorcery:marble_raw>, <item:bloodmagic:infusedslate>, <item:minecraft:iron_nugget>, <item:minecraft:diamond>], 0, 500);
 
 <recipetype:bloodmagic:soulforge>.addRecipe("harvestblock/bloodmagic/advanced_component", <item:extendedcrafting:advanced_component>, [<item:extendedcrafting:black_iron_slate>, <item:bloodmagic:demonslate>, <item:minecraft:gold_ingot>, <item:extendedcrafting:luminessence>], 0, 500);
+
+craftingTable.removeRecipe(<item:bloodmagic:alchemytable>);
+craftingTable.addShaped("harvestblock/bloodmagic/alchemytable", <item:bloodmagic:alchemytable>, [
+    [<tag:items:forge:stone>, <tag:items:forge:stone>, <tag:items:forge:stone>],
+    [<tag:items:minecraft:planks>, <tag:items:forge:ingots/iron>, <tag:items:minecraft:planks>],
+    [<tag:items:forge:ingots/gold>, <item:bloodmagic:reinforcedslate>, <tag:items:forge:ingots/gold>]
+]);

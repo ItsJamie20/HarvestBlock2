@@ -1,0 +1,10 @@
+{
+    "type": "mysticalagriculture:soul_extraction",
+    "input": {
+      "item": "minecraft:sea_grass"
+    },
+    "output": {
+      "type": "mysticalagriculture:turtle",
+      "souls": 0.1
+    }
+  }
