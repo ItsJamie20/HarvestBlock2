@@ -9,6 +9,6 @@
   ],
   "chance": 0.5,
   "child": "mysticalagriculture:ender_plant",
-  "parent1": "mysticalagriculture:enderman_plant",
-  "parent2": "mysticalagriculture:iron_plant"
+  "parent1": "mysticalagriculture:elementium_plant",
+  "parent2": "mysticalagriculture:enderium_plant"
 }

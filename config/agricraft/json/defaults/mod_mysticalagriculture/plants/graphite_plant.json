@@ -123,11 +123,11 @@
       ],
       [
         "mysticalagriculture:block/mystical_resource_crop_7",
-        "mysticalagriculture:block/flower_ingot"
+        "harvestblock:block/graphite_flower"
       ]
     ]
   },
-  "seed_texture": "mysticalagriculture:item/graphite_seeds",
-  "seed_model": "mysticalagriculture:item/graphite_seeds",
+  "seed_texture": "harvestblock:item/graphite_seeds",
+  "seed_model": "harvestblock:item/agricraft/graphite_seeds",
   "particle_effects": []
 }

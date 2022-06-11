@@ -28,5 +28,8 @@
     },
     "mysticalagriculture:energized_steel": {
         "tier": "mysticalagriculture:3"
+    },
+    "mysticalagriculture:nature": {
+        "tier": "mysticalagriculture:1"
     }
 }

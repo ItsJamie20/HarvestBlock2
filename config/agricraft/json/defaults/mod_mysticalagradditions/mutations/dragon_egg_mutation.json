@@ -8,7 +8,7 @@
     "minecraft"
   ],
   "chance": 0.5,
-  "child": "mysticalagradditions:dragon_egg_mutation_plant",
+  "child": "mysticalagriculture:dragon_egg_plant",
   "parent1": "mysticalagriculture:end_plant",
-  "parent2": "mysticalagradditions:nether_star_plant"
+  "parent2": "mysticalagriculture:nether_star_plant"
 }

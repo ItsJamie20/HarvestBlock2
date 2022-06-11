@@ -408,5 +408,27 @@
 				count: 5
 			}]
 		}
+		{
+			title: "Spawn Blaze"
+			icon: "minecraft:blaze_powder"
+			x: -2.5d
+			y: -10.5d
+			subtitle: "You can Spawn a blaze with 2 iron bars with a fel pumpkin placed on top (like a snow golem). This blaze will drop blaze powder. Use a multiservo press to compress it back to a blaze rod."
+			dependencies: ["7A1ABE34A3B27F9A"]
+			id: "79783C8B527ABE7B"
+			tasks: [
+				{
+					id: "3A5C37E848ED4D79"
+					type: "item"
+					item: "botania:fel_pumpkin"
+				}
+				{
+					id: "15A3ADE4D818A3F2"
+					type: "item"
+					item: "minecraft:iron_bars"
+					count: 2L
+				}
+			]
+		}
 	]
 }

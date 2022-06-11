@@ -16,9 +16,9 @@
 <recipetype:bloodmagic:alchemytable>.removeRecipe(<item:bloodmagic:reagentbloodlight>);
 <recipetype:bloodmagic:alchemytable>.addRecipe("harvestblock/bloodmagic/reagentbloodlight", <item:bloodmagic:reagentbloodlight>, [<item:botania:mana_powder>,<item:harvestblock:light_agglomeratio>,<item:harvestblock:light_agglomeratio>], 0, 100, 0);
 
-<recipetype:bloodmagic:soulforge>.addRecipe("harvestblock/bloodmagic/rock_crystal", <item:astralsorcery:rock_crystal>, [<item:astralsorcery:marble_raw>, <item:bloodmagic:infusedslate>, <item:minecraft:iron_nugget>, <item:minecraft:diamond>], 0, 500);
+<recipetype:bloodmagic:soulforge>.addRecipe("harvestblock/bloodmagic/rock_crystal", <item:astralsorcery:rock_crystal>, [<item:astralsorcery:marble_raw>, <item:bloodmagic:infusedslate>, <item:minecraft:iron_nugget>, <item:minecraft:diamond>], 100, 10);
 
-<recipetype:bloodmagic:soulforge>.addRecipe("harvestblock/bloodmagic/advanced_component", <item:extendedcrafting:advanced_component>, [<item:extendedcrafting:black_iron_slate>, <item:bloodmagic:demonslate>, <item:minecraft:gold_ingot>, <item:extendedcrafting:luminessence>], 0, 500);
+<recipetype:bloodmagic:soulforge>.addRecipe("harvestblock/bloodmagic/advanced_component", <item:extendedcrafting:advanced_component>, [<item:extendedcrafting:black_iron_slate>, <item:bloodmagic:demonslate>, <item:minecraft:gold_ingot>, <item:extendedcrafting:luminessence>], 100, 10);
 
 craftingTable.removeRecipe(<item:bloodmagic:alchemytable>);
 craftingTable.addShaped("harvestblock/bloodmagic/alchemytable", <item:bloodmagic:alchemytable>, [

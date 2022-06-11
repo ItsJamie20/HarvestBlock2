@@ -11,7 +11,18 @@
   "plant_lang_key": "agricraft.plant.poppy.name",
   "seed_lang_key": "agricraft.plant.poppy.seed",
   "desc_lang_key": "agricraft.plant.poppy.desc",
-  "seed_items": [],
+  "seed_items": [
+    {
+      "overridePlanting": true,
+      "type": "item",
+      "object": "minecraft:poppy",
+      "useTag": false,
+      "data": "",
+      "ignoredData": [
+        "*"
+      ]
+    }
+  ],
   "stages": [
     2,
     4,
@@ -63,7 +74,7 @@
   },
   "requirement": {
     "soil_humidity": {
-      "condition": "damp",
+      "condition": "wet",
       "type": "equal",
       "tolerance_factor": 0.0
     },

@@ -339,12 +339,19 @@
 				item: "minecraft:oak_log"
 				count: 4L
 			}]
-			rewards: [{
-				id: "2CF0E358AD990EE7"
-				type: "item"
-				item: "harvestblock:hbc"
-				count: 5
-			}]
+			rewards: [
+				{
+					id: "2CF0E358AD990EE7"
+					type: "item"
+					item: "harvestblock:hbc"
+					count: 5
+				}
+				{
+					id: "6AE081A2E9AAF18C"
+					type: "item"
+					item: "minecraft:white_bed"
+				}
+			]
 		}
 		{
 			x: 0.0d
