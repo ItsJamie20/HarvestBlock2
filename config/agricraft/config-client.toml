@@ -293,4 +293,7 @@
 	#Configures the animation duration in ticks for the camera to snap to the seed analyzer, 0 disables it (Client only)
 	#Range: 0 ~ 40
 	"Seed Analyzer Animation Duration" = 10
+	#
+	#Determine if the journal and the analyzer use guis instead of in-world animation (Client only)
+	"Use GUIs" = false
 
