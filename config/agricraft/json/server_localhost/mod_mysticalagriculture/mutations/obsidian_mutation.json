@@ -9,6 +9,6 @@
   ],
   "chance": 0.5,
   "child": "mysticalagriculture:obsidian_plant",
-  "parent1": "mysticalagriculture:fire_plant",
-  "parent2": "mysticalagriculture:water_plant"
+  "parent1": "mysticalagriculture:aquamarine_plant",
+  "parent2": "mysticalagriculture:fire_plant"
 }
