@@ -10,5 +10,5 @@
   "chance": 0.5,
   "child": "mysticalagriculture:luminessence_plant",
   "parent1": "mysticalagriculture:glowstone_plant",
-  "parent2": "mysticalagriculture:redstone_plant"
+  "parent2": "mysticalagriculture:redstone_ingot_plant"
 }
