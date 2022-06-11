@@ -54,8 +54,9 @@ craftingTable.addShaped("harvestblock/botania/mana_spreader", <item:botania:mana
     [<item:botania:livingwood>, <item:botania:livingwood>, <item:botania:livingwood>]
 ]);
 
+<recipetype:botania:mana_infusion>.removeRecipe(<item:minecraft:flint>);
 <recipetype:botania:mana_infusion>.addRecipe("harvestblock/botania/ice_to_prosperity", <item:mysticalagriculture:prosperity_shard>, <item:minecraft:ice>, 500);
-<recipetype:botania:mana_infusion>.addRecipe("harvestblock/botania/gunpowder_to_ghast_tear", <item:minecraft:ghast_tear>, <item:minecraft:gunpowder>, 1000);
+<recipetype:botania:mana_infusion>.addRecipe("harvestblock/botania/gunpowder_to_ghast_tear", <item:minecraft:ghast_tear>, <item:minecraft:gunpowder>, 1000, <block:botania:alchemy_catalyst>);
 
 <recipetype:botania:terra_plate>.addRecipe("harvestblock/botania/tier_4_soil", <item:harvestblock:tier_4_soil> *4, 20000, <item:harvestblock:tier_3_soil>, <item:harvestblock:tier_3_soil>, <item:harvestblock:tier_3_soil>, <item:harvestblock:tier_3_soil>, <item:bloodmagic:reagentwater>, <item:bloodmagic:reagentlava>, <item:bloodmagic:reagentgrowth>, <item:bloodmagic:reagentair>, <item:mysticalagriculture:imperium_essence>, <item:mysticalagriculture:imperium_essence>, <item:mysticalagriculture:imperium_essence>, <item:mysticalagriculture:imperium_essence>);
 <recipetype:botania:terra_plate>.addRecipe("harvestblock/botania/altar_discovery", <item:astralsorcery:altar_discovery>, 20000, <item:minecraft:crafting_table>, <item:harvestblock:light_agglomeratio>, <item:harvestblock:light_agglomeratio>, <item:harvestblock:light_agglomeratio>, <item:harvestblock:light_agglomeratio>);
