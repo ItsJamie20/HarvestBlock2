@@ -139,6 +139,10 @@
 		#If invisible light should act as full a block
 		invisibleLightBlock = true
 
+	[machine.cable]
+		#If cable shapes should be determined dynamically. Disable this if FPS issues would occur.
+		dynamicShape = true
+
 [worldgeneration]
 
 	[worldgeneration.meneglin]
