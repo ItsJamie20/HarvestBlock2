@@ -8,7 +8,7 @@
     "minecraft"
   ],
   "chance": 0.5,
-  "child": "mysticalagradditions:nitro_mutation_plant",
+  "child": "mysticalagriculture:nitro_plant",
   "parent1": "mysticalagriculture:blazing_crystal_plant",
-  "parent2": "mysticalagradditions:nether_star_plant"
+  "parent2": "mysticalagriculture:nether_star_plant"
 }

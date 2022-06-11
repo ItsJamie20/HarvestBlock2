@@ -8,7 +8,7 @@
     "minecraft"
   ],
   "chance": 0.5,
-  "child": "mysticalagradditions:nether_star_mutation_plant",
+  "child": "mysticalagriculture:nether_star_plant",
   "parent1": "mysticalagriculture:nether_plant",
   "parent2": "mysticalagriculture:wither_skeleton_plant"
 }
